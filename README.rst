@@ -1,1 +1,1 @@
-A place for experiments and random pieces of code.
+A place for experiments, learning, and random pieces of code.
