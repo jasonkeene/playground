@@ -1,0 +1,32 @@
+# python
+*.py[co]
+__pycache__/
+
+# mac
+._*
+__MACOSX
+.DS_Store
+
+# win
+*~
+Thumbs.db
+desktop.ini
+
+# xcode
+*~.nib
+DerivedData/
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+xcuserdata
+*.moved-aside
+*.xccheckout
+*.hmap
+*.ipa
+*.xcuserstate
