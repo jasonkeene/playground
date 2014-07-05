@@ -26,6 +26,7 @@
 }
 
 - (IBAction)buttonPressed:(UIButton *)sender {
-    self.titleLabel.text = @"Hello Class";
+    self.titleLabel.text = self.textField.text.length > 0 ? self.textField.text : @"Default";
+    [self.textField resignFirstResponder];
 }
 @end
