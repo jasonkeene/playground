@@ -13,6 +13,7 @@
 		FF1080111968340500770208 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF10800F1968340500770208 /* Main.storyboard */; };
 		FF1080131968340500770208 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1080121968340500770208 /* Images.xcassets */; };
 		FF10801F1968340500770208 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF10801E1968340500770208 /* HelloWorldTests.m */; };
+		FF6AA20419684F2900FDC8CC /* nebula.png in Resources */ = {isa = PBXBuildFile; fileRef = FF6AA20319684F2900FDC8CC /* nebula.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		FF1080181968340500770208 /* HelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF10801D1968340500770208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF10801E1968340500770208 /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		FF6AA20319684F2900FDC8CC /* nebula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nebula.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		FF1080051968340500770208 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FF6AA20319684F2900FDC8CC /* nebula.png */,
 				FF1080061968340500770208 /* Info.plist */,
 				FF1080071968340500770208 /* main.m */,
 			);
@@ -197,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF1080111968340500770208 /* Main.storyboard in Resources */,
+				FF6AA20419684F2900FDC8CC /* nebula.png in Resources */,
 				FF1080131968340500770208 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
