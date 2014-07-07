@@ -1,0 +1,52 @@
+
+Hello World
+-----------
+
+::
+
+    println("hello, WWDC")
+
+ - println func part of the stdlib, no need to include it
+ - no main func
+ - no return
+ - no semicolons!
+
+The Basics
+----------
+
+::
+
+    let language: String = "Swift"
+    var version: Double = 1.0
+    let introduced: Int = 2014
+    let is_awesome: Bool = true
+
+ - var keyword to declare variables
+ - : to indicate type
+ - type inferenced
+ - let keyword for costs
+ - immutability (costs) prefered by "default" only opt into vars
+ - safer in multithreaded environments, can be optimized
+ - unicode supported for symbol names
+ - Swift String similar to NSString
+ - for in loop for iterating over collection of chars (String)::
+
+    for character in "this smells like python" {
+        println(character)
+    }
+
+ - characters are their own type
+ - chars and strigns support + for concatenation
+ - string formatting::
+
+    let a = 3, b = 5
+    let result = "\(a) times \(b) is \(a * b)"
+
+ - strings are immutable
+ - Arrays and Dictionaries are similar to NSArray/NSDictionary
+ - Array and Dict literals::
+
+    var strings = ["foo", "bar", "baz"]
+    var mapping = ["test": 5, "this": 4, "out": 2]
+
+stop at 10:30
