@@ -8,10 +8,16 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
-            
 
+// convert bills to football fields
+float convertIt(float bills) {
+    return bills / 91440;
+}
+
+
+@interface ViewController ()
 @end
+
 
 @implementation ViewController
             
@@ -31,5 +37,12 @@
 }
 
 - (IBAction)convertUnits:(UIButton *)sender {
+    self.numberOfBillsLabel.text = [
+        NSString stringWithFormat:@"%f",
+        convertIt([self.numberOfBillsTextField.text floatValue])
+    ];
+    // hide keyboard
+    [self.numberOfBillsTextField resignFirstResponder];
 }
+
 @end
