@@ -19,6 +19,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"Testing out breakpoints.");
+    int x = 12;
+    float y = 12.1212;
+    NSLog(@"I can haz int? %d", x);
+    NSLog(@"I can haz float? %f", y);
 }
 
 - (void)didReceiveMemoryWarning {
