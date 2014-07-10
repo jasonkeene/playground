@@ -17,4 +17,6 @@
 
 - (IBAction)calculateAge:(UIButton *)sender;
 
+- (IBAction)calculateRealAge:(UIButton *)sender;
+
 @end
