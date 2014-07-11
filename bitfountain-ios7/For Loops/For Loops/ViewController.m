@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#include <math.h>
 
 @interface ViewController ()
             
@@ -18,9 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    for (int i = 1; i <= 100; i++) {
-        NSLog(@"For loop thingy.");
+    unsigned long long count = 1;
+    for (int i = 2; i <= 64; i++) {
+        NSLog(@"%llu", count);
+        count *= 2;
     }
+    NSLog(@"%llu", count);
 }
 
 - (void)didReceiveMemoryWarning {
