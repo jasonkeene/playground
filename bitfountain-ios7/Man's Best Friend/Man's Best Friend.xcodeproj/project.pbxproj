@@ -13,6 +13,7 @@
 		FFEBCA721970B55900DA0CB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFEBCA701970B55900DA0CB6 /* Main.storyboard */; };
 		FFEBCA741970B55900DA0CB6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFEBCA731970B55900DA0CB6 /* Images.xcassets */; };
 		FFEBCA801970B55900DA0CB6 /* Man_s_Best_FriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEBCA7F1970B55900DA0CB6 /* Man_s_Best_FriendTests.m */; };
+		FFEBCA8B19721AE100DA0CB6 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEBCA8A19721AE100DA0CB6 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		FFEBCA791970B55900DA0CB6 /* Man's Best FriendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Man's Best FriendTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFEBCA7E1970B55900DA0CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFEBCA7F1970B55900DA0CB6 /* Man_s_Best_FriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man_s_Best_FriendTests.m; sourceTree = "<group>"; };
+		FFEBCA8919721AE100DA0CB6 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		FFEBCA8A19721AE100DA0CB6 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				FFEBCA6B1970B55900DA0CB6 /* AppDelegate.m */,
 				FFEBCA6D1970B55900DA0CB6 /* ViewController.h */,
 				FFEBCA6E1970B55900DA0CB6 /* ViewController.m */,
+				FFEBCA8919721AE100DA0CB6 /* Dog.h */,
+				FFEBCA8A19721AE100DA0CB6 /* Dog.m */,
 				FFEBCA701970B55900DA0CB6 /* Main.storyboard */,
 				FFEBCA731970B55900DA0CB6 /* Images.xcassets */,
 				FFEBCA661970B55900DA0CB6 /* Supporting Files */,
@@ -217,6 +222,7 @@
 			files = (
 				FFEBCA6F1970B55900DA0CB6 /* ViewController.m in Sources */,
 				FFEBCA6C1970B55900DA0CB6 /* AppDelegate.m in Sources */,
+				FFEBCA8B19721AE100DA0CB6 /* Dog.m in Sources */,
 				FFEBCA691970B55900DA0CB6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
