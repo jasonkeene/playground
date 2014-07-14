@@ -10,4 +10,9 @@
 
 @interface Dog : NSObject
 
+@property (nonatomic, strong) NSString* name;
+@property (nonatomic, strong) NSString* breed;
+@property (nonatomic) int age;
+@property (nonatomic, strong) UIImage* image;
+
 @end
