@@ -17,5 +17,6 @@
 @property (nonatomic, strong) UIImage* image;
 
 - (void)bark;
+- (void)barkTimes:(int)times;
 
 @end

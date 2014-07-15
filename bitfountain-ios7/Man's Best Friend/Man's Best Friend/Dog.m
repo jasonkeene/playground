@@ -23,4 +23,10 @@
     NSLog(@"Woof Woof!");
 }
 
+- (void)barkTimes:(int)times {
+    for (int i = 0; i < times; i++) {
+        [self bark];
+    }
+}
+
 @end
