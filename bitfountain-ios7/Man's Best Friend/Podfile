@@ -1,0 +1,5 @@
+platform :ios, "7.0"
+
+target "Man's Best Friend" do
+    pod 'CocoaHTTPServer', '~> 2.3'
+end

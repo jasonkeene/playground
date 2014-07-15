@@ -30,3 +30,7 @@ xcuserdata
 *.hmap
 *.ipa
 *.xcuserstate
+
+# cocoa pods
+**/Podfile.lock
+**/Pods
