@@ -19,4 +19,8 @@
     return self;
 }
 
+- (void)bark {
+    NSLog(@"Woof Woof!");
+}
+
 @end

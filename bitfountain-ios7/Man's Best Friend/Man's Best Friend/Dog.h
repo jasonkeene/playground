@@ -16,4 +16,6 @@
 @property (nonatomic) int age;
 @property (nonatomic, strong) UIImage* image;
 
+- (void)bark;
+
 @end
