@@ -11,5 +11,12 @@
 
 @implementation Dog
 
+- (instancetype)init {
+    self = [super init];
+    self.name = @"Rando dog!";
+    self.breed = @"Mutt";
+    self.age = 5;
+    return self;
+}
 
 @end
