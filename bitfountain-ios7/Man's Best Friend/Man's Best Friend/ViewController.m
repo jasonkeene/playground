@@ -9,10 +9,6 @@
 #import "ViewController.h"
 #import "Dog.h"
 
-@interface ViewController ()
-            
-
-@end
 
 @implementation ViewController
             
