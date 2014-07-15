@@ -16,15 +16,20 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     Dog* dog = [[Dog alloc] init];
-    [dog barkTimes:5];
+    [dog barkTimes:2];
     NSLog(@"%@", dog.breed);
     [dog lycanize];
     NSLog(@"%@", dog.breed);
+    [self printHelloWorld];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)printHelloWorld {
+    NSLog(@"Hello world!");
 }
 
 @end
