@@ -18,5 +18,6 @@
 
 - (void)bark;
 - (void)barkTimes:(int)times;
+- (void)lycanize;
 
 @end

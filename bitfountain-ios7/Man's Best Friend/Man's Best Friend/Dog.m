@@ -29,4 +29,8 @@
     }
 }
 
+- (void)lycanize {
+    self.breed = @"Lycan";
+}
+
 @end
