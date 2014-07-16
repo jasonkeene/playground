@@ -18,6 +18,7 @@
 
 - (void)bark;
 - (void)barkTimes:(int)times;
+- (void)barkTimes:(int)times loudly:(BOOL)loud;
 - (void)lycanize;
 
 @end

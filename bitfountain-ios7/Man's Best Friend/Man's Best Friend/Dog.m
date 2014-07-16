@@ -29,6 +29,18 @@
     }
 }
 
+- (void)barkTimes:(int)times loudly:(BOOL)loud {
+    if (loud) {
+        for (int i = 0; i < times; i++) {
+            NSLog(@"Ruff Ruff!");
+        }
+    } else {
+        for (int i = 0; i < times; i++) {
+            NSLog(@"yip yip!");
+        }
+    }
+}
+
 - (void)lycanize {
     self.breed = @"Lycan";
 }

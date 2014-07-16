@@ -16,11 +16,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     Dog* dog = [[Dog alloc] init];
-    [dog barkTimes:2];
-    NSLog(@"%@", dog.breed);
-    [dog lycanize];
-    NSLog(@"%@", dog.breed);
-    [self printHelloWorld];
+    [dog barkTimes:3 loudly:true];
 }
 
 - (void)didReceiveMemoryWarning {
