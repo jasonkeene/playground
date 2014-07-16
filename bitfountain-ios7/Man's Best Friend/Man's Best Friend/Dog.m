@@ -45,4 +45,8 @@
     self.breed = @"Lycan";
 }
 
+- (int)ageInDogYearsFromAge:(int)years {
+    return years * 7;
+}
+
 @end

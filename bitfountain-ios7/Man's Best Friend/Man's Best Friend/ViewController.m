@@ -17,6 +17,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     Dog* dog = [[Dog alloc] init];
     [dog barkTimes:3 loudly:true];
+    NSLog(@"%i", [dog ageInDogYearsFromAge:dog.age]);
 }
 
 - (void)didReceiveMemoryWarning {

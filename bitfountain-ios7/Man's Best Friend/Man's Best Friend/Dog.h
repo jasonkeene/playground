@@ -20,5 +20,6 @@
 - (void)barkTimes:(int)times;
 - (void)barkTimes:(int)times loudly:(BOOL)loud;
 - (void)lycanize;
+- (int)ageInDogYearsFromAge:(int)years;
 
 @end
