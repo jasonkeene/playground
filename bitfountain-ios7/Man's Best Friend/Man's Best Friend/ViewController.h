@@ -12,5 +12,8 @@
 @interface ViewController : UIViewController
 
 - (void)printHelloWorld;
+- (void)printTo:(int)x from:(int)y;
+- (void)printToOneFrom:(int)x;
+- (long long)factorial:(int)x;
 
 @end
