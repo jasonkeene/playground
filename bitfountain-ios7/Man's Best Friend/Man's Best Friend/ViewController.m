@@ -69,16 +69,29 @@
 }
 
 - (IBAction)newDogButton:(UIBarButtonItem *)sender {
-    [self setRandomDog];
-    sender.title = @"And Another";
+    [self setRandomDogWithCallback:^ {
+        sender.title = @"And Another";
+    }];
 }
 
 - (void)setRandomDog {
+    [self displayDog:[self getRandomDog]];
+}
+
+- (void)setRandomDogWithCallback:(void(^)())complete {
+    [UIView transitionWithView:self.view duration:1.5 options:UIViewAnimationOptionTransitionCrossDissolve animations:^{
+        [self displayDog:[self getRandomDog]];
+    } completion:^(BOOL finished) {
+        complete();
+    }];
+}
+
+- (Dog*)getRandomDog {
     Dog* randomDog = 0;
     while (randomDog == 0 || randomDog == self.currentDog) {
         randomDog = self.dogs[arc4random() % [self.dogs count]];
     }
-    [self displayDog:randomDog];
+    return randomDog;
 }
 
 - (void)printHelloWorld {
