@@ -39,7 +39,7 @@
                               age:1
                             image:[UIImage imageNamed:@"ItalianGreyhound.jpg"]],
     ] mutableCopy];
-    [self displayDog:self.dogs[3]];
+    [self setRandomDog];
 
     // Challenge 4: Methods - Problem 1
     NSLog(@"\n"
@@ -66,6 +66,19 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)newDogButton:(UIBarButtonItem *)sender {
+    [self setRandomDog];
+    sender.title = @"And Another";
+}
+
+- (void)setRandomDog {
+    Dog* randomDog = 0;
+    while (randomDog == 0 || randomDog == self.currentDog) {
+        randomDog = self.dogs[arc4random() % [self.dogs count]];
+    }
+    [self displayDog:randomDog];
 }
 
 - (void)printHelloWorld {
@@ -103,6 +116,7 @@
     self.imageView.image = dog.image;
     self.nameLabel.text = dog.name;
     self.breedLabel.text = dog.breed;
+    self.currentDog = dog;
 }
 
 @end
