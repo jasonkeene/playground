@@ -7,13 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Dog.h"
 
 @interface ViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+@property (strong, nonatomic) IBOutlet UILabel *nameLabel;
+@property (strong, nonatomic) IBOutlet UILabel *breedLabel;
 
 - (void)printHelloWorld;
 - (void)printTo:(int)x from:(int)y;
 - (void)printToOneFrom:(int)x;
 - (long long)factorial:(int)x;
+- (void)displayDog:(Dog*)dog;
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF9861F81977548A00F22D01 /* St.Bernard.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FF9861F71977548A00F22D01 /* St.Bernard.JPG */; };
 		FFEBCA691970B55900DA0CB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEBCA681970B55900DA0CB6 /* main.m */; };
 		FFEBCA6C1970B55900DA0CB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEBCA6B1970B55900DA0CB6 /* AppDelegate.m */; };
 		FFEBCA6F1970B55900DA0CB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEBCA6E1970B55900DA0CB6 /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF9861F71977548A00F22D01 /* St.Bernard.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = St.Bernard.JPG; sourceTree = "<group>"; };
 		FFEBCA631970B55900DA0CB6 /* Man's Best Friend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Man's Best Friend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFEBCA671970B55900DA0CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFEBCA681970B55900DA0CB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		FFEBCA661970B55900DA0CB6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FF9861F71977548A00F22D01 /* St.Bernard.JPG */,
 				FFEBCA671970B55900DA0CB6 /* Info.plist */,
 				FFEBCA681970B55900DA0CB6 /* main.m */,
 			);
@@ -203,6 +206,7 @@
 			files = (
 				FFEBCA721970B55900DA0CB6 /* Main.storyboard in Resources */,
 				FFEBCA741970B55900DA0CB6 /* Images.xcassets in Resources */,
+				FF9861F81977548A00F22D01 /* St.Bernard.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +414,7 @@
 				FFEBCA851970B55900DA0CB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFEBCA861970B55900DA0CB6 /* Build configuration list for PBXNativeTarget "Man's Best FriendTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +423,7 @@
 				FFEBCA881970B55900DA0CB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

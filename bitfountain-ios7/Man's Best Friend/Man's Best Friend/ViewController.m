@@ -22,8 +22,12 @@
            "dog stuff\n"
            "=========");
     Dog* dog = [[Dog alloc] init];
+    dog.name = @"Nana";
+    dog.breed = @"St. Bernard";
+    dog.age = 1;
+    dog.image = [UIImage imageNamed:@"St.Bernard.JPG"];
+    [self displayDog:dog];
     [dog barkTimes:3 loudly:true];
-    NSLog(@"%i", [dog ageInDogYearsFromAge:dog.age]);
 
     // Challenge 4: Methods - Problem 1
     NSLog(@"\n"
@@ -81,6 +85,12 @@
         result *= x;
     }
     return result;
+}
+
+- (void)displayDog:(Dog*)dog {
+    self.imageView.image = dog.image;
+    self.nameLabel.text = dog.name;
+    self.breedLabel.text = dog.breed;
 }
 
 @end
