@@ -11,12 +11,18 @@
 
 @implementation Dog
 
-- (instancetype)init {
+
+- (instancetype)initWithName:(NSString*)name breed:(NSString*)breed age:(int)age image:(UIImage*)image {
     self = [super init];
-    self.name = @"Rando dog!";
-    self.breed = @"Mutt";
-    self.age = 5;
+    self.name = name;
+    self.breed = breed;
+    self.age = age;
+    self.image = image;
     return self;
+}
+
+- (instancetype)init {
+    return [self initWithName:@"Rando dog!" breed:@"Mutt" age:5 image:nil];
 }
 
 - (void)bark {

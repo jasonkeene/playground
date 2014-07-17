@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		FF9861F81977548A00F22D01 /* St.Bernard.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FF9861F71977548A00F22D01 /* St.Bernard.JPG */; };
+		FF9861FD19775DC200F22D01 /* Bo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF9861F919775DC200F22D01 /* Bo.jpg */; };
+		FF9861FE19775DC200F22D01 /* BorderCollie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF9861FA19775DC200F22D01 /* BorderCollie.jpg */; };
+		FF9861FF19775DC200F22D01 /* ItalianGreyhound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF9861FB19775DC200F22D01 /* ItalianGreyhound.jpg */; };
+		FF98620019775DC200F22D01 /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF9861FC19775DC200F22D01 /* JRT.jpg */; };
 		FFEBCA691970B55900DA0CB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEBCA681970B55900DA0CB6 /* main.m */; };
 		FFEBCA6C1970B55900DA0CB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEBCA6B1970B55900DA0CB6 /* AppDelegate.m */; };
 		FFEBCA6F1970B55900DA0CB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEBCA6E1970B55900DA0CB6 /* ViewController.m */; };
@@ -29,6 +33,10 @@
 
 /* Begin PBXFileReference section */
 		FF9861F71977548A00F22D01 /* St.Bernard.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = St.Bernard.JPG; sourceTree = "<group>"; };
+		FF9861F919775DC200F22D01 /* Bo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bo.jpg; sourceTree = "<group>"; };
+		FF9861FA19775DC200F22D01 /* BorderCollie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BorderCollie.jpg; sourceTree = "<group>"; };
+		FF9861FB19775DC200F22D01 /* ItalianGreyhound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ItalianGreyhound.jpg; sourceTree = "<group>"; };
+		FF9861FC19775DC200F22D01 /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JRT.jpg; sourceTree = "<group>"; };
 		FFEBCA631970B55900DA0CB6 /* Man's Best Friend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Man's Best Friend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFEBCA671970B55900DA0CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFEBCA681970B55900DA0CB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -100,6 +108,10 @@
 		FFEBCA661970B55900DA0CB6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FF9861F919775DC200F22D01 /* Bo.jpg */,
+				FF9861FA19775DC200F22D01 /* BorderCollie.jpg */,
+				FF9861FB19775DC200F22D01 /* ItalianGreyhound.jpg */,
+				FF9861FC19775DC200F22D01 /* JRT.jpg */,
 				FF9861F71977548A00F22D01 /* St.Bernard.JPG */,
 				FFEBCA671970B55900DA0CB6 /* Info.plist */,
 				FFEBCA681970B55900DA0CB6 /* main.m */,
@@ -204,8 +216,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF9861FF19775DC200F22D01 /* ItalianGreyhound.jpg in Resources */,
 				FFEBCA721970B55900DA0CB6 /* Main.storyboard in Resources */,
+				FF98620019775DC200F22D01 /* JRT.jpg in Resources */,
 				FFEBCA741970B55900DA0CB6 /* Images.xcassets in Resources */,
+				FF9861FE19775DC200F22D01 /* BorderCollie.jpg in Resources */,
+				FF9861FD19775DC200F22D01 /* Bo.jpg in Resources */,
 				FF9861F81977548A00F22D01 /* St.Bernard.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,6 +16,7 @@
 @property (nonatomic) int age;
 @property (nonatomic, strong) UIImage* image;
 
+- (instancetype)initWithName:(NSString*)name breed:(NSString*)breed age:(int)age image:(UIImage*)image;
 - (void)bark;
 - (void)barkTimes:(int)times;
 - (void)barkTimes:(int)times loudly:(BOOL)loud;

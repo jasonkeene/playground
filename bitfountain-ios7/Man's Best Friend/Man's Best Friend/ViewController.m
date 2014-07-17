@@ -21,13 +21,25 @@
            "\n"
            "dog stuff\n"
            "=========");
-    Dog* dog = [[Dog alloc] init];
-    dog.name = @"Nana";
-    dog.breed = @"St. Bernard";
-    dog.age = 1;
-    dog.image = [UIImage imageNamed:@"St.Bernard.JPG"];
-    [self displayDog:dog];
-    [dog barkTimes:3 loudly:true];
+    self.dogs = [@[
+        [[Dog alloc] initWithName:@"Nana"
+                            breed:@"St. Bernard"
+                              age:1
+                            image:[UIImage imageNamed:@"St.Bernard.JPG"]],
+        [[Dog alloc] initWithName:@"Wishbone"
+                            breed:@"Jack Russell Terrier"
+                              age:1
+                            image:[UIImage imageNamed:@"JRT.jpg"]],
+        [[Dog alloc] initWithName:@"Lassie"
+                            breed:@"Collie"
+                              age:1
+                            image:[UIImage imageNamed:@"BorderCollie.jpg"]],
+        [[Dog alloc] initWithName:@"Angel"
+                            breed:@"Greyhound"
+                              age:1
+                            image:[UIImage imageNamed:@"ItalianGreyhound.jpg"]],
+    ] mutableCopy];
+    [self displayDog:self.dogs[3]];
 
     // Challenge 4: Methods - Problem 1
     NSLog(@"\n"
