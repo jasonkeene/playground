@@ -74,7 +74,6 @@
                                            age:1
                                          image:[UIImage imageNamed:@"Bo.jpg"]];
     [self displayDog:puppy];
-    [puppy givePuppyEyes];
     [puppy bark];
 }
 
