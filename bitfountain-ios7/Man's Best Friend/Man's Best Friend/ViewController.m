@@ -39,6 +39,7 @@
                               age:1
                             image:[UIImage imageNamed:@"ItalianGreyhound.jpg"]],
     ] mutableCopy];
+    NSLog(@"%@", self.dogs);
     [self setRandomDog];
 
     // Challenge 4: Methods - Problem 1

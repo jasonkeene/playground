@@ -55,4 +55,8 @@
     return years * 7;
 }
 
+- (NSString*)description {
+    return [NSString stringWithFormat:@"<Dog: %@>", self.name];
+}
+
 @end
