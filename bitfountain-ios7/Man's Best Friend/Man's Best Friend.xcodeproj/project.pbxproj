@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF3EA7561978B83B00BBB2E7 /* Puppy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3EA7551978B83B00BBB2E7 /* Puppy.m */; };
 		FF9861F81977548A00F22D01 /* St.Bernard.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FF9861F71977548A00F22D01 /* St.Bernard.JPG */; };
 		FF9861FD19775DC200F22D01 /* Bo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF9861F919775DC200F22D01 /* Bo.jpg */; };
 		FF9861FE19775DC200F22D01 /* BorderCollie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF9861FA19775DC200F22D01 /* BorderCollie.jpg */; };
@@ -32,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF3EA7541978B83B00BBB2E7 /* Puppy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Puppy.h; sourceTree = "<group>"; };
+		FF3EA7551978B83B00BBB2E7 /* Puppy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Puppy.m; sourceTree = "<group>"; };
 		FF9861F71977548A00F22D01 /* St.Bernard.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = St.Bernard.JPG; sourceTree = "<group>"; };
 		FF9861F919775DC200F22D01 /* Bo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bo.jpg; sourceTree = "<group>"; };
 		FF9861FA19775DC200F22D01 /* BorderCollie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BorderCollie.jpg; sourceTree = "<group>"; };
@@ -98,6 +101,8 @@
 				FFEBCA6E1970B55900DA0CB6 /* ViewController.m */,
 				FFEBCA8919721AE100DA0CB6 /* Dog.h */,
 				FFEBCA8A19721AE100DA0CB6 /* Dog.m */,
+				FF3EA7541978B83B00BBB2E7 /* Puppy.h */,
+				FF3EA7551978B83B00BBB2E7 /* Puppy.m */,
 				FFEBCA701970B55900DA0CB6 /* Main.storyboard */,
 				FFEBCA731970B55900DA0CB6 /* Images.xcassets */,
 				FFEBCA661970B55900DA0CB6 /* Supporting Files */,
@@ -243,6 +248,7 @@
 				FFEBCA6F1970B55900DA0CB6 /* ViewController.m in Sources */,
 				FFEBCA6C1970B55900DA0CB6 /* AppDelegate.m in Sources */,
 				FFEBCA8B19721AE100DA0CB6 /* Dog.m in Sources */,
+				FF3EA7561978B83B00BBB2E7 /* Puppy.m in Sources */,
 				FFEBCA691970B55900DA0CB6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

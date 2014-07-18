@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Dog.h"
+#import "Puppy.h"
 
 
 @implementation ViewController
@@ -62,6 +63,19 @@
            "Challenge 4: Methods - Problem 3\n"
            "================================");
     NSLog(@"15! == %lli", [self factorial:15]);
+
+    // puppy stuff
+    NSLog(@"\n"
+          "\n"
+          "puppy stuff\n"
+          "===========");
+    Puppy* puppy = [[Puppy alloc] initWithName:@"Bo"
+                                         breed:@"Portuguese Water Dog"
+                                           age:1
+                                         image:[UIImage imageNamed:@"Bo.jpg"]];
+    [self displayDog:puppy];
+    [puppy givePuppyEyes];
+    [puppy bark];
 }
 
 - (void)didReceiveMemoryWarning {
