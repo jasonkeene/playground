@@ -28,6 +28,10 @@
     NSArray* myArray = [[NSArray alloc] initWithObjects:firstString, myMutableArray, secondString, nil];
 
     NSLog(@"%@", myArray);
+
+    self.currentPoint = CGPointMake(3, 4);
+    NSLog(@"%f %f", self.currentPoint.x, self.currentPoint.y);
+    NSLog(@"%@", NSStringFromCGPoint(self.currentPoint));
 }
 
 - (void)didReceiveMemoryWarning {
