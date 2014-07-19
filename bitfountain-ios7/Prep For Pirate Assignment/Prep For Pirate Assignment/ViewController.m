@@ -38,6 +38,12 @@
             NSLog(@"both are true");
         }
     }
+
+    [self.button setTitle:@"Button Pressed" forState:UIControlStateNormal];
+    self.button.hidden = NO;
+
+    UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Alert" message:@"You triggered the alert!" delegate:nil cancelButtonTitle:@"Cancel" otherButtonTitles:nil];
+    [alertView show];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -11,6 +11,7 @@
 @interface ViewController : UIViewController
 
 @property (nonatomic) CGPoint currentPoint;
+@property (strong, nonatomic) IBOutlet UIButton *button;
 
 @end
 
