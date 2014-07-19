@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF1A6022197B070300AEB2CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1A6021197B070300AEB2CC /* main.m */; };
+		FF1A6025197B070300AEB2CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1A6024197B070300AEB2CC /* AppDelegate.m */; };
+		FF1A6028197B070300AEB2CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1A6027197B070300AEB2CC /* ViewController.m */; };
+		FF1A602B197B070300AEB2CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1A6029197B070300AEB2CC /* Main.storyboard */; };
+		FF1A602D197B070300AEB2CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1A602C197B070300AEB2CC /* Images.xcassets */; };
+		FF1A6039197B070300AEB2CC /* Prep_For_Pirate_AssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1A6038197B070300AEB2CC /* Prep_For_Pirate_AssignmentTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF1A6033197B070300AEB2CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF1A6014197B070300AEB2CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF1A601B197B070300AEB2CC;
+			remoteInfo = "Prep For Pirate Assignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF1A601C197B070300AEB2CC /* Prep For Pirate Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prep For Pirate Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1A6020197B070300AEB2CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF1A6021197B070300AEB2CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF1A6023197B070300AEB2CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF1A6024197B070300AEB2CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF1A6026197B070300AEB2CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF1A6027197B070300AEB2CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF1A602A197B070300AEB2CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF1A602C197B070300AEB2CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF1A6032197B070300AEB2CC /* Prep For Pirate AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prep For Pirate AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1A6037197B070300AEB2CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF1A6038197B070300AEB2CC /* Prep_For_Pirate_AssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prep_For_Pirate_AssignmentTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF1A6019197B070300AEB2CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1A602F197B070300AEB2CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF1A6013197B070300AEB2CC = {
+			isa = PBXGroup;
+			children = (
+				FF1A601E197B070300AEB2CC /* Prep For Pirate Assignment */,
+				FF1A6035197B070300AEB2CC /* Prep For Pirate AssignmentTests */,
+				FF1A601D197B070300AEB2CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF1A601D197B070300AEB2CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF1A601C197B070300AEB2CC /* Prep For Pirate Assignment.app */,
+				FF1A6032197B070300AEB2CC /* Prep For Pirate AssignmentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF1A601E197B070300AEB2CC /* Prep For Pirate Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				FF1A6023197B070300AEB2CC /* AppDelegate.h */,
+				FF1A6024197B070300AEB2CC /* AppDelegate.m */,
+				FF1A6026197B070300AEB2CC /* ViewController.h */,
+				FF1A6027197B070300AEB2CC /* ViewController.m */,
+				FF1A6029197B070300AEB2CC /* Main.storyboard */,
+				FF1A602C197B070300AEB2CC /* Images.xcassets */,
+				FF1A601F197B070300AEB2CC /* Supporting Files */,
+			);
+			path = "Prep For Pirate Assignment";
+			sourceTree = "<group>";
+		};
+		FF1A601F197B070300AEB2CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF1A6020197B070300AEB2CC /* Info.plist */,
+				FF1A6021197B070300AEB2CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF1A6035197B070300AEB2CC /* Prep For Pirate AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF1A6038197B070300AEB2CC /* Prep_For_Pirate_AssignmentTests.m */,
+				FF1A6036197B070300AEB2CC /* Supporting Files */,
+			);
+			path = "Prep For Pirate AssignmentTests";
+			sourceTree = "<group>";
+		};
+		FF1A6036197B070300AEB2CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF1A6037197B070300AEB2CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF1A601B197B070300AEB2CC /* Prep For Pirate Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1A603C197B070300AEB2CC /* Build configuration list for PBXNativeTarget "Prep For Pirate Assignment" */;
+			buildPhases = (
+				FF1A6018197B070300AEB2CC /* Sources */,
+				FF1A6019197B070300AEB2CC /* Frameworks */,
+				FF1A601A197B070300AEB2CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prep For Pirate Assignment";
+			productName = "Prep For Pirate Assignment";
+			productReference = FF1A601C197B070300AEB2CC /* Prep For Pirate Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF1A6031197B070300AEB2CC /* Prep For Pirate AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1A603F197B070300AEB2CC /* Build configuration list for PBXNativeTarget "Prep For Pirate AssignmentTests" */;
+			buildPhases = (
+				FF1A602E197B070300AEB2CC /* Sources */,
+				FF1A602F197B070300AEB2CC /* Frameworks */,
+				FF1A6030197B070300AEB2CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF1A6034197B070300AEB2CC /* PBXTargetDependency */,
+			);
+			name = "Prep For Pirate AssignmentTests";
+			productName = "Prep For Pirate AssignmentTests";
+			productReference = FF1A6032197B070300AEB2CC /* Prep For Pirate AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF1A6014197B070300AEB2CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = bonobo;
+				TargetAttributes = {
+					FF1A601B197B070300AEB2CC = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FF1A6031197B070300AEB2CC = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FF1A601B197B070300AEB2CC;
+					};
+				};
+			};
+			buildConfigurationList = FF1A6017197B070300AEB2CC /* Build configuration list for PBXProject "Prep For Pirate Assignment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF1A6013197B070300AEB2CC;
+			productRefGroup = FF1A601D197B070300AEB2CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF1A601B197B070300AEB2CC /* Prep For Pirate Assignment */,
+				FF1A6031197B070300AEB2CC /* Prep For Pirate AssignmentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF1A601A197B070300AEB2CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1A602B197B070300AEB2CC /* Main.storyboard in Resources */,
+				FF1A602D197B070300AEB2CC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1A6030197B070300AEB2CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF1A6018197B070300AEB2CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1A6028197B070300AEB2CC /* ViewController.m in Sources */,
+				FF1A6025197B070300AEB2CC /* AppDelegate.m in Sources */,
+				FF1A6022197B070300AEB2CC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF1A602E197B070300AEB2CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1A6039197B070300AEB2CC /* Prep_For_Pirate_AssignmentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF1A6034197B070300AEB2CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF1A601B197B070300AEB2CC /* Prep For Pirate Assignment */;
+			targetProxy = FF1A6033197B070300AEB2CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF1A6029197B070300AEB2CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF1A602A197B070300AEB2CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF1A603A197B070300AEB2CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF1A603B197B070300AEB2CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF1A603D197B070300AEB2CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Prep For Pirate Assignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF1A603E197B070300AEB2CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Prep For Pirate Assignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF1A6040197B070300AEB2CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Prep For Pirate Assignment.app/Prep For Pirate Assignment";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Prep For Pirate AssignmentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		FF1A6041197B070300AEB2CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Prep For Pirate Assignment.app/Prep For Pirate Assignment";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Prep For Pirate AssignmentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF1A6017197B070300AEB2CC /* Build configuration list for PBXProject "Prep For Pirate Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1A603A197B070300AEB2CC /* Debug */,
+				FF1A603B197B070300AEB2CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1A603C197B070300AEB2CC /* Build configuration list for PBXNativeTarget "Prep For Pirate Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1A603D197B070300AEB2CC /* Debug */,
+				FF1A603E197B070300AEB2CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF1A603F197B070300AEB2CC /* Build configuration list for PBXNativeTarget "Prep For Pirate AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1A6040197B070300AEB2CC /* Debug */,
+				FF1A6041197B070300AEB2CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF1A6014197B070300AEB2CC /* Project object */;
+}
