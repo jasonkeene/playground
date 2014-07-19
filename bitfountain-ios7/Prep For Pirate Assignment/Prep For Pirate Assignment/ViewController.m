@@ -44,6 +44,8 @@
 
     UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"Alert" message:@"You triggered the alert!" delegate:nil cancelButtonTitle:@"Cancel" otherButtonTitles:nil];
     [alertView show];
+
+    self.awesome = [[AwesomeClass alloc] init];
 }
 
 - (void)didReceiveMemoryWarning {

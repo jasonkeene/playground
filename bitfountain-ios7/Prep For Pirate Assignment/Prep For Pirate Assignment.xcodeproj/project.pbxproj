@@ -13,6 +13,7 @@
 		FF1A602B197B070300AEB2CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1A6029197B070300AEB2CC /* Main.storyboard */; };
 		FF1A602D197B070300AEB2CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1A602C197B070300AEB2CC /* Images.xcassets */; };
 		FF1A6039197B070300AEB2CC /* Prep_For_Pirate_AssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1A6038197B070300AEB2CC /* Prep_For_Pirate_AssignmentTests.m */; };
+		FF8EC826197B141100ACB3E6 /* AwesomeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8EC825197B141100ACB3E6 /* AwesomeClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		FF1A6032197B070300AEB2CC /* Prep For Pirate AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prep For Pirate AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1A6037197B070300AEB2CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF1A6038197B070300AEB2CC /* Prep_For_Pirate_AssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prep_For_Pirate_AssignmentTests.m; sourceTree = "<group>"; };
+		FF8EC824197B141100ACB3E6 /* AwesomeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeClass.h; sourceTree = "<group>"; };
+		FF8EC825197B141100ACB3E6 /* AwesomeClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				FF1A6024197B070300AEB2CC /* AppDelegate.m */,
 				FF1A6026197B070300AEB2CC /* ViewController.h */,
 				FF1A6027197B070300AEB2CC /* ViewController.m */,
+				FF8EC824197B141100ACB3E6 /* AwesomeClass.h */,
+				FF8EC825197B141100ACB3E6 /* AwesomeClass.m */,
 				FF1A6029197B070300AEB2CC /* Main.storyboard */,
 				FF1A602C197B070300AEB2CC /* Images.xcassets */,
 				FF1A601F197B070300AEB2CC /* Supporting Files */,
@@ -215,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF8EC826197B141100ACB3E6 /* AwesomeClass.m in Sources */,
 				FF1A6028197B070300AEB2CC /* ViewController.m in Sources */,
 				FF1A6025197B070300AEB2CC /* AppDelegate.m in Sources */,
 				FF1A6022197B070300AEB2CC /* main.m in Sources */,
@@ -404,6 +410,7 @@
 				FF1A603E197B070300AEB2CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF1A603F197B070300AEB2CC /* Build configuration list for PBXNativeTarget "Prep For Pirate AssignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +419,7 @@
 				FF1A6041197B070300AEB2CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
