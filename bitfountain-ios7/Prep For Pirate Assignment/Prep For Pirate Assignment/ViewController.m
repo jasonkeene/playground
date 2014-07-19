@@ -46,6 +46,11 @@
     [alertView show];
 
     self.awesome = [[AwesomeClass alloc] init];
+
+    NSString* testString = @"Has a value";
+    if (testString != nil) {
+        NSLog(@"The test string has a value!");
+    }
 }
 
 - (void)didReceiveMemoryWarning {
