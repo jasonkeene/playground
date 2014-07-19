@@ -21,7 +21,14 @@
     
     NSString* sentence = @"The NewFoundland dog breed has webbed feet which aids in its swimming prowess";
     NSArray* words = [sentence componentsSeparatedByString:@" "];
-    NSLog(@"%@", words);
+    NSMutableArray* cappedWords = [[NSMutableArray alloc] init];
+//    for (int i = 0; i < [words count]; i++) {
+//        cappedWords[i] = [words[i] capitalizedString];
+//    }
+    for (NSString* word in words) {
+        [cappedWords addObject:[word capitalizedString]];
+    }
+    NSLog(@"%@", cappedWords);
 }
 
 - (void)didReceiveMemoryWarning {
