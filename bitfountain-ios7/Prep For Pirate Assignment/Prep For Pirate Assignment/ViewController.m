@@ -27,11 +27,17 @@
     
     NSArray* myArray = [[NSArray alloc] initWithObjects:firstString, myMutableArray, secondString, nil];
 
-    NSLog(@"%@", myArray);
-
     self.currentPoint = CGPointMake(3, 4);
-    NSLog(@"%f %f", self.currentPoint.x, self.currentPoint.y);
-    NSLog(@"%@", NSStringFromCGPoint(self.currentPoint));
+
+    int x = 10;
+    int y = 20;
+
+    if (x == 10) {
+        NSLog(@"x equals 10");
+        if (y == 20) {
+            NSLog(@"both are true");
+        }
+    }
 }
 
 - (void)didReceiveMemoryWarning {
