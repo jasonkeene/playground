@@ -13,6 +13,7 @@
 		FFB289BD197A094D00281325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB289BB197A094D00281325 /* Main.storyboard */; };
 		FFB289BF197A094D00281325 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFB289BE197A094D00281325 /* Images.xcassets */; };
 		FFB289CB197A094D00281325 /* Class_Testing_GroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB289CA197A094D00281325 /* Class_Testing_GroundTests.m */; };
+		FFB289D6197A11F300281325 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB289D5197A11F300281325 /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		FFB289C4197A094D00281325 /* Class Testing GroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Class Testing GroundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB289C9197A094D00281325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFB289CA197A094D00281325 /* Class_Testing_GroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Class_Testing_GroundTests.m; sourceTree = "<group>"; };
+		FFB289D4197A11F300281325 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Dog.h; path = ../Dog.h; sourceTree = "<group>"; };
+		FFB289D5197A11F300281325 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Dog.m; path = ../Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				FFB289B6197A094D00281325 /* AppDelegate.m */,
 				FFB289B8197A094D00281325 /* ViewController.h */,
 				FFB289B9197A094D00281325 /* ViewController.m */,
+				FFB289D4197A11F300281325 /* Dog.h */,
+				FFB289D5197A11F300281325 /* Dog.m */,
 				FFB289BB197A094D00281325 /* Main.storyboard */,
 				FFB289BE197A094D00281325 /* Images.xcassets */,
 				FFB289B1197A094D00281325 /* Supporting Files */,
@@ -217,6 +222,7 @@
 			files = (
 				FFB289BA197A094D00281325 /* ViewController.m in Sources */,
 				FFB289B7197A094D00281325 /* AppDelegate.m in Sources */,
+				FFB289D6197A11F300281325 /* Dog.m in Sources */,
 				FFB289B4197A094D00281325 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

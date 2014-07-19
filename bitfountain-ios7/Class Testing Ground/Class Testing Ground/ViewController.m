@@ -7,11 +7,7 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
-            
-
-@end
+#import "Dog.h"
 
 @implementation ViewController
             
@@ -28,7 +24,12 @@
     for (NSString* word in words) {
         [cappedWords addObject:[word capitalizedString]];
     }
-    NSLog(@"%@", cappedWords);
+//    NSLog(@"%@", cappedWords);
+    Dog* dog = [[Dog alloc] init];
+    [dog setName:@"test"];
+    NSLog(@"%@",[dog name]);
+    dog.name = @"test2";
+    NSLog(@"%@", dog.name);
 }
 
 - (void)didReceiveMemoryWarning {
