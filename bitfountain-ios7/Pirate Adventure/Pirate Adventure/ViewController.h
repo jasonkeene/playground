@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+#import "Game.h"
+
+
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) Game* game;
 
 @end
-

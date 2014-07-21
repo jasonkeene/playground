@@ -15,10 +15,10 @@
 		FFD6D502197CAB8400FBDDC2 /* Pirate_AdventureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD6D501197CAB8400FBDDC2 /* Pirate_AdventureTests.m */; };
 		FFD6D50D197CABB300FBDDC2 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD6D50C197CABB300FBDDC2 /* Tile.m */; };
 		FFD6D510197CABBC00FBDDC2 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD6D50F197CABBC00FBDDC2 /* Character.m */; };
-		FFD6D513197CABD000FBDDC2 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD6D512197CABD000FBDDC2 /* Factory.m */; };
 		FFD6D516197CABDD00FBDDC2 /* Weapon.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD6D515197CABDD00FBDDC2 /* Weapon.m */; };
 		FFD6D519197CABE400FBDDC2 /* Armor.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD6D518197CABE400FBDDC2 /* Armor.m */; };
 		FFD6D51C197CABF300FBDDC2 /* Boss.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD6D51B197CABF300FBDDC2 /* Boss.m */; };
+		FFD6D51F197CB08500FBDDC2 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD6D51E197CB08500FBDDC2 /* Game.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,14 +48,14 @@
 		FFD6D50C197CABB300FBDDC2 /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
 		FFD6D50E197CABBC00FBDDC2 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
 		FFD6D50F197CABBC00FBDDC2 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
-		FFD6D511197CABD000FBDDC2 /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
-		FFD6D512197CABD000FBDDC2 /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
 		FFD6D514197CABDD00FBDDC2 /* Weapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weapon.h; sourceTree = "<group>"; };
 		FFD6D515197CABDD00FBDDC2 /* Weapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weapon.m; sourceTree = "<group>"; };
 		FFD6D517197CABE400FBDDC2 /* Armor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Armor.h; sourceTree = "<group>"; };
 		FFD6D518197CABE400FBDDC2 /* Armor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Armor.m; sourceTree = "<group>"; };
 		FFD6D51A197CABF300FBDDC2 /* Boss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boss.h; sourceTree = "<group>"; };
 		FFD6D51B197CABF300FBDDC2 /* Boss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boss.m; sourceTree = "<group>"; };
+		FFD6D51D197CB08500FBDDC2 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		FFD6D51E197CB08500FBDDC2 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +108,10 @@
 				FFD6D50C197CABB300FBDDC2 /* Tile.m */,
 				FFD6D50E197CABBC00FBDDC2 /* Character.h */,
 				FFD6D50F197CABBC00FBDDC2 /* Character.m */,
-				FFD6D511197CABD000FBDDC2 /* Factory.h */,
-				FFD6D512197CABD000FBDDC2 /* Factory.m */,
 				FFD6D514197CABDD00FBDDC2 /* Weapon.h */,
 				FFD6D515197CABDD00FBDDC2 /* Weapon.m */,
+				FFD6D51D197CB08500FBDDC2 /* Game.h */,
+				FFD6D51E197CB08500FBDDC2 /* Game.m */,
 				FFD6D517197CABE400FBDDC2 /* Armor.h */,
 				FFD6D518197CABE400FBDDC2 /* Armor.m */,
 				FFD6D51A197CABF300FBDDC2 /* Boss.h */,
@@ -250,9 +250,9 @@
 				FFD6D510197CABBC00FBDDC2 /* Character.m in Sources */,
 				FFD6D519197CABE400FBDDC2 /* Armor.m in Sources */,
 				FFD6D4EE197CAB8400FBDDC2 /* AppDelegate.m in Sources */,
+				FFD6D51F197CB08500FBDDC2 /* Game.m in Sources */,
 				FFD6D4EB197CAB8400FBDDC2 /* main.m in Sources */,
 				FFD6D51C197CABF300FBDDC2 /* Boss.m in Sources */,
-				FFD6D513197CABD000FBDDC2 /* Factory.m in Sources */,
 				FFD6D50D197CABB300FBDDC2 /* Tile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,6 +440,7 @@
 				FFD6D507197CAB8400FBDDC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFD6D508197CAB8400FBDDC2 /* Build configuration list for PBXNativeTarget "Pirate AdventureTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +449,7 @@
 				FFD6D50A197CAB8400FBDDC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

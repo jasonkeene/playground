@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+
 @interface Tile : NSObject
+
+@property (strong, nonatomic) NSString* story;
 
 @end
