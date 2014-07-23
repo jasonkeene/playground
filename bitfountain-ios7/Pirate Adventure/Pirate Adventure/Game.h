@@ -7,13 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Character.h"
+
+@class ViewController;
 
 
 @interface Game : NSObject
 
-@property (strong, nonatomic) UIViewController* controller;
+@property (strong, nonatomic) ViewController* controller;
+@property (strong, nonatomic) Character* character;
 @property (nonatomic) CGPoint currentLocation;
 
 - (instancetype)initWithController:(UIViewController*)controller;
+- (void)render;
 
 @end

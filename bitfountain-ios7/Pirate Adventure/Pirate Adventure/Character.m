@@ -11,4 +11,13 @@
 
 @implementation Character
 
+- (instancetype)init {
+    self = [super init];
+    self.health = 0;
+    self.damage = 0;
+    self.armor = [[Armor alloc] init];
+    self.weapon = [[Weapon alloc] init];
+    return self;
+}
+
 @end

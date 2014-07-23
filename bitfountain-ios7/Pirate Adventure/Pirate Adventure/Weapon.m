@@ -11,4 +11,11 @@
 
 @implementation Weapon
 
+- (instancetype)init {
+    self = [super init];
+    self.name = @"Starter Weapon";
+    self.damage = 1;
+    return self;
+}
+
 @end

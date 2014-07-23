@@ -11,4 +11,11 @@
 
 @implementation Armor
 
+- (instancetype)init {
+    self = [super init];
+    self.name = @"Starter Armor";
+    self.health = 1;
+    return self;
+}
+
 @end
