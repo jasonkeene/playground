@@ -11,4 +11,16 @@
 
 @implementation Tile
 
+- (instancetype)initWithStory:(NSString*)story
+                   background:(UIImage*)background
+                   actionName:(NSString*)actionName
+                       action:(void (^)(void))action {
+    self = [super init];
+    self.story = story;
+    self.backgroundImage = background;
+    self.actionButtonName = actionName;
+    self.action = action;
+    return self;
+}
+
 @end

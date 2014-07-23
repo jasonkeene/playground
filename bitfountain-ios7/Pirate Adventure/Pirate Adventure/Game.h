@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Character.h"
+#import "Tile.h"
 
 @class ViewController;
 
@@ -16,9 +17,12 @@
 
 @property (strong, nonatomic) ViewController* controller;
 @property (strong, nonatomic) Character* character;
+@property (strong, nonatomic) NSArray* tiles;
 @property (nonatomic) CGPoint currentLocation;
 
 - (instancetype)initWithController:(UIViewController*)controller;
+- (NSArray*)createTiles;
+- (Tile*)currentTile;
 - (void)render;
 
 @end

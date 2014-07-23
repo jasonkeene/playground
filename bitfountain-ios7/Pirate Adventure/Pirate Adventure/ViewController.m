@@ -25,6 +25,7 @@
 }
 
 - (IBAction)actionButtonPressed:(UIButton *)sender {
+    [self.game currentTile].action();
 }
 
 - (IBAction)northButtonPressed:(UIButton *)sender {
