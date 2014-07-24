@@ -29,14 +29,26 @@
 }
 
 - (IBAction)northButtonPressed:(UIButton *)sender {
+    self.game.currentLocation = CGPointMake(self.game.currentLocation.x,
+                                            self.game.currentLocation.y + 1);
+    [self.game render];
 }
 
 - (IBAction)southButtonPressed:(UIButton *)sender {
+    self.game.currentLocation = CGPointMake(self.game.currentLocation.x,
+                                            self.game.currentLocation.y - 1);
+    [self.game render];
 }
 
 - (IBAction)eastButtonPressed:(UIButton *)sender {
+    self.game.currentLocation = CGPointMake(self.game.currentLocation.x + 1,
+                                            self.game.currentLocation.y);
+    [self.game render];
 }
 
 - (IBAction)westButtonPressed:(UIButton *)sender {
+    self.game.currentLocation = CGPointMake(self.game.currentLocation.x - 1,
+                                            self.game.currentLocation.y);
+    [self.game render];
 }
 @end
