@@ -23,51 +23,51 @@
 - (NSArray*)createTiles {
     return @[
              [[Tile alloc] initWithStory:@"story0"
-                              background:nil
+                              background:[UIImage imageNamed:@"PirateAttack.jpg"]
                               actionName:@"action0"
                                   action:^{ NSLog(@"action0"); }],
              [[Tile alloc] initWithStory:@"story1"
-                              background:nil
+                              background:[UIImage imageNamed:@"PirateBlacksmith.jpeg"]
                               actionName:@"action1"
                                   action:^{ NSLog(@"action1"); }],
              [[Tile alloc] initWithStory:@"story2"
-                              background:nil
+                              background:[UIImage imageNamed:@"PirateBoss.jpeg"]
                               actionName:@"action2"
                                   action:^{ NSLog(@"action2"); }],
              [[Tile alloc] initWithStory:@"story3"
-                              background:nil
+                              background:[UIImage imageNamed:@"PirateFriendlyDock.jpg"]
                               actionName:@"action3"
                                   action:^{ NSLog(@"action3"); }],
              [[Tile alloc] initWithStory:@"story4"
-                              background:nil
+                              background:[UIImage imageNamed:@"PirateOctopusAttack.jpg"]
                               actionName:@"action4"
                                   action:^{ NSLog(@"action4"); }],
              [[Tile alloc] initWithStory:@"story5"
-                              background:nil
+                              background:[UIImage imageNamed:@"PirateParrot.jpg"]
                               actionName:@"action5"
                                   action:^{ NSLog(@"action5"); }],
              [[Tile alloc] initWithStory:@"story6"
-                              background:nil
+                              background:[UIImage imageNamed:@"PiratePlank.jpg"]
                               actionName:@"action6"
                                   action:^{ NSLog(@"action6"); }],
              [[Tile alloc] initWithStory:@"story7"
-                              background:nil
+                              background:[UIImage imageNamed:@"PirateShipBattle.jpeg"]
                               actionName:@"action7"
                                   action:^{ NSLog(@"action7"); }],
              [[Tile alloc] initWithStory:@"story8"
-                              background:nil
+                              background:[UIImage imageNamed:@"PirateStart.jpg"]
                               actionName:@"action8"
                                   action:^{ NSLog(@"action8"); }],
              [[Tile alloc] initWithStory:@"story9"
-                              background:nil
+                              background:[UIImage imageNamed:@"PirateTreasure.jpeg"]
                               actionName:@"action9"
                                   action:^{ NSLog(@"action9"); }],
              [[Tile alloc] initWithStory:@"story10"
-                              background:nil
+                              background:[UIImage imageNamed:@"PirateTreasurer2.jpeg"]
                               actionName:@"action10"
                                   action:^{ NSLog(@"action10"); }],
              [[Tile alloc] initWithStory:@"story11"
-                              background:nil
+                              background:[UIImage imageNamed:@"PirateWeapons.jpeg"]
                               actionName:@"action11"
                                   action:^{ NSLog(@"action11"); }],
     ];
@@ -88,6 +88,7 @@
     self.controller.southButton.hidden = self.currentLocation.y == 0;
     self.controller.eastButton.hidden = self.currentLocation.x == 3;
     self.controller.westButton.hidden = self.currentLocation.x == 0;
+    self.controller.backgroundImageView.image = [self currentTile].backgroundImage;
 }
 
 @end
