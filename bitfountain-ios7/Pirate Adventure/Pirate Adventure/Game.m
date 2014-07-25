@@ -36,7 +36,8 @@
              [[Tile alloc] initWithStory:@"story2"
                               background:[UIImage imageNamed:@"PirateBoss.jpeg"]
                               actionName:@"action2"
-                                  action:^{ NSLog(@"action2"); }],
+                                  action:^{ NSLog(@"action2"); }
+                                    lock:YES],
              [[Tile alloc] initWithStory:@"story3"
                               background:[UIImage imageNamed:@"PirateFriendlyDock.jpg"]
                               actionName:@"action3"
@@ -85,18 +86,21 @@
 }
 
 - (void)render {
+    // character information
     self.controller.healthLabel.text = [@(self.character.health) stringValue];
     self.controller.damageLabel.text = [@(self.character.damage) stringValue];
     self.controller.weaponLabel.text = [self.character.weapon displayString];
     self.controller.armorLabel.text = [self.character.armor displayString];
+
+    // tile information
     [self.controller.actionButton setTitle:[self currentTile].actionButtonName forState:UIControlStateNormal];
     self.controller.storyLabel.text = [self currentTile].story;
-    self.controller.northButton.hidden = self.currentLocation.y == 2;
-    self.controller.southButton.hidden = self.currentLocation.y == 0;
-    self.controller.eastButton.hidden = self.currentLocation.x == 3;
-    self.controller.westButton.hidden = self.currentLocation.x == 0;
-    self.controller.actionButton.hidden = ![self currentTile].actionState;
     self.controller.backgroundImageView.image = [self currentTile].backgroundImage;
+    self.controller.northButton.hidden = [self currentTile].lock || self.currentLocation.y == 2;
+    self.controller.southButton.hidden = [self currentTile].lock || self.currentLocation.y == 0;
+    self.controller.eastButton.hidden = [self currentTile].lock || self.currentLocation.x == 3;
+    self.controller.westButton.hidden = [self currentTile].lock || self.currentLocation.x == 0;
+    self.controller.actionButton.hidden = ![self currentTile].actionState;
 }
 
 @end
