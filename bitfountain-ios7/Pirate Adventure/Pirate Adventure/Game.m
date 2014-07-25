@@ -26,57 +26,80 @@
                               background:[UIImage imageNamed:@"PirateStart.jpg"]
                               actionName:@"Take the sword"
                                   action:^(Tile* tile) {
-                                      self.character.weapon = [[Weapon alloc] initWithName:@"Blunted Sword" damage:7];
+                                      self.character.weapon = [[Weapon alloc] initWithName:@"Blunted Sword" damage:9];
                                       tile.actionState = NO;
                                   }],
              [[Tile alloc] initWithStory:@"You have come across an armory. Would you like to upgrade your armor to steel armor?"
                               background:[UIImage imageNamed:@"PirateBlacksmith.jpeg"]
-                              actionName:@"action1"
+                              actionName:@"Take the armor"
                                   action:^(Tile* tile) {
-                                      self.character.armor = [[Armor alloc] initWithName:@"Steel armor" value:7];
+                                      self.character.armor = [[Armor alloc] initWithName:@"Steel armor" value:9];
                                       tile.actionState = NO;
                                   }],
-             [[Tile alloc] initWithStory:@"story2"
+             [[Tile alloc] initWithStory:@"Your final faceoff with the fearsome pirate bos"
                               background:[UIImage imageNamed:@"PirateBoss.jpeg"]
-                              actionName:@"action2"
-                                  action:^(Tile* tile) { NSLog(@"action2"); }
+                              actionName:@"Fight"
+                                  action:^(Tile* tile) {}
                                     lock:YES],
-             [[Tile alloc] initWithStory:@"story3"
+             [[Tile alloc] initWithStory:@"A mysterious dock appears on the horizon. Should we stop and ask for directions?"
                               background:[UIImage imageNamed:@"PirateFriendlyDock.jpg"]
-                              actionName:@"action3"
-                                  action:^(Tile* tile) { NSLog(@"action3"); }],
-             [[Tile alloc] initWithStory:@"story4"
-                              background:[UIImage imageNamed:@"PirateOctopusAttack.jpg"]
-                              actionName:@"action4"
-                                  action:^(Tile* tile) { NSLog(@"action4"); }],
-             [[Tile alloc] initWithStory:@"story5"
-                              background:[UIImage imageNamed:@"PirateParrot.jpg"]
-                              actionName:@"action5"
-                                  action:^(Tile* tile) { NSLog(@"action5"); }],
-             [[Tile alloc] initWithStory:@"story6"
-                              background:[UIImage imageNamed:@"PiratePlank.jpg"]
-                              actionName:@"action6"
-                                  action:^(Tile* tile) { NSLog(@"action6"); }],
-             [[Tile alloc] initWithStory:@"story7"
-                              background:[UIImage imageNamed:@"PirateShipBattle.jpeg"]
-                              actionName:@"action7"
-                                  action:^(Tile* tile) { NSLog(@"action7"); }],
-             [[Tile alloc] initWithStory:@"story8"
+                              actionName:@"Ask for directions."
+                                  action:^(Tile* tile) {
+                                      tile.actionState = NO;
+                                  }],
+             [[Tile alloc] initWithStory:@"A group of pirates attempts to board your ship"
                               background:[UIImage imageNamed:@"PirateAttack.jpg"]
-                              actionName:@"action8"
-                                  action:^(Tile* tile) { NSLog(@"action8"); }],
-             [[Tile alloc] initWithStory:@"story9"
+                              actionName:@"Don't let them"
+                                  action:^(Tile* tile) {
+                                      tile.actionState = NO;
+                                  }],
+             [[Tile alloc] initWithStory:@"You have found a parrot can be used in your armor slot! Parrots are a great defender and are fiercly loyal to their captain."
+                              background:[UIImage imageNamed:@"PirateParrot.jpg"]
+                              actionName:@"Take the parrot"
+                                  action:^(Tile* tile) {
+                                      self.character.armor = [[Armor alloc] initWithName:@"Parrot" value:15];
+                                      tile.actionState = NO;
+                                  }],
+             [[Tile alloc] initWithStory:@"You have been captured by pirates and are ordered to walk the plank"
+                              background:[UIImage imageNamed:@"PiratePlank.jpg"]
+                              actionName:@"Walk the plank"
+                                  action:^(Tile* tile) {
+                                      self.character.health = self.character.health - 10;
+                                      tile.actionState = NO;
+                                      tile.lock = NO;
+                                  }
+                                    lock:YES],
+             [[Tile alloc] initWithStory:@"You sight a pirate battle off the coast"
+                              background:[UIImage imageNamed:@"PirateShipBattle.jpeg"]
+                              actionName:@"Do a little jig"
+                                  action:^(Tile* tile) {
+                                      tile.actionState = NO;
+                                  }],
+             [[Tile alloc] initWithStory:@"The legend of the deep, the mighty kraken appears"
+                              background:[UIImage imageNamed:@"PirateOctopusAttack.jpg"]
+                              actionName:@"OMG!"
+                                  action:^(Tile* tile) {
+                                      tile.actionState = NO;
+                                  }],
+             [[Tile alloc] initWithStory:@"You stumble upon a hidden cave of pirate treasurer"
                               background:[UIImage imageNamed:@"PirateTreasure.jpeg"]
-                              actionName:@"action9"
-                                  action:^(Tile* tile) { NSLog(@"action9"); }],
-             [[Tile alloc] initWithStory:@"story10"
+                              actionName:@"Awesome!"
+                                  action:^(Tile* tile) {
+                                      tile.actionState = NO;
+                                  }],
+             [[Tile alloc] initWithStory:@"In the deep of the sea many things live and many things can be found. Will the fortune bring help or ruin?"
                               background:[UIImage imageNamed:@"PirateTreasurer2.jpeg"]
-                              actionName:@"action10"
-                                  action:^(Tile* tile) { NSLog(@"action10"); }],
-             [[Tile alloc] initWithStory:@"story11"
+                              actionName:@"Jawsome!"
+                                  action:^(Tile* tile) {
+                                      tile.actionState = NO;
+                                  }],
+             [[Tile alloc] initWithStory:@"You have stumbled upon a cache of pirate weapons. Would you like to upgrade to a pistol?"
                               background:[UIImage imageNamed:@"PirateWeapons.jpeg"]
-                              actionName:@"action11"
-                                  action:^(Tile* tile) { NSLog(@"action11"); }],
+                              actionName:@"Take the pistol"
+                                  action:^(Tile* tile) {
+                                      self.character.weapon = [[Weapon alloc] initWithName:@"Pistol" damage:15];
+                                      tile.actionState = NO;
+                                  }],
     ] mutableCopy];
     for (int i = 1; i < [tiles count]; i++) {
         [tiles exchangeObjectAtIndex:i withObjectAtIndex:1 + (arc4random() % ([tiles count] - 1))];
