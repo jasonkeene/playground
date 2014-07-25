@@ -12,6 +12,9 @@
 @interface Armor : NSObject
 
 @property (strong, nonatomic) NSString* name;
-@property (nonatomic) int health;
+@property (nonatomic) int value;
+
+- (instancetype)initWithName:(NSString*)name value:(int)value;
+- (NSString*)displayString;
 
 @end

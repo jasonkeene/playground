@@ -12,10 +12,23 @@
 @implementation Armor
 
 - (instancetype)init {
+    return [self initWithName:@"Shirt" value:10];
+}
+
+- (instancetype)initWithName:(NSString*)name value:(int)value {
     self = [super init];
-    self.name = @"Starter Armor";
-    self.health = 1;
+    self.name = name;
+    self.value = value;
     return self;
+}
+
+- (NSString*)displayString {
+    if (self.value > 0) {
+        return [NSString stringWithFormat:@"%@ (+%d)", self.name,
+                self.value, nil];
+    } else {
+        return [NSString stringWithFormat:@"%@", self.name, nil];
+    }
 }
 
 @end

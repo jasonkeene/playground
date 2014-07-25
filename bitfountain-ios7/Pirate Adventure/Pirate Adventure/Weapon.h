@@ -14,4 +14,7 @@
 @property (strong, nonatomic) NSString* name;
 @property (nonatomic) int damage;
 
+- (instancetype)initWithName:(NSString*)name damage:(int)damage;
+- (NSString*)displayString;
+
 @end

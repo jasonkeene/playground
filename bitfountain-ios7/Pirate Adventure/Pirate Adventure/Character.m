@@ -13,11 +13,19 @@
 
 - (instancetype)init {
     self = [super init];
-    self.health = 0;
-    self.damage = 0;
+    self.health = 100;
+    self.damage = 5;
     self.armor = [[Armor alloc] init];
     self.weapon = [[Weapon alloc] init];
     return self;
+}
+
+- (int)damage {
+    return _damage + self.weapon.damage;
+}
+
+- (void)setDamage:(int)value {
+    _damage = value;
 }
 
 @end

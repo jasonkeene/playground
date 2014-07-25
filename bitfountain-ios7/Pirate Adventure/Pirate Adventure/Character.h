@@ -12,11 +12,15 @@
 #import "Weapon.h"
 
 
-@interface Character : NSObject
+@interface Character : NSObject {
+    int _damage;
+}
 
 @property (nonatomic) int health;
-@property (nonatomic) int damage;
 @property (strong, nonatomic) Armor* armor;
 @property (strong, nonatomic) Weapon* weapon;
+
+- (int)damage;
+- (void)setDamage:(int)value;
 
 @end

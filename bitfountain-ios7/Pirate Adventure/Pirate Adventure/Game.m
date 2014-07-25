@@ -77,8 +77,6 @@
     return [tiles copy];
 }
 
-
-
 - (Tile*)currentTile {
     return self.tiles[(int)self.currentLocation.x * 3 + (int)self.currentLocation.y];
 }
@@ -86,8 +84,8 @@
 - (void)render {
     self.controller.healthLabel.text = [@(self.character.health) stringValue];
     self.controller.damageLabel.text = [@(self.character.damage) stringValue];
-    self.controller.weaponLabel.text = self.character.weapon.name;
-    self.controller.armorLabel.text = self.character.armor.name;
+    self.controller.weaponLabel.text = [self.character.weapon displayString];
+    self.controller.armorLabel.text = [self.character.armor displayString];
     [self.controller.actionButton setTitle:[self currentTile].actionButtonName forState:UIControlStateNormal];
     self.controller.storyLabel.text = [self currentTile].story;
     self.controller.northButton.hidden = self.currentLocation.y == 2;
