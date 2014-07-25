@@ -12,7 +12,7 @@
 @implementation Armor
 
 - (instancetype)init {
-    return [self initWithName:@"Shirt" value:10];
+    return [self initWithName:@"Shirt" value:5];
 }
 
 - (instancetype)initWithName:(NSString*)name value:(int)value {

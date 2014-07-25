@@ -15,6 +15,7 @@
 @property (strong, nonatomic) UIImage *backgroundImage;
 @property (strong, nonatomic) NSString *actionButtonName;
 @property (strong, nonatomic) void (^action)(void);
+@property (nonatomic) BOOL actionState;
 
 - (instancetype)initWithStory:(NSString*)story
                    background:(UIImage*)background

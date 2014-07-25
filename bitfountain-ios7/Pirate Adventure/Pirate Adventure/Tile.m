@@ -20,6 +20,7 @@
     self.backgroundImage = background;
     self.actionButtonName = actionName;
     self.action = action;
+    self.actionState = YES;
     return self;
 }
 

@@ -12,7 +12,7 @@
 @implementation Weapon
 
 - (instancetype)init {
-    return [self initWithName:@"Fists" damage:10];
+    return [self initWithName:@"Fists" damage:5];
 }
 
 - (instancetype)initWithName:(NSString*)name damage:(int)damage {

@@ -30,6 +30,7 @@
 
 - (IBAction)actionButtonPressed:(UIButton *)sender {
     [self.game currentTile].action();
+    [self.game render];
 }
 
 - (IBAction)northButtonPressed:(UIButton *)sender {

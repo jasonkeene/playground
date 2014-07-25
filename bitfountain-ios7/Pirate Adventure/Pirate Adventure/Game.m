@@ -22,10 +22,13 @@
 
 - (NSArray*)createTiles {
     NSMutableArray* tiles = [@[
-             [[Tile alloc] initWithStory:@"story0"
+             [[Tile alloc] initWithStory:@"Captain, we need a fearless leader such as yourself to undertake a voyage. You must stop the evil pirate Roberts. Would you like a sword to get started?"
                               background:[UIImage imageNamed:@"PirateStart.jpg"]
-                              actionName:@"action0"
-                                  action:^{ NSLog(@"action0"); }],
+                              actionName:@"Take the sword"
+                                  action:^{
+                                      self.character.weapon = [[Weapon alloc] initWithName:@"Blunted Sword" damage:7];
+                                      [self currentTile].actionState = NO;
+                                  }],
              [[Tile alloc] initWithStory:@"story1"
                               background:[UIImage imageNamed:@"PirateBlacksmith.jpeg"]
                               actionName:@"action1"
@@ -92,6 +95,7 @@
     self.controller.southButton.hidden = self.currentLocation.y == 0;
     self.controller.eastButton.hidden = self.currentLocation.x == 3;
     self.controller.westButton.hidden = self.currentLocation.x == 0;
+    self.controller.actionButton.hidden = ![self currentTile].actionState;
     self.controller.backgroundImageView.image = [self currentTile].backgroundImage;
 }
 
