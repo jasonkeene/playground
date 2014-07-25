@@ -36,6 +36,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *southButton;
 @property (strong, nonatomic) IBOutlet UIButton *eastButton;
 @property (strong, nonatomic) IBOutlet UIButton *westButton;
+@property (strong, nonatomic) IBOutlet UIButton *resetButton;
 
 // actions
 
@@ -44,5 +45,6 @@
 - (IBAction)southButtonPressed:(UIButton *)sender;
 - (IBAction)eastButtonPressed:(UIButton *)sender;
 - (IBAction)westButtonPressed:(UIButton *)sender;
+- (IBAction)resetButtonPressed:(UIButton *)sender;
 
 @end

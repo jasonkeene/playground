@@ -86,6 +86,33 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.188945055" green="0.1672525108" blue="0.12790587540000001" alpha="0.75" colorSpace="calibratedRGB"/>
                             </view>
+                            <view opaque="NO" contentMode="scaleToFill" id="bLS-Gl-5aE">
+                                <rect key="frame" x="20" y="178" width="280" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Actions" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IKx-bg-JVl">
+                                        <rect key="frame" x="191" y="2" width="78" height="51"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="15"/>
+                                        <color key="textColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xtz-Em-p5p">
+                                        <rect key="frame" x="14" y="13" width="124" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.99997437000274658" blue="0.99999129772186279" alpha="0.79000000000000004" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                        <state key="normal" title="Action">
+                                            <color key="titleColor" red="0.1875882894" green="0.1559651792" blue="0.089774683120000004" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="actionButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ehi-iz-cP0"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.188945055" green="0.1672525108" blue="0.12790587540000001" alpha="0.75" colorSpace="calibratedRGB"/>
+                            </view>
                             <view opaque="NO" contentMode="scaleToFill" id="NKj-7V-Yz3">
                                 <rect key="frame" x="20" y="253" width="280" height="176"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -159,33 +186,19 @@
                                     <action selector="westButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="t1u-IB-6UZ"/>
                                 </connections>
                             </button>
-                            <view opaque="NO" contentMode="scaleToFill" id="bLS-Gl-5aE">
-                                <rect key="frame" x="20" y="178" width="280" height="55"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="m8A-gt-Zxq">
+                                <rect key="frame" x="52" y="488" width="60" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Actions" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IKx-bg-JVl">
-                                        <rect key="frame" x="191" y="2" width="78" height="51"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="15"/>
-                                        <color key="textColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xtz-Em-p5p">
-                                        <rect key="frame" x="14" y="13" width="124" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="1" green="0.99997437000274658" blue="0.99999129772186279" alpha="0.79000000000000004" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                        <state key="normal" title="Action">
-                                            <color key="titleColor" red="0.1875882894" green="0.1559651792" blue="0.089774683120000004" alpha="1" colorSpace="calibratedRGB"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="actionButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ehi-iz-cP0"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
                                 <color key="backgroundColor" red="0.188945055" green="0.1672525108" blue="0.12790587540000001" alpha="0.75" colorSpace="calibratedRGB"/>
-                            </view>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" red="1" green="0.99994128942489624" blue="0.99995952844619751" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="qbE-uv-ziJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -197,6 +210,7 @@
                         <outlet property="eastButton" destination="9kn-Zj-Eyx" id="VoX-Gd-s2A"/>
                         <outlet property="healthLabel" destination="Qie-ea-zPm" id="gtU-iS-3qV"/>
                         <outlet property="northButton" destination="gtM-pk-DEM" id="SUY-d9-cQU"/>
+                        <outlet property="resetButton" destination="m8A-gt-Zxq" id="xqf-66-2WO"/>
                         <outlet property="southButton" destination="yNq-V2-daF" id="S8f-oj-RbR"/>
                         <outlet property="storyLabel" destination="aai-EP-W9F" id="Myg-WB-d64"/>
                         <outlet property="weaponLabel" destination="9wK-y2-kHS" id="fQi-2Q-nXW"/>

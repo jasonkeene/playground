@@ -15,6 +15,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self _reset];
+}
+
+- (void)_reset {
     self.game = [[Game alloc] initWithController:self];
     [self.game render];
 }
@@ -51,4 +55,13 @@
                                             self.game.currentLocation.y);
     [self.game render];
 }
+
+- (IBAction)resetButtonPressed:(UIButton *)sender {
+    [[[UIAlertView alloc] initWithTitle:@"Reset" message:@"Are you sure you want to reset the game?" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Reset", nil] show];
+}
+
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
+    if (buttonIndex == 1) [self _reset];
+}
+
 @end
