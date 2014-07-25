@@ -25,55 +25,58 @@
              [[Tile alloc] initWithStory:@"Captain, we need a fearless leader such as yourself to undertake a voyage. You must stop the evil pirate Roberts. Would you like a sword to get started?"
                               background:[UIImage imageNamed:@"PirateStart.jpg"]
                               actionName:@"Take the sword"
-                                  action:^{
+                                  action:^(Tile* tile) {
                                       self.character.weapon = [[Weapon alloc] initWithName:@"Blunted Sword" damage:7];
-                                      [self currentTile].actionState = NO;
+                                      tile.actionState = NO;
                                   }],
-             [[Tile alloc] initWithStory:@"story1"
+             [[Tile alloc] initWithStory:@"You have come across an armory. Would you like to upgrade your armor to steel armor?"
                               background:[UIImage imageNamed:@"PirateBlacksmith.jpeg"]
                               actionName:@"action1"
-                                  action:^{ NSLog(@"action1"); }],
+                                  action:^(Tile* tile) {
+                                      self.character.armor = [[Armor alloc] initWithName:@"Steel armor" value:7];
+                                      tile.actionState = NO;
+                                  }],
              [[Tile alloc] initWithStory:@"story2"
                               background:[UIImage imageNamed:@"PirateBoss.jpeg"]
                               actionName:@"action2"
-                                  action:^{ NSLog(@"action2"); }
+                                  action:^(Tile* tile) { NSLog(@"action2"); }
                                     lock:YES],
              [[Tile alloc] initWithStory:@"story3"
                               background:[UIImage imageNamed:@"PirateFriendlyDock.jpg"]
                               actionName:@"action3"
-                                  action:^{ NSLog(@"action3"); }],
+                                  action:^(Tile* tile) { NSLog(@"action3"); }],
              [[Tile alloc] initWithStory:@"story4"
                               background:[UIImage imageNamed:@"PirateOctopusAttack.jpg"]
                               actionName:@"action4"
-                                  action:^{ NSLog(@"action4"); }],
+                                  action:^(Tile* tile) { NSLog(@"action4"); }],
              [[Tile alloc] initWithStory:@"story5"
                               background:[UIImage imageNamed:@"PirateParrot.jpg"]
                               actionName:@"action5"
-                                  action:^{ NSLog(@"action5"); }],
+                                  action:^(Tile* tile) { NSLog(@"action5"); }],
              [[Tile alloc] initWithStory:@"story6"
                               background:[UIImage imageNamed:@"PiratePlank.jpg"]
                               actionName:@"action6"
-                                  action:^{ NSLog(@"action6"); }],
+                                  action:^(Tile* tile) { NSLog(@"action6"); }],
              [[Tile alloc] initWithStory:@"story7"
                               background:[UIImage imageNamed:@"PirateShipBattle.jpeg"]
                               actionName:@"action7"
-                                  action:^{ NSLog(@"action7"); }],
+                                  action:^(Tile* tile) { NSLog(@"action7"); }],
              [[Tile alloc] initWithStory:@"story8"
                               background:[UIImage imageNamed:@"PirateAttack.jpg"]
                               actionName:@"action8"
-                                  action:^{ NSLog(@"action8"); }],
+                                  action:^(Tile* tile) { NSLog(@"action8"); }],
              [[Tile alloc] initWithStory:@"story9"
                               background:[UIImage imageNamed:@"PirateTreasure.jpeg"]
                               actionName:@"action9"
-                                  action:^{ NSLog(@"action9"); }],
+                                  action:^(Tile* tile) { NSLog(@"action9"); }],
              [[Tile alloc] initWithStory:@"story10"
                               background:[UIImage imageNamed:@"PirateTreasurer2.jpeg"]
                               actionName:@"action10"
-                                  action:^{ NSLog(@"action10"); }],
+                                  action:^(Tile* tile) { NSLog(@"action10"); }],
              [[Tile alloc] initWithStory:@"story11"
                               background:[UIImage imageNamed:@"PirateWeapons.jpeg"]
                               actionName:@"action11"
-                                  action:^{ NSLog(@"action11"); }],
+                                  action:^(Tile* tile) { NSLog(@"action11"); }],
     ] mutableCopy];
     for (int i = 1; i < [tiles count]; i++) {
         [tiles exchangeObjectAtIndex:i withObjectAtIndex:1 + (arc4random() % ([tiles count] - 1))];

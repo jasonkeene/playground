@@ -14,7 +14,7 @@
 - (instancetype)initWithStory:(NSString*)story
                    background:(UIImage*)background
                    actionName:(NSString*)actionName
-                       action:(void (^)(void))action {
+                       action:(void (^)(Tile*))action {
     return [self initWithStory:story
                     background:background
                     actionName:actionName
@@ -25,7 +25,7 @@
 - (instancetype)initWithStory:(NSString*)story
                    background:(UIImage*)background
                    actionName:(NSString*)actionName
-                       action:(void (^)(void))action
+                       action:(void (^)(Tile*))action
                          lock:(BOOL)lock {
     self = [super init];
     self.story = story;
@@ -35,6 +35,10 @@
     self.lock = lock;
     self.actionState = YES;
     return self;
+}
+
+- (void)callAction {
+    self.action(self);
 }
 
 @end

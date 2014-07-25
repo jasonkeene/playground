@@ -14,19 +14,21 @@
 @property (strong, nonatomic) NSString* story;
 @property (strong, nonatomic) UIImage* backgroundImage;
 @property (strong, nonatomic) NSString* actionButtonName;
-@property (strong, nonatomic) void (^action)(void);
+@property (strong, nonatomic) void (^action)(Tile*);
 @property (nonatomic) BOOL actionState;
 @property (nonatomic) BOOL lock;
 
 - (instancetype)initWithStory:(NSString*)story
                    background:(UIImage*)background
                    actionName:(NSString*)actionName
-                       action:(void (^)(void))action;
+                       action:(void (^)(Tile*))action;
 
 - (instancetype)initWithStory:(NSString*)story
                    background:(UIImage*)background
                    actionName:(NSString*)actionName
-                       action:(void (^)(void))action
+                       action:(void (^)(Tile*))action
                          lock:(BOOL)lock;
+
+- (void)callAction;
 
 @end

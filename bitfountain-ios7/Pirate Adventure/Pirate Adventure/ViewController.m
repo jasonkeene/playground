@@ -29,7 +29,7 @@
 }
 
 - (IBAction)actionButtonPressed:(UIButton *)sender {
-    [self.game currentTile].action();
+    [[self.game currentTile] callAction];
     [self.game render];
 }
 
