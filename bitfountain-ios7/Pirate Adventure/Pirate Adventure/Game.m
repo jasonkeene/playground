@@ -21,9 +21,9 @@
 }
 
 - (NSArray*)createTiles {
-    return @[
+    NSMutableArray* tiles = [@[
              [[Tile alloc] initWithStory:@"story0"
-                              background:[UIImage imageNamed:@"PirateAttack.jpg"]
+                              background:[UIImage imageNamed:@"PirateStart.jpg"]
                               actionName:@"action0"
                                   action:^{ NSLog(@"action0"); }],
              [[Tile alloc] initWithStory:@"story1"
@@ -55,7 +55,7 @@
                               actionName:@"action7"
                                   action:^{ NSLog(@"action7"); }],
              [[Tile alloc] initWithStory:@"story8"
-                              background:[UIImage imageNamed:@"PirateStart.jpg"]
+                              background:[UIImage imageNamed:@"PirateAttack.jpg"]
                               actionName:@"action8"
                                   action:^{ NSLog(@"action8"); }],
              [[Tile alloc] initWithStory:@"story9"
@@ -70,8 +70,14 @@
                               background:[UIImage imageNamed:@"PirateWeapons.jpeg"]
                               actionName:@"action11"
                                   action:^{ NSLog(@"action11"); }],
-    ];
+    ] mutableCopy];
+    for (int i = 1; i < [tiles count]; i++) {
+        [tiles exchangeObjectAtIndex:i withObjectAtIndex:1 + (arc4random() % ([tiles count] - 1))];
+    }
+    return [tiles copy];
 }
+
+
 
 - (Tile*)currentTile {
     return self.tiles[(int)self.currentLocation.x * 3 + (int)self.currentLocation.y];
