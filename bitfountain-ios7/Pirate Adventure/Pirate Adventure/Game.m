@@ -81,7 +81,7 @@
                                   action:^(Tile* tile) {
                                       tile.actionState = NO;
                                   }],
-             [[Tile alloc] initWithStory:@"You stumble upon a hidden cave of pirate treasurer"
+             [[Tile alloc] initWithStory:@"You stumble upon a hidden cave of pirate treasure."
                               background:[UIImage imageNamed:@"PirateTreasure.jpeg"]
                               actionName:@"Awesome!"
                                   action:^(Tile* tile) {
