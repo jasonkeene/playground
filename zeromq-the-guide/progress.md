@@ -1,14 +1,14 @@
- - [ ] **Preface**
-     - [ ] ØMQ in a Hundred Words
-     - [ ] How It Began
-     - [ ] The Zen of Zero
-     - [ ] Audience
-     - [ ] Acknowledgements
+ - [x] **Preface**
+     - [x] ØMQ in a Hundred Words
+     - [x] How It Began
+     - [x] The Zen of Zero
+     - [x] Audience
+     - [x] Acknowledgements
  - [ ] **Chapter 1 - Basics**
-     - [ ] Fixing the World
-     - [ ] Starting Assumptions
-     - [ ] Getting the Examples
-     - [ ] Ask and Ye Shall Receive
+     - [x] Fixing the World
+     - [x] Starting Assumptions
+     - [x] Getting the Examples
+     - [x] Ask and Ye Shall Receive
      - [ ] A Minor Note on Strings
      - [ ] Version Reporting
      - [ ] Getting the Message Out
