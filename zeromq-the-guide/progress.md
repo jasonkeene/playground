@@ -9,8 +9,8 @@
      - [x] Starting Assumptions
      - [x] Getting the Examples
      - [x] Ask and Ye Shall Receive
-     - [ ] A Minor Note on Strings
-     - [ ] Version Reporting
+     - [x] A Minor Note on Strings
+     - [x] Version Reporting
      - [ ] Getting the Message Out
      - [ ] Divide and Conquer
      - [ ] Programming with ØMQ
