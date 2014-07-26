@@ -1,0 +1,278 @@
+ - [ ] **Preface**
+     - [ ] ØMQ in a Hundred Words
+     - [ ] How It Began
+     - [ ] The Zen of Zero
+     - [ ] Audience
+     - [ ] Acknowledgements
+ - [ ] **Chapter 1 - Basics**
+     - [ ] Fixing the World
+     - [ ] Starting Assumptions
+     - [ ] Getting the Examples
+     - [ ] Ask and Ye Shall Receive
+     - [ ] A Minor Note on Strings
+     - [ ] Version Reporting
+     - [ ] Getting the Message Out
+     - [ ] Divide and Conquer
+     - [ ] Programming with ØMQ
+         - [ ] Getting the Context Right
+         - [ ] Making a Clean Exit
+     - [ ] Why We Needed ØMQ
+     - [ ] Socket Scalability
+     - [ ] Upgrading from ØMQ v2.2 to ØMQ v3.2
+         - [ ] Compatible Changes
+         - [ ] Incompatible Changes
+         - [ ] Suggested Shim Macros
+     - [ ] Warning: Unstable Paradigms!
+ - [ ] **Chapter 2 - Sockets and Patterns**
+     - [ ] The Socket API
+         - [ ] Plugging Sockets into the Topology
+         - [ ] Sending and Receiving Messages
+         - [ ] Unicast Transports
+         - [ ] ØMQ is Not a Neutral Carrier
+         - [ ] I/O Threads
+     - [ ] Messaging Patterns
+         - [ ] High-Level Messaging Patterns
+         - [ ] Working with Messages
+         - [ ] Handling Multiple Sockets
+         - [ ] Multipart Messages
+         - [ ] Intermediaries and Proxies
+         - [ ] The Dynamic Discovery Problem
+         - [ ] Shared Queue (DEALER and ROUTER sockets)
+         - [ ] ØMQ's Built-In Proxy Function
+         - [ ] Transport Bridging
+     - [ ] Handling Errors and ETERM
+     - [ ] Handling Interrupt Signals
+     - [ ] Detecting Memory Leaks
+     - [ ] Multithreading with ØMQ
+     - [ ] Signaling Between Threads (PAIR Sockets)
+     - [ ] Node Coordination
+     - [ ] Zero-Copy
+     - [ ] Pub-Sub Message Envelopes
+     - [ ] High-Water Marks
+     - [ ] Missing Message Problem Solver
+ - [ ] **Chapter 3 - Advanced Request-Reply Patterns**
+     - [ ] The Request-Reply Mechanisms
+         - [ ] The Simple Reply Envelope
+         - [ ] The Extended Reply Envelope
+         - [ ] What's This Good For?
+         - [ ] Recap of Request-Reply Sockets
+     - [ ] Request-Reply Combinations
+         - [ ] The REQ to REP Combination
+         - [ ] The DEALER to REP Combination
+         - [ ] The REQ to ROUTER Combination
+         - [ ] The DEALER to ROUTER Combination
+         - [ ] The DEALER to DEALER Combination
+         - [ ] The ROUTER to ROUTER Combination
+         - [ ] Invalid Combinations
+     - [ ] Exploring ROUTER Sockets
+         - [ ] Identities and Addresses
+         - [ ] ROUTER Error Handling
+     - [ ] The Load Balancing Pattern
+         - [ ] ROUTER Broker and REQ Workers
+         - [ ] ROUTER Broker and DEALER Workers
+         - [ ] A Load Balancing Message Broker
+     - [ ] A High-Level API for ØMQ
+         - [ ] Features of a Higher-Level API
+         - [ ] The CZMQ High-Level API
+     - [ ] The Asynchronous Client/Server Pattern
+     - [ ] Worked Example: Inter-Broker Routing
+         - [ ] Establishing the Details
+         - [ ] Architecture of a Single Cluster
+         - [ ] Scaling to Multiple Clusters
+         - [ ] Federation Versus Peering
+         - [ ] The Naming Ceremony
+         - [ ] Prototyping the State Flow
+         - [ ] Prototyping the Local and Cloud Flows
+         - [ ] Putting it All Together
+ - [ ] **Chapter 4 - Reliable Request-Reply Patterns**
+     - [ ] What is "Reliability"?
+     - [ ] Designing Reliability
+     - [ ] Client-Side Reliability (Lazy Pirate Pattern)
+     - [ ] Basic Reliable Queuing (Simple Pirate Pattern)
+     - [ ] Robust Reliable Queuing (Paranoid Pirate Pattern)
+     - [ ] Heartbeating
+         - [ ] Shrugging It Off
+         - [ ] One-Way Heartbeats
+         - [ ] Ping-Pong Heartbeats
+         - [ ] Heartbeating for Paranoid Pirate
+     - [ ] Contracts and Protocols
+     - [ ] Service-Oriented Reliable Queuing (Majordomo Pattern)
+     - [ ] Asynchronous Majordomo Pattern
+     - [ ] Service Discovery
+     - [ ] Idempotent Services
+     - [ ] Disconnected Reliability (Titanic Pattern)
+     - [ ] High-Availability Pair (Binary Star Pattern)
+         - [ ] Detailed Requirements
+         - [ ] Preventing Split-Brain Syndrome
+         - [ ] Binary Star Implementation
+         - [ ] Binary Star Reactor
+     - [ ] Brokerless Reliability (Freelance Pattern)
+         - [ ] Model One: Simple Retry and Failover
+         - [ ] Model Two: Brutal Shotgun Massacre
+         - [ ] Model Three: Complex and Nasty
+     - [ ] Conclusion
+ - [ ] **Chapter 5 - Advanced Pub-Sub Patterns**
+     - [ ] Pros and Cons of Pub-Sub
+     - [ ] Pub-Sub Tracing (Espresso Pattern)
+     - [ ] Last Value Caching
+     - [ ] Slow Subscriber Detection (Suicidal Snail Pattern)
+     - [ ] High-Speed Subscribers (Black Box Pattern)
+     - [ ] Reliable Pub-Sub (Clone Pattern)
+         - [ ] Centralized Versus Decentralized
+         - [ ] Representing State as Key-Value Pairs
+         - [ ] Getting an Out-of-Band Snapshot
+         - [ ] Republishing Updates from Clients
+         - [ ] Working with Subtrees
+         - [ ] Ephemeral Values
+         - [ ] Using a Reactor
+         - [ ] Adding the Binary Star Pattern for Reliability
+         - [ ] The Clustered Hashmap Protocol
+         - [ ] Building a Multithreaded Stack and API
+ - [ ] **Chapter 6 - The ØMQ Community**
+     - [ ] Architecture of the ØMQ Community
+     - [ ] How to Make Really Large Architectures
+         - [ ] Psychology of Software Architecture
+         - [ ] The Importance of Contracts
+         - [ ] Eat Me
+         - [ ] The Process
+         - [ ] Crazy, Beautiful, and Easy
+         - [ ] Stranger, Meet Stranger
+         - [ ] Infinite Property
+         - [ ] Care and Feeding
+     - [ ] The ØMQ Process: C4
+         - [ ] Language
+         - [ ] Goals
+         - [ ] Preliminaries
+         - [ ] Licensing and Ownership
+         - [ ] Patch Requirements
+         - [ ] Development Process
+         - [ ] Creating Stable Releases
+         - [ ] Evolution of Public Contracts
+         - [ ] Project Administration
+     - [ ] A Real-Life Example
+     - [ ] Git Branches Considered Harmful
+         - [ ] Simplicity Versus Complexity
+         - [ ] Change Latency
+         - [ ] Learning Curve
+         - [ ] Cost of Failure
+         - [ ] Up-front Coordination
+         - [ ] Scalability
+         - [ ] Surprise and Expectations
+         - [ ] Economics of Participation
+         - [ ] Robustness in Conflict
+         - [ ] Guarantees of Isolation
+         - [ ] Visibility
+         - [ ] Conclusions
+     - [ ] Designing for Innovation
+         - [ ] The Tale of Two Bridges
+         - [ ] How ØMQ Lost Its Road Map
+         - [ ] Trash-Oriented Design
+         - [ ] Complexity-Oriented Design
+         - [ ] Simplicity Oriented Design
+     - [ ] Burnout
+     - [ ] Patterns for Success
+         - [ ] The Lazy Perfectionist
+         - [ ] The Benevolent Tyrant
+         - [ ] The Earth and Sky
+         - [ ] The Open Door
+         - [ ] The Laughing Clown
+         - [ ] The Mindful General
+         - [ ] The Social Engineer
+         - [ ] The Constant Gardener
+         - [ ] The Rolling Stone
+         - [ ] The Pirate Gang
+         - [ ] The Flash Mob
+         - [ ] The Canary Watcher
+         - [ ] The Hangman
+         - [ ] The Historian
+         - [ ] The Provocateur
+         - [ ] The Mystic
+ - [ ] **Chapter 7 - Advanced Architecture using ØMQ**
+     - [ ] Message-Oriented Pattern for Elastic Design
+         - [ ] Step 1: Internalize the Semantics
+         - [ ] Step 2: Draw a Rough Architecture
+         - [ ] Step 3: Decide on the Contracts
+         - [ ] Step 4: Write a Minimal End-to-End Solution
+         - [ ] Step 5: Solve One Problem and Repeat
+     - [ ] Unprotocols
+         - [ ] Protocols Without The Goats
+         - [ ] Contracts Are Hard
+         - [ ] How to Write Unprotocols
+         - [ ] Why use the GPLv3 for Public Specifications?
+         - [ ] Using ABNF
+         - [ ] The Cheap or Nasty Pattern
+         - [ ] Error Handling
+     - [ ] Serializing Your Data
+         - [ ] Abstraction Level
+         - [ ] ØMQ Framing
+         - [ ] Serialization Languages
+         - [ ] Serialization Libraries
+         - [ ] Handwritten Binary Serialization
+         - [ ] Code Generation
+     - [ ] Transferring Files
+     - [ ] State Machines
+     - [ ] Authentication Using SASL
+     - [ ] Large-Scale File Publishing: FileMQ
+         - [ ] Why make FileMQ?
+         - [ ] Initial Design Cut: the API
+         - [ ] Initial Design Cut: the Protocol
+         - [ ] Building and Trying FileMQ
+         - [ ] Internal Architecture
+         - [ ] Public API
+         - [ ] Design Notes
+         - [ ] Configuration
+         - [ ] File Stability
+         - [ ] Delivery Notifications
+         - [ ] Symbolic Links
+         - [ ] Recovery and Late Joiners
+         - [ ] Test Use Case: The Track Tool
+     - [ ] Getting an Official Port Number
+ - [ ] **Chapter 8 - A Framework for Distributed Computing**
+     - [ ] Design for The Real World
+     - [ ] The Secret Life of WiFi
+         - [ ] Why Mesh Isn't Here Yet
+         - [ ] Some Physics
+         - [ ] What's the Current Status?
+         - [ ] Conclusions
+     - [ ] Discovery
+         - [ ] Service Discovery
+         - [ ] Network Discovery
+         - [ ] The Use Case
+         - [ ] Technical Requirements
+         - [ ] A Self-Healing P2P Network in 30 Seconds
+         - [ ] Preemptive Discovery over Raw Sockets
+         - [ ] Cooperative Discovery Using UDP Broadcasts
+         - [ ] Multiple Nodes on One Device
+         - [ ] Designing the API
+         - [ ] More About UDP
+     - [ ] Spinning Off a Library Project
+     - [ ] Point-to-Point Messaging
+         - [ ] UDP Beacon Framing
+         - [ ] True Peer Connectivity (Harmony Pattern)
+         - [ ] Detecting Disappearances
+     - [ ] Group Messaging
+     - [ ] Testing and Simulation
+         - [ ] On Assertions
+         - [ ] On Up-Front Testing
+         - [ ] The Zyre Tester
+         - [ ] Test Results
+         - [ ] Tracing Activity
+         - [ ] Dealing with Blocked Peers
+     - [ ] Distributed Logging and Monitoring
+         - [ ] A Plausible Minimal Implementation
+         - [ ] Protocol Assertions
+         - [ ] Binary Logging Protocol
+     - [ ] Content Distribution
+     - [ ] Writing the Unprotocol
+     - [ ] Example Zyre Application
+     - [ ] Conclusions
+ - [ ] **Postface**
+     - [ ] Tales from Out There
+         - [ ] Rob Gagnon's Story
+         - [ ] Tom van Leeuwen's Story
+         - [ ] Michael Jakl's Story
+         - [ ] Vadim Shalts's Story
+     - [ ] How This Book Happened
+     - [ ] Removing Friction
+     - [ ] Licensing
+
