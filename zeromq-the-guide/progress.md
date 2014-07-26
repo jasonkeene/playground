@@ -11,7 +11,7 @@
      - [x] Ask and Ye Shall Receive
      - [x] A Minor Note on Strings
      - [x] Version Reporting
-     - [ ] Getting the Message Out
+     - [x] Getting the Message Out
      - [ ] Divide and Conquer
      - [ ] Programming with ØMQ
          - [ ] Getting the Context Right
