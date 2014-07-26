@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <zmq.h>
+#include "zhelpers.h"
 
 
 int main(void)
@@ -12,11 +13,10 @@ int main(void)
     zmq_connect(requester, "tcp://localhost:5555");
 
     for (int i = 0; i < 10; i++) {
-        char buffer[10];
         printf("Sending Hello %d...\n", i);
-        zmq_send(requester, "Hello", 5, 0);
-        zmq_recv(requester, buffer, 10, 0);
-        printf("Received %s\n", buffer);
+        s_send(requester, "Hello");
+        char *recv = s_recv(requester);
+        printf("Received %s\n", recv);
     }
     zmq_close(requester);
     zmq_ctx_destroy(context);

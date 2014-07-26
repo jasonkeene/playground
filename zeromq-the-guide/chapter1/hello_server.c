@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include <unistd.h>
 #include <assert.h>
 #include <zmq.h>
+#include "zhelpers.h"
 
 
 int main(void)
@@ -15,12 +15,11 @@ int main(void)
     assert(rc == 0);
 
     while (1) {
-        char buffer[10];
-        zmq_recv(responder, buffer, 10, 0);
-        printf("Received: %s...\n", buffer);
-        sleep(1);  // do some work
+        char *recv = s_recv(responder);
+        printf("Received: %s...\n", recv);
+        s_sleep(500);  // do some work
         printf("Sending World\n");
-        zmq_send(responder, "World", 5, 0);
+        s_send(responder, "World");
     }
     return 0;
 }
