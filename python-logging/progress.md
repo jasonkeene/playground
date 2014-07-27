@@ -1,4 +1,4 @@
-## (Logging HOWTO)[https://docs.python.org/2/howto/logging.html]
+## [Logging HOWTO](https://docs.python.org/2/howto/logging.html)
 
 - [ ] Basic Logging Tutorial
     - [ ] When to use logging
@@ -24,7 +24,7 @@
 - [ ] Using arbitrary objects as messages
 - [ ] Optimization
 
-## (logging — Logging facility for Python)[https://docs.python.org/2/library/logging.html]
+## [logging — Logging facility for Python](https://docs.python.org/2/library/logging.html)
 
 - [ ] Logger Objects
 - [ ] Logging Levels
