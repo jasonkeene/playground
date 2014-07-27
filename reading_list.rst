@@ -68,8 +68,10 @@ Miscellaneous
 -------------
 
 - `The Mythical Man-Month: Essays on Software Engineering <http://www.amazon.com/dp/0201835959/>`_
+- `No Silver Bullet <http://faculty.salisbury.edu/~xswang/Research/Papers/SERelated/no-silver-bullet.pdf>`_
+- `Culture & Empire Digital Revolution <https://github.com/cultureandempire/cultureandempire.github.io/raw/master/download/cande.pdf>`_
 - `Working Effectively with Legacy Code <http://www.amazon.com/dp/0131177052>`_
 - `Refactoring: Improving the Design of Existing Code <http://www.amazon.com/dp/0201485672/>`_
 - `Coders at Work: Reflections on the Craft of Programming <http://www.amazon.com/dp/1430219483/>`_
 - `The Pragmatic Programmer <http://www.amazon.com/dp/020161622X/>`_
-- `Digital Signal Processing: A Practical Guide for Engineers and Scientists <http://www.amazon.com/dp/075067444X/>`
+- `Digital Signal Processing: A Practical Guide for Engineers and Scientists <http://www.amazon.com/dp/075067444X/>`_
