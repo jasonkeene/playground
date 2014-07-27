@@ -1,0 +1,541 @@
+- [x] Section 1 - Your First App!
+    - [x] Introduction
+    - [x] Opening XCode
+    - [x] Label Use
+    - [x] Buttons
+    - [x] Colors
+    - [x] UITextField
+    - [x] UINavigationController
+- [x] Section 2 - Resources
+    - [x] Resources
+- [x] Section 3 - Variables
+    - [x] What is A Variable?
+    - [x] Intro to Commenting
+    - [x] Operations on Variables
+    - [x] Logging into the Console
+    - [x] Valid Variable Names
+    - [x] Tokens
+    - [x] Converting Units Part 1
+    - [x] Converting Units Part 2
+- [x] Section 4 - Challenge 1: Age of Laika
+    - [x] Age of Laika
+    - [x] Age of Laika Part 1
+    - [x] Age of Laika Part 2
+- [x] Section 5 - If Statements
+    - [x] If Statements
+    - [x] BOOLS
+    - [x] If Statements Cont'd
+- [x] Section 6 - Challenge 2: For Loops
+    - [x] Age of Laika Control Flow
+    - [x] For Loops
+    - [x] For Loops Part 2
+- [x] Section 7 - Challenge 3: 99 Sodas
+    - [x] 99 Sodas
+- [x] Section 8 - Intro to Object Oriented Programming
+    - [x] Create A New Project
+    - [x] What are Classes and Objects
+    - [x] Make Your Own Class
+    - [x] Header File
+    - [x] Implementation File
+- [x] Section 9 - Properties
+    - [x] Properties
+    - [x] Instantiating an Object
+    - [x] Import
+    - [x] Instantiating an Object Cont'd
+    - [x] Setting Properties
+- [x] Section 10 - Methods
+    - [x] Methods
+    - [x] Implementing our Methods
+    - [x] Methods with Arguements
+    - [x] Self Properties
+    - [x] Self Methods
+    - [x] Methods with Multiple Arguments
+    - [x] Methods with Return Values
+    - [x] Review (weekly recap)
+- [x] Section 11 - Challenge 4: Methods
+    - [x] The Challenge
+    - [x] Methods Solution
+- [x] Section 12 - Classes
+    - [x] ADD SOME FLARE (UI ELEMENTS)
+    - [x] Multiple Dogs
+    - [x] NSMutableArray
+    - [x] Documentation
+    - [x] Multiple Dogs Continued
+- [x] Section 13 - Extra Credit: Animations
+    - [x] EC: Animation (strictly for Extra Credit)
+- [x] Section 14 - Challenge 5: Debug Recurring Dog
+    - [x] The Challenge
+    - [x] Recuring Dog Pictures
+- [x] Section 15 - Inheritance
+    - [x] Inheritance
+    - [x] Subclassing MBFDog
+    - [x] Implementing a Superclass Method
+    - [x] Super
+- [x] Section 16 - Object Continued
+    - [x] The Difference Between Objects and Primitives
+    - [x] NSString
+    - [x] Iterating through an Array
+    - [x] What's Really Going On Properties
+- [x] Section 17 - Pirate Adventure Assignment: Prereq's
+    - [x] NSArray Initializer and Embedded Array
+    - [x] CGPoint
+    - [x] Embedded If Statements
+    - [x] Buttons and AlertViews
+    - [x] Property of a Custom Class
+    - [x] Introduction to nil
+- [x] Section 18 - Pirate Adventure Assignment
+    - [x] Pirate Assignment
+    - [x] Pirate Game Introduction
+- [x] Section 19 - Pirate Adventure Solutions: Parts 1 & 2
+    - [x] Pirate Storyboard Setup
+    - [x] Hooking up the View
+    - [x] Creating our tile object
+    - [x] Factory Object
+    - [x] Factory Explained
+    - [x] Setting up the Initial Tile
+    - [x] Hiding our Buttons Dynamically
+    - [x] Navigating Between Tiles
+    - [x] Add a Story and Images
+- [x] Section 20 - A Review
+    - [x] Review (week2 wrap)
+    - [x] You did it!
+- [x] Section 21 - Pirate Adventure Solutions: Part 3
+    - [x] Weapon and Armor Class
+    - [x] Creating a Character Class
+    - [x] Create a Character
+    - [x] Adding a Character to the Application
+- [ ] Section 22 - Pirate Adventure Solutions: Part 4
+    - [ ] Updating the Tile Model
+    - [ ] Implementing our Action Changes
+    - [ ] Finishing our Action Changes
+    - [ ] Create a Boss
+    - [ ] Implementing our Boss
+    - [ ] Alerting the User
+    - [ ] Clean up and a Reset Button
+- [ ] Section 23 - Pirate Adventure Wrap Up
+    - [ ] Pirate Assignment Solution
+- [ ] Section 24 - Terminal and Git
+    - [ ] Terminal
+    - [ ] Git Part 1
+    - [ ] Git Part 2
+- [ ] Section 25 - Introduction to MVC
+    - [ ] MVC Overview
+    - [ ] Communication between the View Controller and Model/Views
+    - [ ] Communication from the View and Model to the View Controller
+- [ ] Section 26 - Introduction to UITableView
+    - [ ] Practice Using UITableView
+    - [ ] New Project
+    - [ ] A Quick Look at our Data Source
+    - [ ] NsIndexPath
+    - [ ] NSIndexPath Cont'd
+    - [ ] Having our TableViewDisplayour Model
+    - [ ] Model
+- [ ] Section 27 - Third Party Library
+    - [ ] NSDictionary
+    - [ ] Utilizing our new Model
+    - [ ] NSNumber
+    - [ ] #define
+    - [ ] Literals Review
+    - [ ] Class Methods
+- [ ] Section 28 - Review
+    - [ ] Section 3 Review
+- [ ] Section 29 - Challenge 6: UITableViewController
+    - [ ] The Challenge
+    - [ ] UITableViewController Solution
+- [ ] Section 30 - Models and Space Object
+    - [ ] Making a SpaceObject Class
+    - [ ] Literals Cont'd
+    - [ ] Custom Initializers
+    - [ ] Lets Create and Use Space Objects
+- [ ] Section 31 - Challenge 7: User Data Model
+    - [ ] The Challenge: User Data Model
+    - [ ] Solution Part 1
+    - [ ] Solution Part 2
+- [ ] Section 32 - Transitioning to a Second View Controller
+    - [ ] UINavigationController
+    - [ ] Push Segue
+    - [ ] Setting up our Second View Controller
+- [ ] Section 33 - UIScrollView
+    - [ ] UIScrollView - A Closer Look
+    - [ ] Setting up our UIScrollView
+    - [ ] Zooming
+    - [ ] Setting our ViewController as a Delegate
+- [ ] Section 34 - Challenge 8: UIScrollView
+    - [ ] The Challenge
+    - [ ] UIScrollView Solution
+- [ ] Section 35 - Passing Data between View Controllers
+    - [ ] Passing Data Forward
+    - [ ] id and introspection
+    - [ ] Implementing Introspection and Passing the Data
+    - [ ] Passing information to Proxy Properties instead of Outlets
+- [ ] Section 36 - Challenge 9: Passing Data
+    - [ ] The Challenge
+    - [ ] Passing Information to another ViewController Solution
+- [ ] Section 37 - Displaying our SpaceData
+    - [ ] Adding another UITableView Part 1
+    - [ ] Adding Another UITable Part 2
+    - [ ] Writing the Logic behind our Space Data Table View Controller
+    - [ ] Adding a Method from our UITableViewDelegate
+    - [ ] Performing the Segue
+- [ ] Section 38 - Challenge 10: UITableView
+    - [ ] The Challenge
+    - [ ] UITableView Solution
+- [ ] Section 39 - Review
+    - [ ] Review
+- [ ] Section 40 - Introduction to Protocols and Delegation
+    - [ ] Chance of us Discovering a New Planet
+    - [ ] Designing our New View Controller
+    - [ ] One more Segue!
+    - [ ] Protocols in Objective-C
+- [ ] Section 41 - Implementing our Own Protocls
+    - [ ] Our Own Protocol Part 1
+    - [ ] Our Own Protocol Part 2
+    - [ ] Our Own Protocol Part 3
+    - [ ] Our Own Protocol Part 4
+    - [ ] Our Own Protocol Part 5
+- [ ] Section 42 - Finishing Touches on Protcols
+    - [ ] Reload Data
+    - [ ] Loose Ends
+    - [ ] Solution - No More Mercury
+    - [ ] Lazy Instantiation
+- [ ] Section 43 - Challenge 11: Protocols and Delegation
+    - [ ] The Challenge
+    - [ ] Protocols and Delegation Solution
+    - [ ] Protocols and Delegation Extra Credit
+- [ ] Section 44 - Intro to Persistence
+    - [ ] Persistence Overview
+    - [ ] NSUserDefaults
+- [ ] Section 45 - Data Persistence NSUserDefaults
+    - [ ] Getting our Space Objects into Tip Top Property List Shape
+    - [ ] Back to our NSUserDefaults
+    - [ ] Retrieving our Data
+    - [ ] Deleting some Cells from out UITableView
+- [ ] Section 46 - Challenge 12: NSUserDefaults, Segues and Protocols
+    - [ ] The Challenge
+    - [ ] NSUser Defaults, Segues and Protocols Solution Part 1
+    - [ ] NSUser Defaults, Segues and Protocols Solution Part 2
+    - [ ] NSUser Defaults, Segues and Protocols Solution Part 3
+    - [ ] NSUser Defaults, Segues and Protocols Solution Part 4
+    - [ ] NSUser Defaults, Segues and Protocols Solution Part 5
+    - [ ] NSUser Defaults, Segues and Protocols Solution Part 6
+- [ ] Section 47 - Review
+    - [ ] Review
+- [ ] Section 48 - Overdue Task List Assignment: Prereq's
+    - [ ] .PCH File
+    - [ ] TextView and the Keyboard
+    - [ ] NSDate, Datepicker, NSDataFormatter and TimeInterval
+    - [ ] Insert and Remove Objects from a NSMutableArray
+- [ ] Section 49 - Overdue Task List Assignment
+    - [ ] Overdue Task List Assignment
+- [ ] Section 50 - Overdue Task List Assignment: Part 1
+    - [ ] Setting up the Storyboard Part 1
+    - [ ] Setting up the Storyboard Part 2
+    - [ ] IBOutlets
+- [ ] Section 51 - Overdue Task List Assignment: Part 2
+    - [ ] Setup our #defines
+    - [ ] Creating a Task Model
+    - [ ] Implement the Custom Initializers
+- [ ] Section 52 - Overdue Task List Assignment: Part 3
+    - [ ] Protocol for the Cancel and Add Task Buttons
+    - [ ] Call the Delegate Methods in the Cancel and AddTask Actions
+    - [ ] An Array to hold the Tasks
+    - [ ] Implementing the Delegate Methods and Saving the Task
+    - [ ] Segue to the AddTaskViewController
+- [ ] Section 53 - Overdue Task List Assignment: Part 4
+    - [ ] Access NSUserDefaults to Setup the taskObjects Array
+- [ ] Section 54 - Overdue Task List Assignment: Part 5
+    - [ ] Setup the ViewController's TableViewDataSource
+- [ ] Section 55 - Overdue Task List Assignment: Part 6
+    - [ ] Color Coding the UiTableViewCells
+    - [ ] Completing a Task
+- [ ] Section 56 - Overdue Task List Assignment: Part 7
+    - [ ] Delete a Task
+- [ ] Section 57 - Overdue Task List Assignment: Part 8
+    - [ ] Displaying Information in the DetailViewController
+- [ ] Section 58 - Overdue Task List Assignment: Part 9
+    - [ ] Reorder Tasks
+    - [ ] Persisting the Reorder
+- [ ] Section 59 - Overdue Task List Assignment: Part 10
+    - [ ] Setting up the EditViewController
+    - [ ] Saving the EditViewController Changes with a Delegate
+    - [ ] Implementing the EditViewController Delegate
+    - [ ] Implementing the DetailViewController Delegate
+- [ ] Section 60 - Overdue Task List Assignment: Part 11
+    - [ ] Make the Keyboards Go Away!
+- [ ] Section 61 - Overdue Task List Assignment: Solution
+    - [ ] Overdue Task List Solution
+- [ ] Section 62 - A Deeper Look into Views
+    - [ ] Subviews
+    - [ ] Difference between a View's Frame and Bounds
+    - [ ] A Deeper Look into a View's Frame and Bounds Part 1
+    - [ ] A Deeper Look into a View's Frame and Bounds Part 2
+- [ ] Section 63 - Creating Views Programatically
+    - [ ] Adding a UIView Programmatically
+    - [ ] Adding UIButton Programmatically
+    - [ ] Target Action
+- [ ] Section 64 - Challenge 13: Custom Views
+    - [ ] The Challenge
+    - [ ] Custom Views Solution
+- [ ] Section 65 - Autolayout and Constraints
+    - [ ] Explore Autolayout
+    - [ ] Demo Autolayouts Part 1
+    - [ ] Demo Autolayouts Part 2
+- [ ] Section 66 - Further Exploration of Views
+    - [ ] View Controllers Lifecycle
+    - [ ] Custom Views
+- [ ] Section 67 - Introduction to UIBezierPaths
+    - [ ] Drawing with UIBezierPath Part 1
+    - [ ] Drawing with UIBezierPath Part 2
+- [ ] Section 68 - Challenge 14: UIBezierPath
+    - [ ] The Challenge
+    - [ ] UIBezierPath Solution
+- [ ] Section 69 - Another UIBezierPath
+    - [ ] Switch to an iPad Application
+    - [ ] More UIBezierPath
+    - [ ] Creating our Path
+    - [ ] Create a PathView Class
+- [ ] Section 70 - Creating a UIBezierPath on our Mountain
+    - [ ] How Storyboard Files are Saved
+    - [ ] Talk about Code Snippets
+    - [ ] Finishing our Mountain Path
+- [ ] Section 71 - Gesture Recognizers and Screen Interaction
+    - [ ] Gesture Recognizers
+    - [ ] Pan Gesture Recognizers
+- [ ] Section 72 - Scoring for our MountainPath
+    - [ ] Detect a UIBezierPath Hit
+    - [ ] NSTIMER
+    - [ ] Adding a Score
+    - [ ] Finishing Touches on our Maze
+- [ ] Section 73 - Theory: Memory Management
+    - [ ] Memory Management Detour
+    - [ ] Object Ownership Strong and Weak
+    - [ ] Retain Cycle they are Bad
+- [ ] Section 74 - Setting up our New Project
+    - [ ] Beginning a New Journey
+    - [ ] Starting our New Application and the App Delegate
+    - [ ] Adding a Storyboard and a UITableViewController
+- [ ] Section 75 - Introduction to CoreData
+    - [ ] Core Data an Initial Light Dusting
+    - [ ] Updating our xdatamodel
+- [ ] Section 76 - UIAlertView
+    - [ ] Adding a New Album with UIAlertView
+    - [ ] UIAlertViewDelegate
+- [ ] Section 77 - Our CoreData
+    - [ ] It;s Alive! Creating our First NSManagedObjectSubclass
+    - [ ] Nsmanage ObjectSubclass a Quick Review
+    - [ ] Finally Creating an Album
+- [ ] Section 78 - Accessing our Models from CoreData
+    - [ ] Querying our Database for Objects
+    - [ ] Review Accessing Objects from our Database
+    - [ ] A Quick Refactor
+- [ ] Section 79 - UICollectionViewController
+    - [ ] UICollectionViewController
+    - [ ] Getting a Photo on those Slides
+- [ ] Section 80 - UIImagePickerController
+    - [ ] UIImagePickerController
+    - [ ] UIImagePickerController Delegate
+    - [ ] Grabbing our Photo from UIImagePickerController
+- [ ] Section 81 - A Photo Model
+    - [ ] Adjust our Core Data Model
+    - [ ] Filling out our TWPIctureDataTransformer
+- [ ] Section 82 - Saving a Photo
+    - [ ] Creating and Storing our Photos
+    - [ ] Implementing Creating and Storing the Photos
+- [ ] Section 83 - Further Photo Intergration
+    - [ ] Prepare the Segue Practice
+    - [ ] Querying the Photos and Debugging
+- [ ] Section 84 - Deleting a Photo
+    - [ ] Adding a Photo DetailViewController
+    - [ ] Deleting a Photo from Core Data
+    - [ ] Fixing the Bug
+- [ ] Section 85 - Preparing for Image Filters
+    - [ ] Adding a CollectionViewController for the Filters
+    - [ ] Creating Filters
+    - [ ] CollectionView DataSource Methods
+- [ ] Section 86 - Image Filts
+    - [ ] Adding our Filters
+    - [ ] Through our Filters
+    - [ ] Saving our Filters
+- [ ] Section 87 - Multithreading
+    - [ ] Why is our App Slow
+    - [ ] GCD and Threading Overview
+    - [ ] Blocks
+- [ ] Section 88 - Blocks and Grand Central Dispatch
+    - [ ] Creating a Block and Implementing it
+    - [ ] GCD Example
+    - [ ] Fixing our Bug
+- [ ] Section 89 - Getting Ready for Parse
+    - [ ] Install Ruby and Ruby Gems
+    - [ ] What is CocoaPods and Installation
+    - [ ] Sign Up for Parse
+    - [ ] What is Parse and Why use it
+    - [ ] Installing Parse
+    - [ ] Installing Parse The Hard Way
+- [ ] Section 90 - Testing Parse
+    - [ ] Is Parse Working
+    - [ ] Testing Parse Storyboard Setup
+- [ ] Section 91 - PFObjects
+    - [ ] Creating PFObjects
+    - [ ] Saving PFObjects
+    - [ ] Querying for the PFObjects
+- [ ] Section 92 - Final Project: Matchedup
+    - [ ] Matchedup
+    - [ ] Setting up Parse
+    - [ ] Sign up and Setting up Facebook
+    - [ ] Integrating Facebook
+    - [ ] Installing Facebook the Hard Way
+- [ ] Section 93 - Matchedup: Login Functionality
+    - [ ] Login Functionality
+    - [ ] PFUser
+    - [ ] Saving User Information
+- [ ] Section 94 - Matchedup: The API Response
+    - [ ] A Deeper Look in Facebook's API
+    - [ ] Global Constants
+    - [ ] Implementing Our Constants
+    - [ ] Prep to Save a Photo Creating Constants and a URL
+    - [ ] Saving the Image with a PFFile
+    - [ ] Hitting the URL
+    - [ ] Implementing NSURLConnection Delegates
+    - [ ] What is the User is Already Logged in?
+    - [ ] Adding a Picture to the ProfileViewController
+- [ ] Section 95 - Matchedup: Next Steps
+    - [ ] Wireframes
+    - [ ] Storyboard Refactor
+- [ ] Section 96 - Matchedup: Adding the ViewController's
+    - [ ] Add a HomeViewController
+    - [ ] Add a SettingsViewController
+    - [ ] Add a EditProfileViewController
+    - [ ] Add a ProfileViewController
+    - [ ] Refactor Login View Controller
+    - [ ] Setting up the HomeViewController
+- [ ] Section 97 - Matchedup: Managing Actions
+    - [ ] Downloading the Home Photo
+    - [ ] Updating the Home View's Information
+    - [ ] Loading the Next Photo
+    - [ ] Save a Like
+    - [ ] Save a Dislike
+    - [ ] Check for Likes
+    - [ ] Check for Dislikes
+    - [ ] Implement our Helper Methods
+    - [ ] Doing a Initial Query for Likes
+    - [ ] Creating Global Constants for the HomeViewController
+    - [ ] Implementing Constants in the HomeViewController
+- [ ] Section 98 - Matchedup: Managing User Profiles
+    - [ ] Creating a Test Users
+    - [ ] Implementing the ProfileViewController
+    - [ ] Global Constants for the Settings Page
+    - [ ] Setting Initial Values and Preparing the Slider and Switches
+    - [ ] Sliders and Switch Changes
+    - [ ] Loading the EditProfileViewController
+    - [ ] Saving the TagLine
+    - [ ] Logging Out
+- [ ] Section 99 - Matchedup: Storyboard Setup
+    - [ ] Storyboard Setup Match
+    - [ ] Storyboard Setup Matches
+    - [ ] Storyboard Setup Chat
+- [ ] Section 100 - Matchedup: Chat Prep
+    - [ ] Check for Users Likes
+    - [ ] Create a ChatRoom
+- [ ] Section 101 - Matchedup: MatchViewController
+    - [ ] Prepping the MatchViewController
+    - [ ] Implementing the MatchViewController
+    - [ ] Adding a Delegate to the MatchViewController
+- [ ] Section 102 - Matchedup: Chat Setup
+    - [ ] Finding Available Chats
+    - [ ] Presenting Available Chats
+    - [ ] Adding a Picture to the Chat List
+    - [ ] Selecting a ChatRoom
+    - [ ] Prepare the ChatViewController
+- [ ] Section 103 - Matchedup: Implementing Chats
+    - [ ] Getting Started Implementing Chats
+    - [ ] didSendText
+    - [ ] messageTypeForRowAtIndexPath
+    - [ ] bubbleImageViewWithType
+    - [ ] Additional Methods
+    - [ ] Optional Methods
+    - [ ] Required
+- [ ] Section 104 - Matchedup: Check/Refresh Chats
+    - [ ] Check for Chats
+    - [ ] Refreshing our Chat
+    - [ ] Testing Chats
+- [ ] Section 105 - Matchedup: Settings
+    - [ ] Setup Defaults Settings
+    - [ ] Allow Photo Helper Method
+    - [ ] Implement the Allow Photo
+- [ ] Section 106 - Matchedup: Constants
+    - [ ] Constants for ChatRoom and Chat
+    - [ ] Implementing Constants
+- [ ] Section 107 - Matchedup: Assets
+    - [ ] Asset Library
+    - [ ] Setting a Global Nav Bar
+    - [ ] Assets Login ViewController
+    - [ ] Asset Home ViewController
+    - [ ] Assets Profile ViewController
+    - [ ] Finishing up the Profile ViewController
+    - [ ] Assets Matches ViewController
+    - [ ] Update the ChatViewController
+    - [ ] Assets Setting ViewController
+    - [ ] EditProfile View Controller
+- [ ] Section 108 - Matchedup: Transition
+    - [ ] MatchViewController
+    - [ ] Create a Transition Class
+    - [ ] Conform and Implement UIViewControllerTransitioningDelegate
+- [ ] Section 109 - Matchedup: MixPanel
+    - [ ] Getting Started with MixPanel
+    - [ ] Implement MixPanel
+    - [ ] Using MixPanel
+- [ ] Section 110 - You did it!
+    - [ ] You did it!
+- [ ] Section 111 - Requested Topic: MVC Review
+    - [ ] MVC Review Part 1
+    - [ ] MVC Review Part 2
+    - [ ] MVC Review Part 3
+    - [ ] MVC Review Part 4
+- [ ] Section 112 - Requested Topic: World Traveler Part 1
+    - [ ] Introduction Libraries and Learning Goals
+    - [ ] Dependencies and Libraries
+    - [ ] Storyboard Setup
+    - [ ] Model Adding Entities
+    - [ ] Model Adding Relationships
+    - [ ] Adding a PrimaryAttributeKey
+    - [ ] Subclassing MMRecord and keyPathForResponseObject
+    - [ ] Subclassing AFHTTPSessionManager
+    - [ ] foursquare ClientID and ClientSecret
+    - [ ] Imports and MagicalRecord Setup
+    - [ ] Customizing TCFourSquareSesssionManager
+    - [ ] Making our First Request
+    - [ ] Displaying the Information
+    - [ ] Current Location
+    - [ ] Venue Setup
+    - [ ] Setting up the Map
+- [ ] Section 113 - Requested Topic: World Traveler Part 2
+    - [ ] Finishing up our MapViewController
+    - [ ] Updating the MapViewController
+    - [ ] Setting up the Directions ViewController
+    - [ ] Location Manager a Quick Review
+    - [ ] Getting Directions
+    - [ ] Using our Directions Method
+    - [ ] Getting the Route
+    - [ ] Adding a Latitude and Longitude Offset
+    - [ ] Drawing our Overlay
+    - [ ] Setup the DirectionsListViewController
+    - [ ] Segue To The DirectionsListViewController
+    - [ ] Setup the List of Directions
+    - [ ] Adding a TableViewHeader
+    - [ ] Adding Map Snapshots
+    - [ ] Installing a Facebook style Menu with MMDrawerController
+    - [ ] Adding a MenuViewController to the Storyboard
+    - [ ] Update the App Delegate
+    - [ ] Setting Drawer Attributes
+    - [ ] Adding Animations to our Menu
+    - [ ] Adding a Menu Button
+    - [ ] Setting up the MenuViewController
+    - [ ] Adding our ListViewController to the Menu
+    - [ ] Selecting our Menu Item
+    - [ ] Adding some More ViewControllers
+    - [ ] Adding our new ViewControllers to the Menu ViewController
+    - [ ] Adding Menu Buttons to the Favorite and Add Venue ViewControllers
+    - [ ] Adding Favoriting
+    - [ ] Save using MagicalRecord
+    - [ ] Displaying our Favorite Venues with Magical Record
+    - [ ] Creating our a custom Venue with Magical Record

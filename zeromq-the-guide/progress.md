@@ -275,4 +275,3 @@
      - [ ] How This Book Happened
      - [ ] Removing Friction
      - [ ] Licensing
-
