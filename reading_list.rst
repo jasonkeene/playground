@@ -75,3 +75,5 @@ Miscellaneous
 - `Coders at Work: Reflections on the Craft of Programming <http://www.amazon.com/dp/1430219483/>`_
 - `The Pragmatic Programmer <http://www.amazon.com/dp/020161622X/>`_
 - `Digital Signal Processing: A Practical Guide for Engineers and Scientists <http://www.amazon.com/dp/075067444X/>`_
+- `The Swift Programming Language <https://itunes.apple.com/us/book/swift-programming-language/id881256329>`_
+- `Using Swift with Cocoa and Objective-C <https://developer.apple.com/library/prerelease/ios/documentation/swift/conceptual/buildingcocoaapps/index.html>`_
