@@ -1,0 +1,11 @@
+WARNING:__main__:OMG! A NameError was raised!
+Traceback (most recent call last):
+  File "log_exec.py", line 10, in <module>
+    foobar
+NameError: name 'foobar' is not defined
+ERROR:__main__:OMG! A NameError was raised!
+ERROR:__main__:OMG! A NameError was raised!
+Traceback (most recent call last):
+  File "log_exec.py", line 10, in <module>
+    foobar
+NameError: name 'foobar' is not defined

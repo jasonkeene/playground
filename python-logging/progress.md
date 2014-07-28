@@ -9,20 +9,20 @@
     - [x] Changing the format of displayed messages
     - [x] Displaying the date/time in messages
     - [x] Next Steps
-- [ ] Advanced Logging Tutorial
-    - [ ] Logging Flow
-    - [ ] Loggers
-    - [ ] Handlers
-    - [ ] Formatters
-    - [ ] Configuring Logging
-    - [ ] What happens if no configuration is provided
-    - [ ] Configuring Logging for a Library
-- [ ] Logging Levels
-    - [ ] Custom Levels
-- [ ] Useful Handlers
-- [ ] Exceptions raised during logging
-- [ ] Using arbitrary objects as messages
-- [ ] Optimization
+- [x] Advanced Logging Tutorial
+    - [x] Logging Flow
+    - [x] Loggers
+    - [x] Handlers
+    - [x] Formatters
+    - [x] Configuring Logging
+    - [x] What happens if no configuration is provided
+    - [x] Configuring Logging for a Library
+- [x] Logging Levels
+    - [x] Custom Levels
+- [x] Useful Handlers
+- [x] Exceptions raised during logging
+- [x] Using arbitrary objects as messages
+- [x] Optimization
 
 ## [Logging Cookbook](https://docs.python.org/2/howto/logging-cookbook.html)
 
