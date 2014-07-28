@@ -55,7 +55,7 @@
 - [ ] LoggerAdapter Objects
 - [ ] Thread Safety
 - [ ] Module-Level Functions
-- [ ] Integration with the warnings module
+- [x] Integration with the warnings module
 
 ## [logging.config — Logging configuration](https://docs.python.org/2/library/logging.config.html)
 
@@ -69,17 +69,6 @@
     - [ ] Access to internal objects
     - [ ] Import resolution and custom importers
 - [ ] Configuration file format
-
-## [warnings — Warning control](https://docs.python.org/2/library/warnings.html)
-
-- [ ] Warning Categories
-- [ ] The Warnings Filter
-- [ ] Default Warning Filters
-- [ ] Temporarily Suppressing Warnings
-- [ ] Testing Warnings
-- [ ] Updating Code For New Versions of Python
-- [ ] Available Functions
-- [ ] Available Context Managers
 
 ## [logging.handlers — Logging handlers](https://docs.python.org/2/library/logging.handlers.html)
 
@@ -97,6 +86,17 @@
 - [ ] MemoryHandler
 - [ ] HTTPHandler
 
+## [warnings — Warning control](https://docs.python.org/2/library/warnings.html)
+
+- [ ] Warning Categories
+- [ ] The Warnings Filter
+    - [ ] Default Warning Filters
+- [ ] Temporarily Suppressing Warnings
+- [ ] Testing Warnings
+- [ ] Updating Code For New Versions of Python
+- [ ] Available Functions
+- [ ] Available Context Managers
+
 ## Other Reading
 
 - [x] https://docs.python.org/2/tutorial/stdlib2.html#logging
@@ -105,3 +105,5 @@
 - [ ] http://legacy.python.org/dev/peps/pep-0282/
 - [ ] https://docs.python.org/2/whatsnew/2.7.html#pep-391-dictionary-based-configuration-for-logging
 - [ ] http://legacy.python.org/dev/peps/pep-0391/
+- [x] https://docs.python.org/2/whatsnew/2.1.html#pep-230-warning-framework
+- [ ] http://legacy.python.org/dev/peps/pep-0230/
