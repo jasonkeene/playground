@@ -88,7 +88,7 @@
 
 ## [warnings — Warning control](https://docs.python.org/2/library/warnings.html)
 
-- [ ] Warning Categories
+- [x] Warning Categories
 - [ ] The Warnings Filter
     - [ ] Default Warning Filters
 - [ ] Temporarily Suppressing Warnings
