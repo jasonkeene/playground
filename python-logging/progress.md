@@ -26,22 +26,22 @@
 
 ## [Logging Cookbook](https://docs.python.org/2/howto/logging-cookbook.html)
 
-- [ ] Using logging in multiple modules
-- [ ] Multiple handlers and formatters
-- [ ] Logging to multiple destinations
-- [ ] Configuration server example
-- [ ] Sending and receiving logging events across a network
-- [ ] Adding contextual information to your logging output
-    - [ ] Using LoggerAdapters to impart contextual information
-        - [ ] Using objects other than dicts to pass contextual information
-    - [ ] Using Filters to impart contextual information
-- [ ] Logging to a single file from multiple processes
-- [ ] Using file rotation
-- [ ] An example dictionary-based configuration
-- [ ] Inserting a BOM into messages sent to a SysLogHandler
-- [ ] Implementing structured logging
-- [ ] Customizing handlers with dictConfig()
-- [ ] Configuring filters with dictConfig()
+- [x] Using logging in multiple modules
+- [x] Multiple handlers and formatters
+- [x] Logging to multiple destinations
+- [x] Configuration server example
+- [x] Sending and receiving logging events across a network
+- [x] Adding contextual information to your logging output
+    - [x] Using LoggerAdapters to impart contextual information
+        - [x] Using objects other than dicts to pass contextual information
+    - [x] Using Filters to impart contextual information
+- [x] Logging to a single file from multiple processes
+- [x] Using file rotation
+- [x] An example dictionary-based configuration
+- [x] Inserting a BOM into messages sent to a SysLogHandler
+- [x] Implementing structured logging
+- [x] Customizing handlers with dictConfig()
+- [x] Configuring filters with dictConfig()
 
 ## [logging — Logging facility for Python](https://docs.python.org/2/library/logging.html)
 
