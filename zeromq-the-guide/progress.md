@@ -15,9 +15,9 @@
      - [x] Version Reporting
      - [x] Getting the Message Out
      - [x] Divide and Conquer
-     - [ ] Programming with ØMQ
-         - [ ] Getting the Context Right
-         - [ ] Making a Clean Exit
+     - [x] Programming with ØMQ
+         - [x] Getting the Context Right
+         - [x] Making a Clean Exit
      - [ ] Why We Needed ØMQ
      - [ ] Socket Scalability
      - [ ] Upgrading from ØMQ v2.2 to ØMQ v3.2
