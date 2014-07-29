@@ -1,12 +1,12 @@
 ## [OpenStack Installation Guide](http://docs.openstack.org/icehouse/install-guide/install/yum/content/)
 
-- [ ] Preface
-    - [ ] Conventions
-    - [ ] Document change history
-- [ ] 1. Architecture
-    - [ ] Overview
-    - [ ] Conceptual architecture
-    - [ ] Example architectures
+- [x] Preface
+    - [x] Conventions
+    - [x] Document change history
+- [x] 1. Architecture
+    - [x] Overview
+    - [x] Conceptual architecture
+    - [x] Example architectures
 - [ ] 2. Basic environment configuration
     - [ ] Before you begin
     - [ ] Networking
