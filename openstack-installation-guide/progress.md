@@ -1,0 +1,95 @@
+## [OpenStack Installation Guide](http://docs.openstack.org/icehouse/install-guide/install/yum/content/)
+
+- [ ] Preface
+    - [ ] Conventions
+    - [ ] Document change history
+- [ ] 1. Architecture
+    - [ ] Overview
+    - [ ] Conceptual architecture
+    - [ ] Example architectures
+- [ ] 2. Basic environment configuration
+    - [ ] Before you begin
+    - [ ] Networking
+    - [ ] Network Time Protocol (NTP)
+    - [ ] Passwords
+    - [ ] Database
+    - [ ] OpenStack packages
+    - [ ] Messaging server
+- [ ] 3. Configure the Identity Service
+    - [ ] Identity Service concepts
+    - [ ] Install the Identity Service
+    - [ ] Define users, tenants, and roles
+    - [ ] Define services and API endpoints
+    - [ ] Verify the Identity Service installation
+- [ ] 4. Install and configure the OpenStack clients
+    - [ ] Overview
+    - [ ] Install the OpenStack command-line clients
+    - [ ] Set environment variables using the OpenStack RC file
+    - [ ] Create openrc.sh files
+- [ ] 5. Configure the Image Service
+    - [ ] Image Service overview
+    - [ ] Install the Image Service
+    - [ ] Verify the Image Service installation
+- [ ] 6. Configure Compute services
+    - [ ] Compute service
+    - [ ] Install Compute controller services
+    - [ ] Configure a compute node
+- [ ] 7. Add a networking service
+    - [ ] OpenStack Networking (neutron)
+    - [ ] Legacy networking (nova-network)
+    - [ ] Next steps
+- [ ] 8. Add the dashboard
+    - [ ] System requirements
+    - [ ] Install the dashboard
+    - [ ] Set up session storage for the dashboard
+    - [ ] Next steps
+- [ ] 9. Add the Block Storage service
+    - [ ] Block Storage
+    - [ ] Configure a Block Storage service controller
+    - [ ] Configure a Block Storage service node
+    - [ ] Verify the Block Storage installation
+    - [ ] Next steps
+- [ ] 10. Add Object Storage
+    - [ ] Object Storage service
+    - [ ] System requirements for Object Storage
+    - [ ] Plan networking for Object Storage
+    - [ ] Example of Object Storage installation architecture
+    - [ ] Install Object Storage
+    - [ ] Install and configure storage nodes
+    - [ ] Install and configure the proxy node
+    - [ ] Start services on the storage nodes
+    - [ ] Verify the installation
+    - [ ] Add another proxy server
+    - [ ] Next steps
+- [ ] 11. Add the Orchestration service
+    - [ ] Orchestration service overview
+    - [ ] Install the Orchestration service
+    - [ ] Verify the Orchestration service installation
+    - [ ] Next steps
+- [ ] 12. Add the Telemetry module
+    - [ ] Telemetry
+    - [ ] Install the Telemetry module
+    - [ ] Install the Compute agent for Telemetry
+    - [ ] Configure the Image Service for Telemetry
+    - [ ] Add the Block Storage service agent for Telemetry
+    - [ ] Configure the Object Storage service for Telemetry
+    - [ ] Verify the Telemetry installation
+    - [ ] Next steps
+- [ ] 13. Add the Database service
+    - [ ] Database service overview
+    - [ ] Install the Database service
+    - [ ] Verify the Database service installation
+- [ ] 14. Launch an instance
+    - [ ] Launch an instance with OpenStack Networking (neutron)
+    - [ ] Launch an instance with legacy networking (nova-network)
+- [ ] A. Reserved user IDs
+- [ ] B. Community support
+    - [ ] Documentation
+    - [ ] ask.openstack.org
+    - [ ] OpenStack mailing lists
+    - [ ] The OpenStack wiki
+    - [ ] The Launchpad Bugs area
+    - [ ] The OpenStack IRC channel
+    - [ ] Documentation feedback
+    - [ ] OpenStack distribution packages
+- [ ] Glossary
