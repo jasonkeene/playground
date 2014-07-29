@@ -18,13 +18,13 @@
      - [x] Programming with ØMQ
          - [x] Getting the Context Right
          - [x] Making a Clean Exit
-     - [ ] Why We Needed ØMQ
-     - [ ] Socket Scalability
-     - [ ] Upgrading from ØMQ v2.2 to ØMQ v3.2
-         - [ ] Compatible Changes
-         - [ ] Incompatible Changes
-         - [ ] Suggested Shim Macros
-     - [ ] Warning: Unstable Paradigms!
+     - [x] Why We Needed ØMQ
+     - [x] Socket Scalability
+     - [x] Upgrading from ØMQ v2.2 to ØMQ v3.2
+         - [x] Compatible Changes
+         - [x] Incompatible Changes
+         - [x] Suggested Shim Macros
+     - [x] Warning: Unstable Paradigms!
  - [ ] **Chapter 2 - Sockets and Patterns**
      - [ ] The Socket API
          - [ ] Plugging Sockets into the Topology
