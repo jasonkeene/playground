@@ -14,7 +14,7 @@
      - [x] A Minor Note on Strings
      - [x] Version Reporting
      - [x] Getting the Message Out
-     - [ ] Divide and Conquer
+     - [x] Divide and Conquer
      - [ ] Programming with ØMQ
          - [ ] Getting the Context Right
          - [ ] Making a Clean Exit

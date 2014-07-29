@@ -1,5 +1,5 @@
 
-all: hello version weather
+all: hello version weather ventilator worker sink
 .PHONY: all
 
 bin:
@@ -31,6 +31,15 @@ weather_server: bin weather_lib
 
 weather_client: bin weather_lib
 	clang -Wall -Wno-unused-function lib/weather.o weather_client.c -o bin/weather_client -L/opt/local/lib -I/opt/local/include -lzmq
+
+ventilator: bin
+	clang -Wall -Wno-unused-function ventilator.c -o bin/ventilator -L/opt/local/lib -I/opt/local/include -lzmq
+
+worker: bin
+	clang -Wall -Wno-unused-function worker.c -o bin/worker -L/opt/local/lib -I/opt/local/include -lzmq
+
+sink: bin
+	clang -Wall -Wno-unused-function sink.c -o bin/sink -L/opt/local/lib -I/opt/local/include -lzmq
 
 clean:
 	rm -r bin lib
