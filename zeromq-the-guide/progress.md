@@ -26,14 +26,14 @@
          - [x] Suggested Shim Macros
      - [x] Warning: Unstable Paradigms!
  - [ ] **Chapter 2 - Sockets and Patterns**
-     - [ ] The Socket API
-         - [ ] Plugging Sockets into the Topology
-         - [ ] Sending and Receiving Messages
-         - [ ] Unicast Transports
-         - [ ] ØMQ is Not a Neutral Carrier
-         - [ ] I/O Threads
+     - [x] The Socket API
+         - [x] Plugging Sockets into the Topology
+         - [x] Sending and Receiving Messages
+         - [x] Unicast Transports
+         - [x] ØMQ is Not a Neutral Carrier
+         - [x] I/O Threads
      - [ ] Messaging Patterns
-         - [ ] High-Level Messaging Patterns
+         - [x] High-Level Messaging Patterns
          - [ ] Working with Messages
          - [ ] Handling Multiple Sockets
          - [ ] Multipart Messages
