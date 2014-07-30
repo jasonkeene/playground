@@ -2,10 +2,13 @@
 
 #include <zmq.h>
 
+#include "utils.h"
+
 
 int main(int argc, char *argv[])
 {
-    printf("Starting client.\n");
+    int port = get_port(argc, argv);
+    printf("Starting client on port %i.\n", port);
     printf("Stopping client.\n");
     return 0;
 }

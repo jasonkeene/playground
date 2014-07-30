@@ -8,11 +8,14 @@ bin:
 lib:
 	[ ! -d lib ] && mkdir lib
 
-client: bin
-	clang -Wall -Wno-unused-function client.c -o bin/client -L/opt/local/lib -I/opt/local/include -lzmq
+utils: lib
+	clang -Wall -c utils.c -o lib/utils.o
 
-server: bin
-	clang -Wall -Wno-unused-function server.c -o bin/server -L/opt/local/lib -I/opt/local/include -lzmq
+client: bin utils
+	clang -Wall -Wno-unused-function lib/utils.o client.c -o bin/client -L/opt/local/lib -I/opt/local/include -lzmq
+
+server: bin utils
+	clang -Wall -Wno-unused-function lib/utils.o server.c -o bin/server -L/opt/local/lib -I/opt/local/include -lzmq
 
 clean:
 	rm -r bin lib
