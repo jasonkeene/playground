@@ -1,22 +1,26 @@
 
 
-typedef struct PortNode
+typedef struct IntNode
 {
-    int port;
-    struct PortNode *next;
-} PortNode;
+    int data;
+    struct IntNode *next;
+} IntNode;
 
 
-typedef struct PortList
+typedef struct IntList
 {
-    PortNode *head;
-} PortList;
+    IntNode *head;
+} IntList;
 
 
-PortList *PortList_create();
-void PortList_push(PortList *port_list, int port);
-void PortList_destroy(PortList *port_list);
-PortList *get_port_list(int argc, char *argv[]);
+IntList *IntList_create();
+void IntList_push(IntList *int_list, int data);
+/* int IntList_pop(IntList *int_list); */
+/* int IntList_lpop(IntList *int_list); */
+void IntList_print(IntList *int_list);
+void IntList_destroy(IntList *int_list);
 
 
-char *pusher_str(int port);
+IntList *get_ports(int argc, char *argv[]);
+
+char *connection_str(int port);

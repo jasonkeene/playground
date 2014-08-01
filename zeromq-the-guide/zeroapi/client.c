@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
 {
     // verify args
     assert(argc > 2);
+    assert(argc % 2 == 1);
 
     // create context and sockets
     void *context = zmq_ctx_new();
@@ -18,18 +19,25 @@ int main(int argc, char *argv[])
     void *subscriber = zmq_socket(context, ZMQ_SUB);
 
     // get ports list
-    PortList *port_list = get_port_list(argc, argv);
+    IntList *ports = get_ports(argc, argv);
+    IntList_print(ports);
 
     // connect pusher
-    printf("Starting client on port %i.\n", port_list->head->port);
-    char *connect_str = pusher_str(port_list->head->port);
-    zmq_connect(pusher, connect_str);
-    free(connect_str);
+    IntNode *port = ports->head;
+    for (int i = 0; port != NULL; i++) {
+        char *connect_str = connection_str(port->data);
+        if (i % 2 == 0) {
+            printf("Connecting pusher to port %i.\n", port->data);
+            zmq_connect(pusher, connect_str);
+        } else {
+            printf("Connecting subscriber to port %i.\n", port->data);
+            zmq_connect(subscriber, connect_str);
+        }
+        free(connect_str);
+        port = port->next;
+    }
 
-    // connect subscriber
-    /* char *connect_str = _str(port); */
-    /* zmq_connect(pusher, connect_str); */
-    /* free(connect_str); */
+    IntList_destroy(ports);
 
     zmq_close(pusher);
     zmq_close(subscriber);

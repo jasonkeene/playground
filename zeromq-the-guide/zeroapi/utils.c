@@ -5,22 +5,23 @@
 #include "utils.h"
 
 
-PortList *PortList_create()
+IntList *IntList_create()
 {
-    PortList *port_list = malloc(sizeof(PortList));
-    port_list->head = NULL;
-    return port_list;
+    IntList *int_list = malloc(sizeof(IntList));
+    int_list->head = NULL;
+    return int_list;
 }
 
 
-void PortList_push(PortList *port_list, int port)
+void IntList_push(IntList *int_list, int data)
 {
-    PortNode *new_node = malloc(sizeof(PortNode));
-    if (port_list->head == NULL) {
-        port_list->head = new_node;
-        return;
+    IntNode *new_node = malloc(sizeof(IntNode));
+    new_node->data = data;
+    new_node->next = NULL;
+    if (int_list->head == NULL) {
+        int_list->head = new_node;
     } else {
-        PortNode *node = port_list->head;
+        IntNode *node = int_list->head;
         while (node->next != NULL) {
             node = node->next;
         }
@@ -29,31 +30,46 @@ void PortList_push(PortList *port_list, int port)
 }
 
 
-void PortList_destroy(PortList *port_list)
+void IntList_print(IntList *int_list)
 {
-    PortNode *node = port_list->head;
+    IntNode *node = int_list->head;
+    printf("[");
     while (node != NULL) {
-        PortNode *next = node->next;
+        printf("%d", node->data);
+        node = node->next;
+        if (node != NULL) {
+            printf(", ");
+        }
+    }
+    printf("]\n");
+}
+
+
+void IntList_destroy(IntList *int_list)
+{
+    IntNode *node = int_list->head;
+    while (node != NULL) {
+        IntNode *next = node->next;
         free(node);
         node = next;
     }
-    free(port_list);
+    free(int_list);
 }
 
 
-PortList *get_port_list(int argc, char *argv[])
+IntList *get_ports(int argc, char *argv[])
 {
-    PortList *port_list = PortList_create();
+    IntList *int_list = IntList_create();
     for (int i = 1; i < argc; i++) {
         int port = atoi(argv[i]);
         port = port < 8000 ? arc4random() % 57536 + 8000 : port;
-        PortList_push(port_list, port);
+        IntList_push(int_list, port);
     }
-    return port_list;
+    return int_list;
 }
 
 
-char *pusher_str(int port)
+char *connection_str(int port)
 {
     char buffer[40];
     snprintf(buffer, sizeof(buffer), "tcp://127.0.0.1:%i", port);
