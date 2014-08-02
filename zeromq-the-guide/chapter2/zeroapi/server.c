@@ -33,8 +33,6 @@ int main(int argc, char *argv[])
     free(connect_str);
 
     for (int i = 0; ; i++) {
-        printf("%i\n", i);
-
         zmq_msg_t msg;
         zmq_msg_init(&msg);
         zmq_msg_recv(&msg, puller, 0);
@@ -43,8 +41,7 @@ int main(int argc, char *argv[])
         memcpy(string, zmq_msg_data(&msg), size);
         zmq_msg_close(&msg);
         string[size] = 0;
-
-        printf("%s", string);
+        printf("got %s\n", string);
     }
 
     // cleanup

@@ -39,16 +39,16 @@ int main(int argc, char *argv[])
     }
 
     for (int i = 0; i < 10; i++) {
-        printf("%i\n", i);
         usleep(1000000);
-        char *msg_str = "asdf";
+        char buffer[30];
+        snprintf(buffer, sizeof(buffer), "message #%i", i);
+        char *msg_str = strndup(buffer, sizeof(buffer));
+        printf("sending: %s\n", msg_str);
         int msg_len = strnlen(msg_str, 50);
         zmq_msg_t msg;
-        assert(zmq_msg_init_size(&msg, msg_len) == 0);
-        memcpy(&msg, &msg_str, msg_len);
+        zmq_msg_init_data(&msg, msg_str, msg_len, NULL, NULL);
         zmq_msg_send(&msg, pusher, 0);
         zmq_msg_close(&msg);
-        /* free(msg_str); */
     }
 
     // cleanup
