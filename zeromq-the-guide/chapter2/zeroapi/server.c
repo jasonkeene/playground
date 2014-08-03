@@ -32,16 +32,24 @@ int main(int argc, char *argv[])
     zmq_bind(publisher, connect_str);
     free(connect_str);
 
-    for (int i = 0; ; i++) {
+    while (1) {
         zmq_msg_t msg;
+        zmq_msg_t msg2;
         zmq_msg_init(&msg);
+
+        // get and display message
         zmq_msg_recv(&msg, puller, 0);
         int size = zmq_msg_size(&msg);
         char *string = malloc(size + 1);
         memcpy(string, zmq_msg_data(&msg), size);
-        zmq_msg_close(&msg);
         string[size] = 0;
         printf("got %s\n", string);
+
+        // publish message
+        zmq_msg_init_data(&msg2, string, strlen(string), NULL, NULL);
+        zmq_msg_send(&msg2, publisher, 0);
+        zmq_msg_close(&msg);
+        zmq_msg_close(&msg2);
     }
 
     // cleanup

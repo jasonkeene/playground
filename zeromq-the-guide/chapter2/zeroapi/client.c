@@ -39,16 +39,33 @@ int main(int argc, char *argv[])
     }
 
     for (int i = 0; i < 10; i++) {
+        // sleep for a wee bit
         usleep(1000000);
+
+        // setup message
+        zmq_msg_t msg;
         char buffer[30];
         snprintf(buffer, sizeof(buffer), "message #%i", i);
         char *msg_str = strndup(buffer, sizeof(buffer));
         printf("sending: %s\n", msg_str);
         int msg_len = strnlen(msg_str, 50);
-        zmq_msg_t msg;
         zmq_msg_init_data(&msg, msg_str, msg_len, NULL, NULL);
+
+        // send message
         zmq_msg_send(&msg, pusher, 0);
         zmq_msg_close(&msg);
+
+    }
+    while (1) {
+        // get and display message
+        zmq_msg_t msg2;
+        zmq_msg_init(&msg2);
+        zmq_msg_recv(&msg2, subscriber, 0);
+        int size = zmq_msg_size(&msg2);
+        char *string = malloc(size + 1);
+        memcpy(string, zmq_msg_data(&msg2), size);
+        string[size] = 0;
+        printf("got %s\n", string);
     }
 
     // cleanup
