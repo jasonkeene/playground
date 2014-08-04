@@ -6,7 +6,7 @@
      - [x] The Zen of Zero
      - [x] Audience
      - [x] Acknowledgements
- - [ ] **Chapter 1 - Basics**
+ - [x] **Chapter 1 - Basics**
      - [x] Fixing the World
      - [x] Starting Assumptions
      - [x] Getting the Examples
@@ -34,7 +34,7 @@
          - [x] I/O Threads
      - [ ] Messaging Patterns
          - [x] High-Level Messaging Patterns
-         - [ ] Working with Messages
+         - [x] Working with Messages
          - [ ] Handling Multiple Sockets
          - [ ] Multipart Messages
          - [ ] Intermediaries and Proxies

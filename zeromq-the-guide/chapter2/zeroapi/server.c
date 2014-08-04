@@ -33,27 +33,27 @@ int main(int argc, char *argv[])
     free(connect_str);
 
     while (1) {
-        zmq_msg_t msg;
-        zmq_msg_t msg2;
-        zmq_msg_init(&msg);
-
-        // get and display message
-        zmq_msg_recv(&msg, puller, 0);
-        int size = zmq_msg_size(&msg);
-        char *string = malloc(size + 1);
-        memcpy(string, zmq_msg_data(&msg), size);
-        string[size] = 0;
+        // pull and display message
+        zmq_msg_t recv_msg;
+        zmq_msg_init(&recv_msg);
+        zmq_msg_recv(&recv_msg, puller, 0);
+        int msg_len = zmq_msg_size(&recv_msg);
+        char *string = malloc(msg_len + 1);
+        memcpy(string, zmq_msg_data(&recv_msg), msg_len);
+        string[msg_len] = 0;
         printf("got %s\n", string);
+        zmq_msg_close(&recv_msg);
 
         // publish message
-        zmq_msg_init_data(&msg2, string, strlen(string), NULL, NULL);
-        zmq_msg_send(&msg2, publisher, 0);
-        zmq_msg_close(&msg);
-        zmq_msg_close(&msg2);
+        zmq_msg_t send_msg;
+        zmq_msg_init_data(&send_msg, string, strlen(string), NULL, NULL);
+        zmq_msg_send(&send_msg, publisher, 0);
     }
 
     // cleanup
     IntList_destroy(ports);
+    zmq_close(puller);
+    zmq_close(publisher);
     zmq_ctx_destroy(context);
 
     printf("Stopping server.\n");
