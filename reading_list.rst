@@ -77,3 +77,5 @@ Miscellaneous
 - `Digital Signal Processing: A Practical Guide for Engineers and Scientists <http://www.amazon.com/dp/075067444X/>`_
 - `The Swift Programming Language <https://itunes.apple.com/us/book/swift-programming-language/id881256329>`_
 - `Using Swift with Cocoa and Objective-C <https://developer.apple.com/library/prerelease/ios/documentation/swift/conceptual/buildingcocoaapps/index.html>`_
+- `Types and Programming Languages <http://www.cis.upenn.edu/~bcpierce/tapl/>`_
+- `Advanced Topics in Types and Programming Languages <http://www.cis.upenn.edu/~bcpierce/attapl/>`_
