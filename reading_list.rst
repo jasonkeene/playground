@@ -79,3 +79,4 @@ Miscellaneous
 - `Using Swift with Cocoa and Objective-C <https://developer.apple.com/library/prerelease/ios/documentation/swift/conceptual/buildingcocoaapps/index.html>`_
 - `Types and Programming Languages <http://www.cis.upenn.edu/~bcpierce/tapl/>`_
 - `Advanced Topics in Types and Programming Languages <http://www.cis.upenn.edu/~bcpierce/attapl/>`_
+- `OpenStack Operations Guide <http://docs.openstack.org/ops/>`_

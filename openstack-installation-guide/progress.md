@@ -8,7 +8,7 @@
     - [x] Conceptual architecture
     - [x] Example architectures
 - [ ] 2. Basic environment configuration
-    - [ ] Before you begin
+    - [x] Before you begin
     - [ ] Networking
     - [ ] Network Time Protocol (NTP)
     - [ ] Passwords
