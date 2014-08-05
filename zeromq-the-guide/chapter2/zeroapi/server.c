@@ -37,16 +37,23 @@ int main(int argc, char *argv[])
         zmq_msg_t recv_msg;
         zmq_msg_init(&recv_msg);
         zmq_msg_recv(&recv_msg, puller, 0);
+
         int msg_len = zmq_msg_size(&recv_msg);
-        char *string = malloc(msg_len + 1);
-        memcpy(string, zmq_msg_data(&recv_msg), msg_len);
-        string[msg_len] = 0;
-        printf("got %s\n", string);
+        char *msg_str = malloc(msg_len + 1);
+        memcpy(msg_str, zmq_msg_data(&recv_msg), msg_len);
+        msg_str[msg_len] = 0;
+
+        printf("got %s\n", msg_str);
+
         zmq_msg_close(&recv_msg);
 
         // publish message
         zmq_msg_t send_msg;
-        zmq_msg_init_data(&send_msg, string, strlen(string), NULL, NULL);
+
+        printf("sending: %s (len: %i)\n", msg_str, msg_len);
+
+        zmq_msg_init_size(&send_msg, msg_len);
+        memcpy(&send_msg, msg_str, msg_len);
         zmq_msg_send(&send_msg, publisher, 0);
     }
 

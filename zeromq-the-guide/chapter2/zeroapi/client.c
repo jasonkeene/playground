@@ -46,10 +46,14 @@ int main(int argc, char *argv[])
         zmq_msg_t send_msg;
         char buffer[30];
         snprintf(buffer, sizeof(buffer), "message #%i", i);
+
         char *msg_str = strndup(buffer, sizeof(buffer));
-        printf("sending: %s\n", msg_str);
         int msg_len = strnlen(msg_str, 50);
-        zmq_msg_init_data(&send_msg, msg_str, msg_len, NULL, NULL);
+
+        printf("sending: %s (len: %i)\n", msg_str, msg_len);
+
+        zmq_msg_init_size(&send_msg, msg_len);
+        memcpy(&send_msg, msg_str, msg_len);
         zmq_msg_send(&send_msg, pusher, 0);
     }
     while (1) {
@@ -57,11 +61,14 @@ int main(int argc, char *argv[])
         zmq_msg_t recv_msg;
         zmq_msg_init(&recv_msg);
         zmq_msg_recv(&recv_msg, subscriber, 0);
+
         int msg_len = zmq_msg_size(&recv_msg);
-        char *string = malloc(msg_len + 1);
-        memcpy(string, zmq_msg_data(&recv_msg), msg_len);
-        string[msg_len] = 0;
-        printf("got %s\n", string);
+        char *msg_str = malloc(msg_len + 1);
+        memcpy(msg_str, zmq_msg_data(&recv_msg), msg_len);
+        msg_str[msg_len] = 0;
+
+        printf("got %s\n", msg_str);
+
         zmq_msg_close(&recv_msg);
     }
 
