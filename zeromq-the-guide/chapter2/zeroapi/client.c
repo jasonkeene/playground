@@ -19,6 +19,7 @@ int main(int argc, char *argv[])
     void *context = zmq_ctx_new();
     void *pusher = zmq_socket(context, ZMQ_PUSH);
     void *subscriber = zmq_socket(context, ZMQ_SUB);
+    zmq_setsockopt(subscriber, ZMQ_SUBSCRIBE, "", 0);
 
     // get ports list
     IntList *ports = get_ports(argc, argv);
@@ -38,37 +39,47 @@ int main(int argc, char *argv[])
         port = port->next;
     }
 
+
     for (int i = 0; i < 10; i++) {
+        // loop variables
+        zmq_msg_t send_msg, recv_msg;
+        char *msg_str;
+        char buffer[30] = {0};
+        int msg_len;
+
         // sleep for a wee bit
         usleep(1000000);
 
-        // push message
-        zmq_msg_t send_msg;
-        char buffer[30];
+        // setup push message
         snprintf(buffer, sizeof(buffer), "message #%i", i);
-
-        char *msg_str = strndup(buffer, sizeof(buffer));
-        int msg_len = strnlen(msg_str, 50);
-
-        printf("sending: %s (len: %i)\n", msg_str, msg_len);
-
+        msg_str = strndup(buffer, sizeof(buffer));
+        msg_len = strnlen(msg_str, 50);
         zmq_msg_init_size(&send_msg, msg_len);
         memcpy(&send_msg, msg_str, msg_len);
+
+        // notify console that you are about to send message
+        printf("sending: %s (len: %i)\n", msg_str, msg_len);
+
+        // send message
         zmq_msg_send(&send_msg, pusher, 0);
-    }
-    while (1) {
-        // get and display message
-        zmq_msg_t recv_msg;
+
+        // cleanup
+        free(msg_str);
+        zmq_msg_close(&send_msg);
+
+        // setup subscribe message
         zmq_msg_init(&recv_msg);
         zmq_msg_recv(&recv_msg, subscriber, 0);
-
-        int msg_len = zmq_msg_size(&recv_msg);
-        char *msg_str = malloc(msg_len + 1);
+        msg_len = zmq_msg_size(&recv_msg);
+        msg_str = malloc(msg_len + 1);
         memcpy(msg_str, zmq_msg_data(&recv_msg), msg_len);
         msg_str[msg_len] = 0;
 
+        // notify console that you got a message
         printf("got %s\n", msg_str);
 
+        // cleanup
+        free(msg_str);
         zmq_msg_close(&recv_msg);
     }
 
