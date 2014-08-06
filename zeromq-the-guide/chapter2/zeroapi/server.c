@@ -33,28 +33,39 @@ int main(int argc, char *argv[])
     free(connect_str);
 
     while (1) {
-        // pull and display message
+        // loop variables
         zmq_msg_t recv_msg;
+        zmq_msg_t send_msg;
+        char *msg_str;
+        int msg_len;
+
+        // setup pull message
         zmq_msg_init(&recv_msg);
         zmq_msg_recv(&recv_msg, puller, 0);
-
-        int msg_len = zmq_msg_size(&recv_msg);
-        char *msg_str = malloc(msg_len + 1);
+        msg_len = zmq_msg_size(&recv_msg);
+        msg_str = malloc(msg_len + 1);
         memcpy(msg_str, zmq_msg_data(&recv_msg), msg_len);
         msg_str[msg_len] = 0;
 
+        // notify console that you got a message
         printf("got %s\n", msg_str);
 
+        // cleanup
         zmq_msg_close(&recv_msg);
 
-        // publish message
-        zmq_msg_t send_msg;
-
-        printf("sending: %s (len: %i)\n", msg_str, msg_len);
-
+        // setup publish message
         zmq_msg_init_size(&send_msg, msg_len);
         memcpy(&send_msg, msg_str, msg_len);
+
+        // notify console that you are about to send message
+        printf("sending: %s (len: %i)\n", msg_str, msg_len);
+
+        // send message
         zmq_msg_send(&send_msg, publisher, 0);
+
+        // cleanup
+        free(msg_str);
+        zmq_msg_close(&send_msg);
     }
 
     // cleanup
