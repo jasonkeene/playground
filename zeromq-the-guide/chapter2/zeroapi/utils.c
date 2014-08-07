@@ -75,3 +75,12 @@ char *connection_str(int port)
     snprintf(buffer, sizeof(buffer), "tcp://127.0.0.1:%i", port);
     return strndup(buffer, sizeof(buffer));
 }
+
+
+char *generate_node_id() {
+    char buffer[8];
+    for (int i = 0; i < sizeof(buffer); i++) {
+        buffer[i] = arc4random() % 25 + 97;
+    }
+    return strndup(buffer, sizeof(buffer));
+}

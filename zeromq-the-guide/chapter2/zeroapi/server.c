@@ -8,10 +8,17 @@
 #include "utils.h"
 
 
+char *node_id;
+
+
 int main(int argc, char *argv[])
 {
     // verify args
     assert(argc > 2);
+
+    // set node id
+    node_id = generate_node_id();
+    printf("Node ID: %s\n", node_id);
 
     // create context and sockets
     void *context = zmq_ctx_new();
@@ -38,6 +45,7 @@ int main(int argc, char *argv[])
         zmq_msg_t send_msg;
         char *msg_str;
         int msg_len;
+        char *source_node_id;
 
         // setup pull message
         zmq_msg_init(&recv_msg);
@@ -46,6 +54,8 @@ int main(int argc, char *argv[])
         msg_str = malloc(msg_len + 1);
         memcpy(msg_str, zmq_msg_data(&recv_msg), msg_len);
         msg_str[msg_len] = 0;
+        source_node_id = malloc(8);
+        memcpy(source_node_id, msg_str, 8);
 
         // notify console that you got a message
         printf("got %s\n", msg_str);
@@ -65,6 +75,7 @@ int main(int argc, char *argv[])
 
         // cleanup
         free(msg_str);
+        free(source_node_id);
         zmq_msg_close(&send_msg);
     }
 
@@ -73,6 +84,7 @@ int main(int argc, char *argv[])
     zmq_close(puller);
     zmq_close(publisher);
     zmq_ctx_destroy(context);
+    free(node_id);
 
     printf("Stopping server.\n");
     return 0;

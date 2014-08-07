@@ -9,17 +9,24 @@
 #include "utils.h"
 
 
+char *node_id;
+
+
 int main(int argc, char *argv[])
 {
     // verify args
     assert(argc > 2);
     assert(argc % 2 == 1);
 
+    // set node id
+    node_id = generate_node_id();
+    printf("Node ID: %s\n", node_id);
+
     // create context and sockets
     void *context = zmq_ctx_new();
     void *pusher = zmq_socket(context, ZMQ_PUSH);
     void *subscriber = zmq_socket(context, ZMQ_SUB);
-    zmq_setsockopt(subscriber, ZMQ_SUBSCRIBE, "", 0);
+    zmq_setsockopt(subscriber, ZMQ_SUBSCRIBE, node_id, 8);
 
     // get ports list
     IntList *ports = get_ports(argc, argv);
@@ -51,7 +58,7 @@ int main(int argc, char *argv[])
         usleep(1000000);
 
         // setup push message
-        snprintf(buffer, sizeof(buffer), "message #%i", i);
+        snprintf(buffer, sizeof(buffer), "%s:message #%i", node_id, i);
         msg_str = strndup(buffer, sizeof(buffer));
         msg_len = strnlen(msg_str, 50);
         zmq_msg_init_size(&send_msg, msg_len);
@@ -88,6 +95,7 @@ int main(int argc, char *argv[])
     zmq_close(pusher);
     zmq_close(subscriber);
     zmq_ctx_destroy(context);
+    free(node_id);
 
     printf("Stopping client.\n");
     return 0;

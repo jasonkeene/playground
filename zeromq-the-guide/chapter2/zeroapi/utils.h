@@ -24,3 +24,4 @@ void IntList_destroy(IntList *int_list);
 IntList *get_ports(int argc, char *argv[]);
 
 char *connection_str(int port);
+char *generate_node_id();
