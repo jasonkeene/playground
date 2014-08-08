@@ -35,10 +35,10 @@
      - [ ] Messaging Patterns
          - [x] High-Level Messaging Patterns
          - [x] Working with Messages
-         - [ ] Handling Multiple Sockets
-         - [ ] Multipart Messages
-         - [ ] Intermediaries and Proxies
-         - [ ] The Dynamic Discovery Problem
+         - [x] Handling Multiple Sockets
+         - [x] Multipart Messages
+         - [x] Intermediaries and Proxies
+         - [x] The Dynamic Discovery Problem
          - [ ] Shared Queue (DEALER and ROUTER sockets)
          - [ ] ØMQ's Built-In Proxy Function
          - [ ] Transport Bridging
