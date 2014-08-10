@@ -32,16 +32,16 @@
          - [x] Unicast Transports
          - [x] ØMQ is Not a Neutral Carrier
          - [x] I/O Threads
-     - [ ] Messaging Patterns
+     - [x] Messaging Patterns
          - [x] High-Level Messaging Patterns
          - [x] Working with Messages
          - [x] Handling Multiple Sockets
          - [x] Multipart Messages
          - [x] Intermediaries and Proxies
          - [x] The Dynamic Discovery Problem
-         - [ ] Shared Queue (DEALER and ROUTER sockets)
-         - [ ] ØMQ's Built-In Proxy Function
-         - [ ] Transport Bridging
+         - [x] Shared Queue (DEALER and ROUTER sockets)
+         - [x] ØMQ's Built-In Proxy Function
+         - [x] Transport Bridging
      - [ ] Handling Errors and ETERM
      - [ ] Handling Interrupt Signals
      - [ ] Detecting Memory Leaks
