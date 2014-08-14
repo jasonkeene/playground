@@ -1,5 +1,6 @@
 A place for experiments, learning, and random pieces of code.
 
+[![golang-tour](http://img.shields.io/badge/golang--tour-0%25_(0/74)-red.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/golang-tour/progress.md)  
 [![openstack-installation-guide](http://img.shields.io/badge/openstack--installation--guide-8%25_(7/93)-red.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/openstack-installation-guide/progress.md)  
 [![python-logging](http://img.shields.io/badge/python--logging-48%25_(43/89)-yellow.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/python-logging/progress.md)  
 [![zeromq--the--guide](http://img.shields.io/badge/zeromq--the--guide-14%25_(41/277)-red.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/zeromq-the-guide/progress.md)  
