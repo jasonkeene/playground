@@ -1,7 +1,7 @@
-- [ ] Hello, 世界
-- [ ] Go local
-- [ ] The Go Playground
-- [ ] Packages
+- [x] Hello, 世界
+- [x] Go local
+- [x] The Go Playground
+- [x] Packages
 - [ ] Imports
 - [ ] Exported names
 - [ ] Functions
