@@ -2,12 +2,12 @@
 - [x] Go local
 - [x] The Go Playground
 - [x] Packages
-- [ ] Imports
-- [ ] Exported names
-- [ ] Functions
-- [ ] Functions continued
-- [ ] Multiple results
-- [ ] Named results
+- [x] Imports
+- [x] Exported names
+- [x] Functions
+- [x] Functions continued
+- [x] Multiple results
+- [x] Named results
 - [ ] Variables
 - [ ] Variables with initializers
 - [ ] Short variable declarations
