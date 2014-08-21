@@ -80,3 +80,4 @@ Miscellaneous
 - `Types and Programming Languages <http://www.cis.upenn.edu/~bcpierce/tapl/>`_
 - `Advanced Topics in Types and Programming Languages <http://www.cis.upenn.edu/~bcpierce/attapl/>`_
 - `OpenStack Operations Guide <http://docs.openstack.org/ops/>`_
+- `Dynamically typed languages, Laurence Tratt <http://tratt.net/laurie/research/pubs/html/tratt__dynamically_typed_languages/>`_
