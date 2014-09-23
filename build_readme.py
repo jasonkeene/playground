@@ -40,7 +40,7 @@ def escape_shield_name(name):
     return name.replace('-', '--')
 
 
-def get_progres_status(name):
+def get_progress_status(name):
     """Return the percent, complete, and total progress."""
     with open(os.path.join(REPO_ROOT, name, 'progress.md')) as f:
         data = f.read()
@@ -56,7 +56,7 @@ def generate_progress():
     progress_dirs = find_progress_dirs()
     progress = ''
     for name in progress_dirs:
-        percent, complete, total = get_progres_status(name)
+        percent, complete, total = get_progress_status(name)
         progress += PROGRESS_TEMPLATE.format(
             name=name,
             escaped=escape_shield_name(name),
