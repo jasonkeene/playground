@@ -1,0 +1,32 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+VAGRANTFILE_API_VERSION = "2"
+MASTER_IP = "10.13.37.10"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  config.vm.box = "ubuntu/trusty64"
+
+  config.vm.define "master" do |master|
+    master.vm.network :private_network, ip: MASTER_IP
+    master.vm.provision "shell" do |s|
+      s.path = "bin/bootstrap-master.sh"
+    end
+  end
+
+  config.vm.define "web1" do |web1|
+    web1.vm.network :private_network, ip: "10.13.37.11"
+    web1.vm.provision "shell" do |s|
+      s.args = [MASTER_IP]
+      s.path = "bin/bootstrap-web.sh"
+    end
+  end
+
+  config.vm.define "web2" do |web2|
+    web2.vm.network :private_network, ip: "10.13.37.12"
+    web2.vm.provision "shell" do |s|
+      s.args = [MASTER_IP]
+      s.path = "bin/bootstrap-web.sh"
+    end
+  end
+end

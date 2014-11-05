@@ -1,0 +1,21 @@
+# python
+*.py[co]
+
+# vim
+*.sw[op]
+
+# pycharm
+.idea/
+
+# mac
+._*
+__MACOSX
+.DS_Store
+
+# win
+*~
+Thumbs.db
+desktop.ini
+
+# vagrant
+.vagrant
