@@ -1,23 +1,45 @@
 ## [Salt Table of Contents](http://docs.saltstack.com/en/latest/contents.html)
 
+- [ ] 1. Introduction to Salt
+    - [ ] 1.1. The 30 second summary
+    - [ ] 1.2. Simplicity
+    - [ ] 1.3. Parallel execution
+    - [ ] 1.4. Building on proven technology
+    - [ ] 1.5. Python client interface
+    - [ ] 1.6. Fast, flexible, scalable
+    - [ ] 1.7. Open
+    - [ ] 1.8. Salt Community
+    - [ ] 1.9. Mailing List
+    - [ ] 1.10. IRC
+    - [ ] 1.11. Follow on Github
+    - [ ] 1.12. Blogs
+    - [ ] 1.13. Example Salt States
+    - [ ] 1.14. Follow on ohloh
+    - [ ] 1.15. Other community links
+    - [ ] 1.16. Hack the Source
+- [ ] 2. Installation
+    - [ ] 2.1. Quick Install
+    - [ ] 2.2. Platform-specific Installation Instructions
+        - [ ] 2.2.6. OS X
+        - [ ] 2.2.9. Ubuntu Installation
+    - [ ] 2.3. Dependencies
+    - [ ] 2.4. Optional Dependencies
+    - [ ] 2.5. Upgrading Salt
 - [ ] 3. Tutorials
-    - [ ] 3.1. INTRODUCTION
-        - [ ] 3.1.1. Salt Masterless Quickstart
-            - [ ] 3.1.1.1. Bootstrap Salt Minion
-            - [ ] 3.1.1.2. Telling Salt to Run Masterless
-            - [ ] 3.1.1.3. Create State Tree
+    - [x] 3.1. INTRODUCTION
+        - [x] 3.1.1. Salt Masterless Quickstart
+            - [x] 3.1.1.1. Bootstrap Salt Minion
+            - [x] 3.1.1.2. Telling Salt to Run Masterless
+            - [x] 3.1.1.3. Create State Tree
     - [ ] 3.2. BASICS
-        - [ ] 3.2.1. Standalone Minion
-            - [ ] 3.2.1.1. Telling Salt Call to Run Masterless
-            - [ ] 3.2.1.2. Running States Masterless
-        - [ ] 3.2.2. Opening the Firewall up for Salt
-            - [ ] 3.2.2.1. RHEL 6 / CentOS 6
-            - [ ] 3.2.2.2. openSUSE
-            - [ ] 3.2.2.3. iptables
-            - [ ] 3.2.2.4. pf.conf
-        - [ ] 3.2.3. Whitelist communication to Master
-        - [ ] 3.2.4. Using cron with Salt
-            - [ ] 3.2.4.1. Use cron to initiate a highstate
+        - [x] 3.2.1. Standalone Minion
+            - [x] 3.2.1.1. Telling Salt Call to Run Masterless
+            - [x] 3.2.1.2. Running States Masterless
+        - [x] 3.2.2. Opening the Firewall up for Salt
+            - [x] 3.2.2.3. iptables
+        - [x] 3.2.3. Whitelist communication to Master
+        - [x] 3.2.4. Using cron with Salt
+            - [x] 3.2.4.1. Use cron to initiate a highstate
         - [ ] 3.2.5. Remote execution tutorial
             - [ ] 3.2.5.1. Order your minions around
         - [ ] 3.2.6. Pillar Walkthrough
