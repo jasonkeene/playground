@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 
-## update packages
-#apt-get update
-#apt-get upgrade
-#
-## install general stuff
-#apt-get install --yes build-essential
-#apt-get install --yes python-software-properties
-#apt-get install --yes git
-#
-## install python stuff
-#apt-get install --yes python-dev
-#apt-get install --yes python-pip
+# update packages
+apt-get update
+apt-get upgrade
+
+# install general stuff
+apt-get install --yes build-essential
+apt-get install --yes python-software-properties
+apt-get install --yes git
+
+# install python stuff
+apt-get install --yes python-dev
+apt-get install --yes python-pip
 
 # install salt minion
 add-apt-repository ppa:saltstack/salt
@@ -39,6 +39,11 @@ EOF
 
 # highstate!
 salt-call --local state.highstate
+
+# copy over test_key
+TEST_KEY=/vagrant/salt/test_key.pub
+MINION_KEY_PATH=/etc/salt/pki/master/minions/
+echo ${MINION_KEY_PATH}web{1,2} | xargs -n1 cp $TEST_KEY
 
 echo
 echo

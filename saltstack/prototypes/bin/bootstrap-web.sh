@@ -20,6 +20,9 @@ wget -q -O- "http://keyserver.ubuntu.com:11371/pks/lookup?op=get&search=0x4759FA
 apt-get update
 apt-get install --yes salt-minion
 
+# stop miniond
+service salt-minion stop
+
 # configure salt minion to pull from master
 cat << EOF > /etc/salt/minion
 master: $1
@@ -27,9 +30,16 @@ grains:
   roles:
     - webserver
 EOF
+echo $2 > /etc/salt/minion_id
+mkdir -p /etc/salt/pki/minion
+cp /vagrant/salt/test_key.pem /etc/salt/pki/minion/minion.pem
+cp /vagrant/salt/test_key.pub /etc/salt/pki/minion/minion.pub
 
-# restart miniond
-service salt-minion restart
+# start miniond
+service salt-minion start
+
+# highstate!
+salt-call state.highstate
 
 echo
 echo

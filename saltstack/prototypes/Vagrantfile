@@ -2,30 +2,37 @@
 # vi: set ft=ruby :
 
 VAGRANTFILE_API_VERSION = "2"
-MASTER_IP = "10.13.37.10"
+IPS = {
+    "master" => "10.13.37.10",
+    "web1" => "10.13.37.11",
+    "web2" => "10.13.37.12",
+}
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "ubuntu/trusty64"
 
   config.vm.define "master" do |master|
-    master.vm.network :private_network, ip: MASTER_IP
+    hostname = "master"
+    master.vm.network :private_network, ip: IPS[hostname]
     master.vm.provision "shell" do |s|
       s.path = "bin/bootstrap-master.sh"
     end
   end
 
   config.vm.define "web1" do |web1|
-    web1.vm.network :private_network, ip: "10.13.37.11"
+    hostname = "web1"
+    web1.vm.network :private_network, ip: IPS[hostname]
     web1.vm.provision "shell" do |s|
-      s.args = [MASTER_IP]
+      s.args = [IPS["master"], hostname]
       s.path = "bin/bootstrap-web.sh"
     end
   end
 
   config.vm.define "web2" do |web2|
-    web2.vm.network :private_network, ip: "10.13.37.12"
+    hostname = "web2"
+    web2.vm.network :private_network, ip: IPS[hostname]
     web2.vm.provision "shell" do |s|
-      s.args = [MASTER_IP]
+      s.args = [IPS["master"], hostname]
       s.path = "bin/bootstrap-web.sh"
     end
   end
