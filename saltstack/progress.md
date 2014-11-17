@@ -1,30 +1,30 @@
 ## [Salt Table of Contents](http://docs.saltstack.com/en/latest/contents.html)
 
-- [ ] 1. Introduction to Salt
-    - [ ] 1.1. The 30 second summary
-    - [ ] 1.2. Simplicity
-    - [ ] 1.3. Parallel execution
-    - [ ] 1.4. Building on proven technology
-    - [ ] 1.5. Python client interface
-    - [ ] 1.6. Fast, flexible, scalable
-    - [ ] 1.7. Open
-    - [ ] 1.8. Salt Community
-    - [ ] 1.9. Mailing List
-    - [ ] 1.10. IRC
-    - [ ] 1.11. Follow on Github
-    - [ ] 1.12. Blogs
-    - [ ] 1.13. Example Salt States
-    - [ ] 1.14. Follow on ohloh
-    - [ ] 1.15. Other community links
-    - [ ] 1.16. Hack the Source
-- [ ] 2. Installation
-    - [ ] 2.1. Quick Install
-    - [ ] 2.2. Platform-specific Installation Instructions
-        - [ ] 2.2.6. OS X
-        - [ ] 2.2.9. Ubuntu Installation
-    - [ ] 2.3. Dependencies
-    - [ ] 2.4. Optional Dependencies
-    - [ ] 2.5. Upgrading Salt
+- [x] 1. Introduction to Salt
+    - [x] 1.1. The 30 second summary
+    - [x] 1.2. Simplicity
+    - [x] 1.3. Parallel execution
+    - [x] 1.4. Building on proven technology
+    - [x] 1.5. Python client interface
+    - [x] 1.6. Fast, flexible, scalable
+    - [x] 1.7. Open
+    - [x] 1.8. Salt Community
+    - [x] 1.9. Mailing List
+    - [x] 1.10. IRC
+    - [x] 1.11. Follow on Github
+    - [x] 1.12. Blogs
+    - [x] 1.13. Example Salt States
+    - [x] 1.14. Follow on ohloh
+    - [x] 1.15. Other community links
+    - [x] 1.16. Hack the Source
+- [x] 2. Installation
+    - [x] 2.1. Quick Install
+    - [x] 2.2. Platform-specific Installation Instructions
+        - [x] 2.2.6. OS X
+        - [x] 2.2.9. Ubuntu Installation
+    - [x] 2.3. Dependencies
+    - [x] 2.4. Optional Dependencies
+    - [x] 2.5. Upgrading Salt
 - [ ] 3. Tutorials
     - [x] 3.1. INTRODUCTION
         - [x] 3.1.1. Salt Masterless Quickstart
