@@ -14,11 +14,9 @@ ln -s /vagrant/salt /srv/salt
 cat << EOF > /etc/salt/minion
 file_client: local
 file_roots:
-  base:
-    - /srv/salt
+  base: /srv/salt
 grains:
-  roles:
-    - master
+  roles: master
 EOF
 
 # highstate!

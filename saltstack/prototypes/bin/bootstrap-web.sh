@@ -11,8 +11,7 @@
 cat << EOF > /etc/salt/minion
 master: $1
 grains:
-  roles:
-    - webserver
+  roles: webserver
 EOF
 echo $2 > /etc/salt/minion_id
 mkdir -p /etc/salt/pki/minion
