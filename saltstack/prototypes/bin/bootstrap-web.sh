@@ -1,17 +1,8 @@
 #!/usr/bin/env bash
 
 # update packages
-apt-get update
-apt-get upgrade
-
-# install general stuff
-apt-get install --yes build-essential
-apt-get install --yes python-software-properties
-apt-get install --yes git
-
-# install python stuff
-apt-get install --yes python-dev
-apt-get install --yes python-pip
+#apt-get update
+#apt-get upgrade
 
 # install salt minion
 /vagrant/bin/install-minion.sh
