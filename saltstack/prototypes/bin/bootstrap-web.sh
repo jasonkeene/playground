@@ -34,6 +34,9 @@ service salt-minion start
 # highstate!
 salt-call state.highstate
 
+# make sure miniond is running
+service salt-minion start
+
 echo
 echo
 echo "Provision complete!"
