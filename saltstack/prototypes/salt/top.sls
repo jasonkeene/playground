@@ -3,11 +3,11 @@ base:
     - match: grain
     - utilities
     - master
-  'roles:webserver':
+  'roles:proxy':
     - match: grain
     - utilities
-    - webserver
-  'roles:application':
+    - proxy
+  'roles:app':
     - match: grain
     - utilities
-    - application
+    - app

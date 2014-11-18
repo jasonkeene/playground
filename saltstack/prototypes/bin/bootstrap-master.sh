@@ -27,7 +27,8 @@ salt-call --local state.highstate
 # copy over test_key
 TEST_KEY=/vagrant/salt/test_key.pub
 MINION_KEY_PATH=/etc/salt/pki/master/minions/
-echo ${MINION_KEY_PATH}web{1,2} | xargs -n1 cp $TEST_KEY
+echo ${MINION_KEY_PATH}proxy{1,2} | xargs -n1 cp $TEST_KEY
+echo ${MINION_KEY_PATH}app{1,2} | xargs -n1 cp $TEST_KEY
 
 echo
 echo

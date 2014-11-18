@@ -12,7 +12,7 @@ cat << EOF > /etc/salt/minion
 master: $1
 grains:
   roles:
-    - webserver
+    - proxy
 EOF
 echo $2 > /etc/salt/minion_id
 
