@@ -1,10 +1,15 @@
 build-essential:
-  pkg: installed
+  pkg:
+    - installed
 git:
-  pkg: installed
+  pkg:
+    - installed
 python:
-  pkg: installed
+  pkg:
+    - installed
 python-dev:
-  pkg: installed
+  pkg:
+    - installed
 python-pip:
-  pkg: installed
+  pkg:
+    - installed
