@@ -1,0 +1,20 @@
+{
+    "uwsgi": {
+        "plugin": "python",
+        "socket": "/tmp/app.socket",
+        "pythonpath": "/srv",
+        "module": "wsgi:application",
+        "master": true,
+        "processes": 4,
+        "harakiri": 60,
+        "reload-mercy": 8,
+        "cpu-affinity": 1,
+        "stats": "/tmp/stats.socket",
+        "max-requests": 2000,
+        "limit-as": 512,
+        "reload-on-as": 256,
+        "reload-on-rss": 192,
+        "no-orphans": true,
+        "vacuum": true
+    }
+}
