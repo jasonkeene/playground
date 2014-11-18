@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # update packages
-#apt-get update
-#apt-get upgrade
+apt-get update
+apt-get upgrade --yes
 
 # install salt minion
 /vagrant/bin/install-minion.sh
@@ -11,9 +11,12 @@
 cat << EOF > /etc/salt/minion
 master: $1
 grains:
-  roles: webserver
+  roles:
+    - webserver
 EOF
 echo $2 > /etc/salt/minion_id
+
+# copy over test_key
 mkdir -p /etc/salt/pki/minion
 cp /vagrant/salt/test_key.pem /etc/salt/pki/minion/minion.pem
 cp /vagrant/salt/test_key.pub /etc/salt/pki/minion/minion.pub
@@ -29,8 +32,4 @@ service salt-minion start
 
 echo
 echo
-echo "Provision complete!"
-echo "Provision complete!"
-echo "Provision complete!"
-echo "Provision complete!"
 echo "Provision complete!"

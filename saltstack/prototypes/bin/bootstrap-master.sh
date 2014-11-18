@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # update packages
-#apt-get update
-#apt-get upgrade
+apt-get update
+apt-get upgrade --yes
 
 # install salt minion
 /vagrant/bin/install-minion.sh
@@ -14,9 +14,11 @@ ln -s /vagrant/salt /srv/salt
 cat << EOF > /etc/salt/minion
 file_client: local
 file_roots:
-  base: /srv/salt
+  base:
+    - /srv/salt
 grains:
-  roles: master
+  roles:
+    - master
 EOF
 
 # highstate!
@@ -29,8 +31,4 @@ echo ${MINION_KEY_PATH}web{1,2} | xargs -n1 cp $TEST_KEY
 
 echo
 echo
-echo "Provision complete!"
-echo "Provision complete!"
-echo "Provision complete!"
-echo "Provision complete!"
 echo "Provision complete!"
