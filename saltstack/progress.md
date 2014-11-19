@@ -1,4 +1,4 @@
-## [Salt Table of Contents](http://docs.saltstack.com/en/latest/contents.html)
+## [Salt Table of Contents](http://docs.saltstack.com/en/latest/contents.html) [7acc6949c6](https://github.com/saltstack/salt/tree/7acc6949c612d32bfb2482f0194b05fd1fb60a61/doc)
 
 - [x] 1. Introduction to Salt
     - [x] 1.1. The 30 second summary
