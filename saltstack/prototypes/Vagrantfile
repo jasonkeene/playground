@@ -30,21 +30,21 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     end
   end
 
-  config.vm.define "proxy2" do |proxy2|
-    hostname = "proxy2"
-    proxy2.vm.network :private_network, ip: IPS[hostname]
-    proxy2.vm.provision "shell" do |s|
-      s.args = [IPS["master"], hostname]
-      s.path = "bin/bootstrap-proxy.sh"
-    end
-  end
-
   config.vm.define "app1" do |app1|
     hostname = "app1"
     app1.vm.network :private_network, ip: IPS[hostname]
     app1.vm.provision "shell" do |s|
       s.args = [IPS["master"], hostname]
       s.path = "bin/bootstrap-app.sh"
+    end
+  end
+
+  config.vm.define "proxy2" do |proxy2|
+    hostname = "proxy2"
+    proxy2.vm.network :private_network, ip: IPS[hostname]
+    proxy2.vm.provision "shell" do |s|
+      s.args = [IPS["master"], hostname]
+      s.path = "bin/bootstrap-proxy.sh"
     end
   end
 

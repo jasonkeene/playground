@@ -18,16 +18,12 @@ echo $2 > /etc/salt/minion_id
 
 # copy over test_key
 mkdir -p /etc/salt/pki/minion
-cp /vagrant/salt/test_key.pem /etc/salt/pki/minion/minion.pem
-cp /vagrant/salt/test_key.pub /etc/salt/pki/minion/minion.pub
-
-# start miniond
-service salt-minion start
+cp /vagrant/salt/minion.{pem,pub} /etc/salt/pki/minion/
 
 # highstate!
 salt-call state.highstate
 
-# make sure miniond is running
+# start miniond
 service salt-minion start
 
 echo
