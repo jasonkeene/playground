@@ -31,7 +31,7 @@
             - [x] 3.1.1.1. Bootstrap Salt Minion
             - [x] 3.1.1.2. Telling Salt to Run Masterless
             - [x] 3.1.1.3. Create State Tree
-    - [ ] 3.2. BASICS
+    - [x] 3.2. BASICS
         - [x] 3.2.1. Standalone Minion
             - [x] 3.2.1.1. Telling Salt Call to Run Masterless
             - [x] 3.2.1.2. Running States Masterless
