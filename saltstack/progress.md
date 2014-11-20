@@ -40,14 +40,14 @@
         - [x] 3.2.3. Whitelist communication to Master
         - [x] 3.2.4. Using cron with Salt
             - [x] 3.2.4.1. Use cron to initiate a highstate
-        - [ ] 3.2.5. Remote execution tutorial
-            - [ ] 3.2.5.1. Order your minions around
-        - [ ] 3.2.6. Pillar Walkthrough
-            - [ ] 3.2.6.1. Setting Up Pillar
-            - [ ] 3.2.6.2. Parameterizing States With Pillar
-            - [ ] 3.2.6.3. Pillar Makes Simple States Grow Easily
-            - [ ] 3.2.6.4. Setting Pillar Data on the Command Line
-            - [ ] 3.2.6.5. More On Pillar
+        - [x] 3.2.5. Remote execution tutorial
+            - [x] 3.2.5.1. Order your minions around
+        - [x] 3.2.6. Pillar Walkthrough
+            - [x] 3.2.6.1. Setting Up Pillar
+            - [x] 3.2.6.2. Parameterizing States With Pillar
+            - [x] 3.2.6.3. Pillar Makes Simple States Grow Easily
+            - [x] 3.2.6.4. Setting Pillar Data on the Command Line
+            - [x] 3.2.6.5. More On Pillar
     - [ ] 3.3. STATES
         - [ ] 3.3.1. How Do I Use Salt States?
             - [ ] 3.3.1.1. It is All Just Data

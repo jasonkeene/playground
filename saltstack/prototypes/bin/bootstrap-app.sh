@@ -23,6 +23,9 @@ cp /vagrant/salt/minion.{pem,pub} /etc/salt/pki/minion/
 # highstate!
 salt-call state.highstate
 
+# set hostname
+salt-call network.mod_hostname $2
+
 # start miniond
 service salt-minion start
 
