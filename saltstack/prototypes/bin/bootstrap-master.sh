@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # update packages
-apt-get update
-apt-get upgrade --yes
+#apt-get update
+#apt-get upgrade --yes
 
 # install salt minion
 /vagrant/bin/install-minion.sh
