@@ -20,9 +20,6 @@ echo $2 > /etc/salt/minion_id
 mkdir -p /etc/salt/pki/minion
 cp /vagrant/salt/minion.{pem,pub} /etc/salt/pki/minion/
 
-# highstate!
-salt-call state.highstate
-
 # set hostname
 salt-call network.mod_hostname $2
 
