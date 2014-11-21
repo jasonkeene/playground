@@ -13,6 +13,8 @@ master: $1
 grains:
   roles:
     - proxy
+  access:
+    - operations
 EOF
 echo $2 > /etc/salt/minion_id
 

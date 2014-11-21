@@ -1,6 +1,7 @@
 base:
   '*':
     #- utilities
+    - keys
     - hosts
   'roles:master':
     - match: grain

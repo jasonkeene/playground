@@ -13,6 +13,9 @@ master: $1
 grains:
   roles:
     - app
+  access:
+    - operations
+    - developers
 EOF
 echo $2 > /etc/salt/minion_id
 

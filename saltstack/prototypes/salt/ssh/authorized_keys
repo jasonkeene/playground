@@ -1,0 +1,8 @@
+{% for user in pillar.get('keys') -%}
+    {% set has_access = ('!!set {}\n'|load_yaml).union(user.groups).intersection(grains.get('access', [])) -%}
+    {% if has_access -%}
+        {% for public_key in user.public_keys -%}
+            {{ public_key }} {{ user.email }}
+{% endfor %}
+    {%- endif %}
+{%- endfor -%}

@@ -1,3 +1,4 @@
 base:
-    '*':
-        - hosts
+  '*':
+    - hosts
+    - keys
