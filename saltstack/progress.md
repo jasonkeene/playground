@@ -50,10 +50,10 @@
             - [x] 3.2.6.5. More On Pillar
     - [ ] 3.3. STATES
         - [ ] 3.3.1. How Do I Use Salt States?
-            - [ ] 3.3.1.1. It is All Just Data
-            - [ ] 3.3.1.2. The Top File
-            - [ ] 3.3.1.3. Default Data - YAML
-            - [ ] 3.3.1.4. Adding Configs and Users
+            - [x] 3.3.1.1. It is All Just Data
+            - [x] 3.3.1.2. The Top File
+            - [x] 3.3.1.3. Default Data - YAML
+            - [x] 3.3.1.4. Adding Configs and Users
             - [ ] 3.3.1.5. Moving Beyond a Single SLS
             - [ ] 3.3.1.6. Extending Included SLS Data
             - [ ] 3.3.1.7. Understanding the Render System
