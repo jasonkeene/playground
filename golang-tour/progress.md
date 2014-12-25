@@ -1,10 +1,11 @@
 ## [tour.golang.org](http://tour.golang.org/)
 
 - [x] Using the tour
-    - [x] Hello, 世界
-    - [x] Go local
-    - [x] The Go Playground
-    - [x] Congratulations
+    - [x] Welcome!
+        - [x] Hello, 世界
+        - [x] Go local
+        - [x] The Go Playground
+        - [x] Congratulations
 - [ ] Basics
     - [ ] Packages, variables, and functions.
         - [x] Packages
