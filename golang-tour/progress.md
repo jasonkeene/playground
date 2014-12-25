@@ -7,7 +7,7 @@
         - [x] The Go Playground
         - [x] Congratulations
 - [ ] Basics
-    - [ ] Packages, variables, and functions.
+    - [x] Packages, variables, and functions.
         - [x] Packages
         - [x] Imports
         - [x] Exported names
@@ -15,16 +15,16 @@
         - [x] Functions continued
         - [x] Multiple results
         - [x] Named return values
-        - [ ] Variables
-        - [ ] Variables with initializers
-        - [ ] Short variable declarations
-        - [ ] Basic types
-        - [ ] Zero values
-        - [ ] Type conversions
-        - [ ] Type inference
-        - [ ] Constants
-        - [ ] Numeric Constants
-        - [ ] Congratulations!
+        - [x] Variables
+        - [x] Variables with initializers
+        - [x] Short variable declarations
+        - [x] Basic types
+        - [x] Zero values
+        - [x] Type conversions
+        - [x] Type inference
+        - [x] Constants
+        - [x] Numeric Constants
+        - [x] Congratulations!
     - [ ] Flow control statements: for, if, else, and switch
         - [ ] For
         - [ ] For continued
@@ -95,3 +95,7 @@
         - [ ] Exercise: Equivalent Binary Trees
         - [ ] Exercise: Web Crawler
         - [ ] Where to Go from here...
+
+## Additional Reading
+
+ - [ ] [Go's Declaration Syntax](http://blog.golang.org/gos-declaration-syntax)
