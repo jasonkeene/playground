@@ -1,74 +1,96 @@
-- [x] Hello, 世界
-- [x] Go local
-- [x] The Go Playground
-- [x] Packages
-- [x] Imports
-- [x] Exported names
-- [x] Functions
-- [x] Functions continued
-- [x] Multiple results
-- [x] Named results
-- [ ] Variables
-- [ ] Variables with initializers
-- [ ] Short variable declarations
-- [ ] Basic types
-- [ ] Type conversions
-- [ ] Constants
-- [ ] Numeric Constants
-- [ ] For
-- [ ] For continued
-- [ ] For is Go's "while"
-- [ ] Forever
-- [ ] If
-- [ ] If with a short statement
-- [ ] If and else
-- [ ] Exercise: Loops and Functions
-- [ ] Structs
-- [ ] Struct Fields
-- [ ] Pointers
-- [ ] Struct Literals
-- [ ] The new function
-- [ ] Arrays
-- [ ] Slices
-- [ ] Slicing slices
-- [ ] Making slices
-- [ ] Nil slices
-- [ ] Range
-- [ ] Range continued
-- [ ] Exercise: Slices
-- [ ] Maps
-- [ ] Map literals
-- [ ] Map literals continued
-- [ ] Mutating Maps
-- [ ] Exercise: Maps
-- [ ] Function values
-- [ ] Function closures
-- [ ] Exercise: Fibonacci closure
-- [ ] Switch
-- [ ] Switch evaluation order
-- [ ] Switch with no condition
-- [ ] Advanced Exercise: Complex cube roots
-- [ ] Methods and Interfaces
-- [ ] Methods
-- [ ] Methods continued
-- [ ] Methods with pointer receivers
-- [ ] Interfaces
-- [ ] Interfaces are satisfied implicitly
-- [ ] Errors
-- [ ] Exercise: Errors
-- [ ] Web servers
-- [ ] Exercise: HTTP Handlers
-- [ ] Images
-- [ ] Exercise: Images
-- [ ] Exercise: Rot13 Reader
+## [tour.golang.org](http://tour.golang.org/)
+
+- [x] Using the tour
+    - [x] Hello, 世界
+    - [x] Go local
+    - [x] The Go Playground
+    - [x] Congratulations
+- [ ] Basics
+    - [ ] Packages, variables, and functions.
+        - [x] Packages
+        - [x] Imports
+        - [x] Exported names
+        - [x] Functions
+        - [x] Functions continued
+        - [x] Multiple results
+        - [x] Named return values
+        - [ ] Variables
+        - [ ] Variables with initializers
+        - [ ] Short variable declarations
+        - [ ] Basic types
+        - [ ] Zero values
+        - [ ] Type conversions
+        - [ ] Type inference
+        - [ ] Constants
+        - [ ] Numeric Constants
+        - [ ] Congratulations!
+    - [ ] Flow control statements: for, if, else, and switch
+        - [ ] For
+        - [ ] For continued
+        - [ ] For is Go's "while"
+        - [ ] Forever
+        - [ ] If
+        - [ ] If with a short statement
+        - [ ] If and else
+        - [ ] Exercise: Loops and Functions
+        - [ ] Switch
+        - [ ] Switch evaluation order
+        - [ ] Switch with no condition
+        - [ ] Defer
+        - [ ] Stacking defers
+        - [ ] Congratulations!
+    - [ ] More types: structs, slices, and maps.
+        - [ ] Pointers
+        - [ ] Structs
+        - [ ] Struct Fields
+        - [ ] Pointers to structs
+        - [ ] Struct Literals
+        - [ ] Arrays
+        - [ ] Slices
+        - [ ] Slicing slices
+        - [ ] Making slices
+        - [ ] Nil slices
+        - [ ] Adding elements to a slice
+        - [ ] Range
+        - [ ] Range continued
+        - [ ] Exercise: Slices
+        - [ ] Maps
+        - [ ] Map literals
+        - [ ] Map literals continued
+        - [ ] Mutating Maps
+        - [ ] Exercise: Maps
+        - [ ] Function values
+        - [ ] Function closures
+        - [ ] Exercise: Fibonacci closure
+        - [ ] Congratulations!
+- [ ] Methods and interfaces
+    - [ ] Methods and interfaces
+        - [ ] Methods
+        - [ ] Methods continued
+        - [ ] Methods with pointer receivers
+        - [ ] Interfaces
+        - [ ] Interfaces are satisfied implicitly
+        - [ ] Stringers
+        - [ ] Exercise: Stringers
+        - [ ] Errors
+        - [ ] Exercise: Errors
+        - [ ] Readers
+        - [ ] Exercise: Readers
+        - [ ] Exercise: rot13Reader
+        - [ ] Web servers
+        - [ ] Exercise: HTTP Handlers
+        - [ ] Images
+        - [ ] Exercise: Images
+        - [ ] Congratulations!
 - [ ] Concurrency
-- [ ] Goroutines
-- [ ] Channels
-- [ ] Buffered Channels
-- [ ] Range and Close
-- [ ] Select
-- [ ] Default Selection
-- [ ] Exercise: Equivalent Binary Trees
-- [ ] Exercise: Equivalent Binary Trees
-- [ ] Exercise: Web Crawler
-- [ ] Where to Go from here...
+    - [ ] Concurrency
+        - [ ] Goroutines
+        - [ ] Channels
+        - [ ] Buffered Channels
+        - [ ] Range and Close
+        - [ ] Select
+        - [ ] Default Selection
+        - [ ] Exercise: Equivalent Binary Trees
+        - [ ] Exercise: Equivalent Binary Trees
+        - [ ] Exercise: Web Crawler
+        - [ ] Where to Go from here...
