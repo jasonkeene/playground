@@ -19,6 +19,7 @@ Networking
 - `ZeroMQ - Messaging for Many Applications <http://shop.oreilly.com/product/0636920026136.do>`_
 - `Applied Network Security Monitoring: Collection, Detection, and Analysis <http://www.amazon.com/dp/0124172083/>`_
 - `Network Warrior <http://www.amazon.com/dp/1449387861/>`_
+- `Distributed Systems: Principles and Paradigms <www.amazon.com/gp/product/0132392275/>`_
 
 Security
 --------
