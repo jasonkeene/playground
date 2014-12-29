@@ -30,6 +30,7 @@ Crypto
 ------
 
 - `Practical Cryptography <http://www.amazon.com/dp/0471223573/>`_
+- `Practical Cryptography with Go <http://gokyle.org/book/>`_
 
 Math
 ----
