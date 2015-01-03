@@ -1,7 +1,4 @@
 
-END = object()
-TERM = object()
-
 
 def off_by_one(a, b):
     off = False
@@ -19,7 +16,6 @@ def ladder_length(start, end, dictionary):
     count = 1
     frame = {start}
     while True:
-        print "#{} frame: {}, dictionary: {}".format(count, len(frame), len(dictionary))
         if not frame:
             return 0
         dictionary -= frame
