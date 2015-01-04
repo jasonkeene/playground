@@ -12,7 +12,7 @@ def off_by_one(a, b):
 
 
 def ladder_length(start, end, dictionary):
-    dictionary = set(dictionary) | {end}
+    dictionary |= {end}
     count = 1
     frame = {start}
     while True:
