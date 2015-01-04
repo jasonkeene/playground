@@ -25,21 +25,21 @@
         - [x] Constants
         - [x] Numeric Constants
         - [x] Congratulations!
-    - [ ] Flow control statements: for, if, else, and switch
-        - [ ] For
-        - [ ] For continued
-        - [ ] For is Go's "while"
-        - [ ] Forever
-        - [ ] If
-        - [ ] If with a short statement
-        - [ ] If and else
-        - [ ] Exercise: Loops and Functions
-        - [ ] Switch
-        - [ ] Switch evaluation order
-        - [ ] Switch with no condition
-        - [ ] Defer
-        - [ ] Stacking defers
-        - [ ] Congratulations!
+    - [x] Flow control statements: for, if, else, and switch
+        - [x] For
+        - [x] For continued
+        - [x] For is Go's "while"
+        - [x] Forever
+        - [x] If
+        - [x] If with a short statement
+        - [x] If and else
+        - [x] Exercise: Loops and Functions
+        - [x] Switch
+        - [x] Switch evaluation order
+        - [x] Switch with no condition
+        - [x] Defer
+        - [x] Stacking defers
+        - [x] Congratulations!
     - [ ] More types: structs, slices, and maps.
         - [ ] Pointers
         - [ ] Structs
@@ -99,3 +99,4 @@
 ## Additional Reading
 
  - [ ] [Go's Declaration Syntax](http://blog.golang.org/gos-declaration-syntax)
+ - [ ] [Defer, Panic, and Recover](http://blog.golang.org/defer-panic-and-recover)
