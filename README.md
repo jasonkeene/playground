@@ -1,5 +1,6 @@
 A place for experiments, learning, and random pieces of code.
 
+[![practical-cryptography-with-go](http://img.shields.io/badge/practical--cryptography--with--go-65%25_(13/20)-yellowgreen.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/practical-cryptography-with-go/progress.md)  
 [![golang-tour](http://img.shields.io/badge/golang--tour-25%25_(24/96)-orange.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/golang-tour/progress.md)  
 [![saltstack](http://img.shields.io/badge/saltstack-27.57%25_(51/185)-orange.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/saltstack/progress.md)  
 [![paypal](http://img.shields.io/badge/paypal-0%25_(0/11)-red.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/paypal/progress.md)  
