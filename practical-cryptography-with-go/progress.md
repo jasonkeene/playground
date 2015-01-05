@@ -14,10 +14,10 @@
      - [x] Confidentiality and IND-CPA
      - [x] Salsa20: A Stream Cipher
      - [x] Block Cipher Modes
-     - [ ] Encrypting and Decrypting Data with AES-CBC
-     - [ ] The Role of Symmetric Cryptography
-     - [ ] Conclusion
+     - [x] Encrypting and Decrypting Data with AES-CBC
+     - [x] The Role of Symmetric Cryptography
+     - [x] Conclusion
      - [ ] Exercises
-     - [ ] Go Packages
+     - [x] Go Packages
      - [ ] Source Examples
  - [ ] Select Bibliography
