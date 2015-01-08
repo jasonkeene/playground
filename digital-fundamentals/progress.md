@@ -2,7 +2,7 @@
 ## [Digital Fundamentals](http://www.amazon.com/Digital-Fundamentals-Edition-Thomas-Floyd/dp/0132359235)
 
  - [ ] Chapter 1: Digital Concepts
-     - [ ] Digital and Analog Quantities
+     - [x] Digital and Analog Quantities
      - [ ] Binary Digits, Logic Levels, and Digital Waveforms
      - [ ] Basic Logic Operations
      - [ ] Overview of Basic Logic Functions
