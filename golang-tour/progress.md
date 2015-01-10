@@ -49,12 +49,12 @@
         - [x] Arrays
         - [x] Slices
         - [x] Slicing slices
-        - [ ] Making slices
-        - [ ] Nil slices
-        - [ ] Adding elements to a slice
-        - [ ] Range
-        - [ ] Range continued
-        - [ ] Exercise: Slices
+        - [x] Making slices
+        - [x] Nil slices
+        - [x] Adding elements to a slice
+        - [x] Range
+        - [x] Range continued
+        - [x] Exercise: Slices
         - [ ] Maps
         - [ ] Map literals
         - [ ] Map literals continued
@@ -100,3 +100,4 @@
 
  - [ ] [Go's Declaration Syntax](http://blog.golang.org/gos-declaration-syntax)
  - [ ] [Defer, Panic, and Recover](http://blog.golang.org/defer-panic-and-recover)
+ - [ ] [Go Slices: usage and internals](http://blog.golang.org/go-slices-usage-and-internals)
