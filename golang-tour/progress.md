@@ -42,13 +42,13 @@
         - [x] Congratulations!
     - [ ] More types: structs, slices, and maps.
         - [x] Pointers
-        - [ ] Structs
-        - [ ] Struct Fields
-        - [ ] Pointers to structs
-        - [ ] Struct Literals
-        - [ ] Arrays
-        - [ ] Slices
-        - [ ] Slicing slices
+        - [x] Structs
+        - [x] Struct Fields
+        - [x] Pointers to structs
+        - [x] Struct Literals
+        - [x] Arrays
+        - [x] Slices
+        - [x] Slicing slices
         - [ ] Making slices
         - [ ] Nil slices
         - [ ] Adding elements to a slice
