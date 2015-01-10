@@ -21,3 +21,5 @@
      - [x] Go Packages
      - [ ] Source Examples
  - [ ] Select Bibliography
+
+## [A Tour of Cryptography Packages in Go](https://www.youtube.com/watch?v=H8nA_ZZxaMU)
