@@ -55,11 +55,11 @@
         - [x] Range
         - [x] Range continued
         - [x] Exercise: Slices
-        - [ ] Maps
-        - [ ] Map literals
-        - [ ] Map literals continued
-        - [ ] Mutating Maps
-        - [ ] Exercise: Maps
+        - [x] Maps
+        - [x] Map literals
+        - [x] Map literals continued
+        - [x] Mutating Maps
+        - [x] Exercise: Maps
         - [ ] Function values
         - [ ] Function closures
         - [ ] Exercise: Fibonacci closure
