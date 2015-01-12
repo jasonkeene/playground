@@ -3,7 +3,7 @@
 
  - [ ] Chapter 1: Digital Concepts
      - [x] Digital and Analog Quantities
-     - [ ] Binary Digits, Logic Levels, and Digital Waveforms
+     - [x] Binary Digits, Logic Levels, and Digital Waveforms
      - [ ] Basic Logic Operations
      - [ ] Overview of Basic Logic Functions
      - [ ] Fixed-Function Integrated Circuits
@@ -11,6 +11,18 @@
      - [ ] Test and Measurement Instruments
      - [ ] Digital System Application
  - [ ] Chapter 2: Number Systems, Operations, and Codes
+     - [ ] Decimal Numbers
+     - [ ] Binary Numbers
+     - [ ] Decimal-to-Binary Conversion
+     - [ ] Binary Arithmetic
+     - [ ] 1's and 2's Complements of Binary Numbers
+     - [ ] Signed Numbers
+     - [ ] Arithmetic Operations with Signed Numbers
+     - [ ] Hexadecimal Numbers
+     - [ ] Octal Numbers
+     - [ ] Binary Coded Decimal (BCD)
+     - [ ] Digital Codes
+     - [ ] Error Detection and Correction Codes
  - [ ] Chapter 3: Logic Gates
  - [ ] Chapter 4: Boolean Algebra and Logic Simplification
  - [ ] Chapter 5: Combinational Logic Analysis
