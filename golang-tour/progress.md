@@ -6,7 +6,7 @@
         - [x] Go local
         - [x] The Go Playground
         - [x] Congratulations
-- [ ] Basics
+- [x] Basics
     - [x] Packages, variables, and functions.
         - [x] Packages
         - [x] Imports
@@ -40,7 +40,7 @@
         - [x] Defer
         - [x] Stacking defers
         - [x] Congratulations!
-    - [ ] More types: structs, slices, and maps.
+    - [x] More types: structs, slices, and maps.
         - [x] Pointers
         - [x] Structs
         - [x] Struct Fields
@@ -60,10 +60,10 @@
         - [x] Map literals continued
         - [x] Mutating Maps
         - [x] Exercise: Maps
-        - [ ] Function values
-        - [ ] Function closures
-        - [ ] Exercise: Fibonacci closure
-        - [ ] Congratulations!
+        - [x] Function values
+        - [x] Function closures
+        - [x] Exercise: Fibonacci closure
+        - [x] Congratulations!
 - [ ] Methods and interfaces
     - [ ] Methods and interfaces
         - [ ] Methods
