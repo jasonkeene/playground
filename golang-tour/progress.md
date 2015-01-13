@@ -66,8 +66,8 @@
         - [x] Congratulations!
 - [ ] Methods and interfaces
     - [ ] Methods and interfaces
-        - [ ] Methods
-        - [ ] Methods continued
+        - [x] Methods
+        - [x] Methods continued
         - [ ] Methods with pointer receivers
         - [ ] Interfaces
         - [ ] Interfaces are satisfied implicitly
