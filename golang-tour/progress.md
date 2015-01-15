@@ -71,8 +71,8 @@
         - [x] Methods with pointer receivers
         - [x] Interfaces
         - [x] Interfaces are satisfied implicitly
-        - [ ] Stringers
-        - [ ] Exercise: Stringers
+        - [x] Stringers
+        - [x] Exercise: Stringers
         - [ ] Errors
         - [ ] Exercise: Errors
         - [ ] Readers
