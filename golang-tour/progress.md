@@ -68,9 +68,9 @@
     - [ ] Methods and interfaces
         - [x] Methods
         - [x] Methods continued
-        - [ ] Methods with pointer receivers
-        - [ ] Interfaces
-        - [ ] Interfaces are satisfied implicitly
+        - [x] Methods with pointer receivers
+        - [x] Interfaces
+        - [x] Interfaces are satisfied implicitly
         - [ ] Stringers
         - [ ] Exercise: Stringers
         - [ ] Errors
