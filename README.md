@@ -1,7 +1,7 @@
 A place for experiments, learning, and random pieces of code.
 
+[![golang-tour](http://img.shields.io/badge/golang--tour-74.49%25_(73/98)-green.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/golang-tour/progress.md)  
 [![go-by-example](http://img.shields.io/badge/go--by--example-0%25_(0/65)-red.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/go-by-example/progress.md)  
-[![golang-tour](http://img.shields.io/badge/golang--tour-70.41%25_(69/98)-green.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/golang-tour/progress.md)  
 [![digital-fundamentals](http://img.shields.io/badge/digital--fundamentals-6.45%25_(2/31)-red.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/digital-fundamentals/progress.md)  
 [![practical-cryptography-with-go](http://img.shields.io/badge/practical--cryptography--with--go-85%25_(17/20)-brightgreen.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/practical-cryptography-with-go/progress.md)  
 [![saltstack](http://img.shields.io/badge/saltstack-27.57%25_(51/185)-orange.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/saltstack/progress.md)  

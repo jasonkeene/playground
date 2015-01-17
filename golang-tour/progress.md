@@ -73,8 +73,8 @@
         - [x] Interfaces are satisfied implicitly
         - [x] Stringers
         - [x] Exercise: Stringers
-        - [ ] Errors
-        - [ ] Exercise: Errors
+        - [x] Errors
+        - [x] Exercise: Errors
         - [ ] Readers
         - [ ] Exercise: Readers
         - [ ] Exercise: rot13Reader
