@@ -75,9 +75,9 @@
         - [x] Exercise: Stringers
         - [x] Errors
         - [x] Exercise: Errors
-        - [ ] Readers
-        - [ ] Exercise: Readers
-        - [ ] Exercise: rot13Reader
+        - [x] Readers
+        - [x] Exercise: Readers
+        - [x] Exercise: rot13Reader
         - [ ] Web servers
         - [ ] Exercise: HTTP Handlers
         - [ ] Images
@@ -101,3 +101,4 @@
  - [ ] [Go's Declaration Syntax](http://blog.golang.org/gos-declaration-syntax)
  - [ ] [Defer, Panic, and Recover](http://blog.golang.org/defer-panic-and-recover)
  - [ ] [Go Slices: usage and internals](http://blog.golang.org/go-slices-usage-and-internals)
+ - [ ] [Strings, bytes, runes and characters in Go](http://blog.golang.org/strings)
