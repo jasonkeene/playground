@@ -78,8 +78,8 @@
         - [x] Readers
         - [x] Exercise: Readers
         - [x] Exercise: rot13Reader
-        - [ ] Web servers
-        - [ ] Exercise: HTTP Handlers
+        - [x] Web servers
+        - [x] Exercise: HTTP Handlers
         - [ ] Images
         - [ ] Exercise: Images
         - [ ] Congratulations!
