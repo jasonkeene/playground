@@ -64,8 +64,8 @@
         - [x] Function closures
         - [x] Exercise: Fibonacci closure
         - [x] Congratulations!
-- [ ] Methods and interfaces
-    - [ ] Methods and interfaces
+- [x] Methods and interfaces
+    - [x] Methods and interfaces
         - [x] Methods
         - [x] Methods continued
         - [x] Methods with pointer receivers
@@ -80,9 +80,9 @@
         - [x] Exercise: rot13Reader
         - [x] Web servers
         - [x] Exercise: HTTP Handlers
-        - [ ] Images
-        - [ ] Exercise: Images
-        - [ ] Congratulations!
+        - [x] Images
+        - [x] Exercise: Images
+        - [x] Congratulations!
 - [ ] Concurrency
     - [ ] Concurrency
         - [ ] Goroutines
