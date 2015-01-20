@@ -7,6 +7,7 @@ Fundamentals
 Unix
 ----
 
+- `Advanced Programming in the UNIX Environment <http://www.amazon.com/dp/0321637739/>`_
 - `The Art of UNIX Programming <http://www.amazon.com/dp/0131429019/>`_
 - `The Design of the UNIX Operating System <http://www.amazon.com/dp/B000M85BS6/>`_
 - `Unix Programming Environment <http://www.amazon.com/dp/0139376992/>`_
@@ -53,6 +54,7 @@ Compilers/Language Design
 Operating Systems
 -----------------
 
+- `Operating System Concepts <http://www.amazon.com/dp/1118063333/>`
 - `Operating Systems Design and Implementation <http://www.amazon.com/dp/0131429388/>`_
 
 Architecture/Patterns/Design
