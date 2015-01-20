@@ -85,12 +85,12 @@
         - [x] Congratulations!
 - [ ] Concurrency
     - [ ] Concurrency
-        - [ ] Goroutines
-        - [ ] Channels
-        - [ ] Buffered Channels
-        - [ ] Range and Close
-        - [ ] Select
-        - [ ] Default Selection
+        - [x] Goroutines
+        - [x] Channels
+        - [x] Buffered Channels
+        - [x] Range and Close
+        - [x] Select
+        - [x] Default Selection
         - [ ] Exercise: Equivalent Binary Trees
         - [ ] Exercise: Equivalent Binary Trees
         - [ ] Exercise: Web Crawler
