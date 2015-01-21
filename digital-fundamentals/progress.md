@@ -4,8 +4,8 @@
  - [ ] Chapter 1: Introductory Concepts
      - [x] Digital and Analog Quantities
      - [x] Binary Digits, Logic Levels, and Digital Waveforms
-     - [ ] Basic Logic Operations
-     - [ ] Introduction to the System Concept
+     - [x] Basic Logic Operations
+     - [x] Introduction to the System Concept
      - [ ] Digital Integrated Circuits
  - [ ] Chapter 2: Number Systems, Operations, and Codes
      - [ ] Decimal Numbers
