@@ -1,0 +1,58 @@
+
+Python Implementation of Expression
+===================================
+
+def partb(x, y, z):
+    return (
+        not z and (
+            not x and not y or
+            x and not y
+        ) or
+        x and y or
+        y and z and (y or z)
+    )
+
+
+Truth Table
+===========
+
+ x | y | z | partb
+===|===|===|=======
+ 1 | 1 | 1 |   1
+ 1 | 1 | 0 |   1
+ 1 | 0 | 1 |   0
+ 1 | 0 | 0 |   1
+ 0 | 1 | 1 |   1
+ 0 | 1 | 0 |   0
+ 0 | 0 | 1 |   0
+ 0 | 0 | 0 |   1
+
+
+Simplification
+==============
+
+F = z'(x'y' + xy') + xy + yz(y + z)
+    z'(y'(x' + x)) + xy + yz(y + z)  # distribution law
+    z'y' + xy + yz(y + z)            # inverse law
+    z'y' + xy + yyz + yzz            # distribution law
+    z'y' + xy + yz + yz              # idempotent law
+    z'y' + xy + yz                   # idempotent law (sum_of_products)
+    (z + y)' + xy + yz               # demorgan's theorem
+    (z + y)' + y(x + z)              # distribution law (simplification)
+
+
+Python Implementation of Simplification
+=======================================
+
+def sum_of_products(x, y, z):
+    return (
+        not z and not y or      # 4 gates
+        x and y or              # 2 gates
+        y and z                 # 1 gates
+    )                           # total: 7 gates
+
+def simplification(x, y, z):
+    return (
+        not (y or z) or         # 3 gates
+        y and (x or z)          # 2 gates
+    )                           # total: 5 gates
