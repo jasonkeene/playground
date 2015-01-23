@@ -91,7 +91,7 @@
         - [x] Range and Close
         - [x] Select
         - [x] Default Selection
-        - [ ] Exercise: Equivalent Binary Trees
-        - [ ] Exercise: Equivalent Binary Trees
-        - [ ] Exercise: Web Crawler
-        - [ ] Where to Go from here...
+        - [x] Exercise: Equivalent Binary Trees
+        - [x] Exercise: Equivalent Binary Trees
+        - [x] Exercise: Web Crawler
+        - [x] Where to Go from here...
