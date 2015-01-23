@@ -83,8 +83,8 @@
         - [x] Images
         - [x] Exercise: Images
         - [x] Congratulations!
-- [ ] Concurrency
-    - [ ] Concurrency
+- [x] Concurrency
+    - [x] Concurrency
         - [x] Goroutines
         - [x] Channels
         - [x] Buffered Channels

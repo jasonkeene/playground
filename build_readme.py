@@ -51,6 +51,19 @@ def get_progress_status(name):
     return percent, complete, total
 
 
+def percent_str(percent):
+    if not percent:
+        return '0'
+    pstr = str(percent)
+    if '.' in pstr:
+        i = pstr.index('.')
+        if len(pstr) > i + 2:
+            pstr = pstr[0:i + 3]
+        pstr = pstr.rstrip('0')
+        pstr = pstr.rstrip('.')
+    return pstr
+
+
 def generate_progress():
     """Return a string of progress information."""
     progress_dirs = find_progress_dirs()
@@ -60,7 +73,7 @@ def generate_progress():
         progress += PROGRESS_TEMPLATE.format(
             name=name,
             escaped=escape_shield_name(name),
-            percent='{:.2f}'.format(percent).rstrip('0.') or '0',
+            percent=percent_str(percent),
             complete=complete,
             total=total,
             color=badge_color(percent),
