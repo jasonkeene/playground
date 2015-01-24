@@ -1,7 +1,7 @@
 
 ## [Documentation](http://golang.org/doc/)
 
- - [ ] [How to write Go code](http://golang.org/doc/code.html)
+ - [x] [How to write Go code](http://golang.org/doc/code.html)
  - [ ] [Language Specification](http://golang.org/ref/spec)
  - [ ] [Writing Web Applications](http://golang.org/doc/articles/wiki/)
 
@@ -15,7 +15,7 @@
 
 ## Screencasts
 
- - [ ] [Writing, building, installing, and testing Go code](https://www.youtube.com/watch?v=XCsL89YtqCs)
+ - [x] [Writing, building, installing, and testing Go code](https://www.youtube.com/watch?v=XCsL89YtqCs)
 
 
 ## [Code Walks](http://golang.org/doc/codewalk/)
