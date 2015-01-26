@@ -11,10 +11,38 @@
 
 ## [Talks](https://talks.golang.org/)
 
+#### 2009
+
  - [x] [The Go Programming Language](https://www.youtube.com/watch?v=rKnDgT73v8s)
- - [ ] [Google I/O 2012 - Go Concurrency Patterns](https://www.youtube.com/watch?v=f6kdp27TYZs) ([slides](http://talks.golang.org/2012/concurrency.slide))
- - [ ] [Google I/O 2013 - Advanced Go Concurrency Patterns](https://www.youtube.com/watch?v=QDDwwePbDtw) ([slides](http://talks.golang.org/2013/advconc.slide))
+
+#### 2010
+
+ - [ ] [Another Go at Language Design](https://www.youtube.com/watch?v=7VcArS4Wpqk)
+ - [x] [Public Static Void](https://www.youtube.com/watch?v=5kj5ApnhPAE)
+ - [ ] [Origins of Go Concurrency Style](https://www.youtube.com/watch?v=3DtUzH3zoFo)
+
+#### 2011
+
+ - [ ] [Another Go at Language Design](https://www.youtube.com/watch?v=aIgyp5nvdqc)
+
+#### 2012
+
+ - [ ] [Go Concurrency Patterns](https://www.youtube.com/watch?v=f6kdp27TYZs) ([slides](http://talks.golang.org/2012/concurrency.slide))
  - [ ] [Go: a simple programming environment](http://vimeo.com/53221558) ([slides](http://talks.golang.org/2012/simple.slide))
+ - [ ] [Concurrency Is Not Parallelism](http://vimeo.com/49718712)
+
+#### 2013
+
+ - [ ] [Advanced Go Concurrency Patterns](https://www.youtube.com/watch?v=QDDwwePbDtw) ([slides](http://talks.golang.org/2013/advconc.slide))
+ - [ ] [Go at Google](http://www.infoq.com/presentations/Go-Google)
+
+#### 2014
+
+ - [ ] [Toward Go 1.3, and beyond](https://www.youtube.com/watch?v=mQ4hwLgSvUs)
+
+#### 2015
+
+
 
 
 ## Screencasts
