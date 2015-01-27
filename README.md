@@ -1,10 +1,10 @@
 A place for experiments, learning, and random pieces of code.
 
-[![golang-docs](http://img.shields.io/badge/golang--docs-23.07%25_(3/13)-orange.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/golang-docs/progress.md)  
+[![golang-docs](http://img.shields.io/badge/golang--docs-25%25_(5/20)-orange.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/golang-docs/progress.md)  
+[![golang-blog](http://img.shields.io/badge/golang--blog-0%25_(0/5)-red.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/golang-blog/progress.md)  
 [![golang-tour](http://img.shields.io/badge/golang--tour-100%25_(95/95)-brightgreen.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/golang-tour/progress.md)  
 [![digital-fundamentals](http://img.shields.io/badge/digital--fundamentals-3.6%25_(4/111)-red.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/digital-fundamentals/progress.md)  
 [![cpp-how-to-program](http://img.shields.io/badge/cpp--how--to--program-0%25_(0/6)-red.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/cpp-how-to-program/progress.md)  
-[![golang-blog](http://img.shields.io/badge/golang--blog-0%25_(0/4)-red.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/golang-blog/progress.md)  
 [![go-by-example](http://img.shields.io/badge/go--by--example-0%25_(0/65)-red.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/go-by-example/progress.md)  
 [![practical-cryptography-with-go](http://img.shields.io/badge/practical--cryptography--with--go-85%25_(17/20)-brightgreen.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/practical-cryptography-with-go/progress.md)  
 [![saltstack](http://img.shields.io/badge/saltstack-27.56%25_(51/185)-orange.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/saltstack/progress.md)  

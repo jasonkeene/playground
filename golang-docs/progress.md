@@ -38,7 +38,7 @@
 
 #### 2014
 
- - [ ] [Toward Go 1.3, and beyond](https://www.youtube.com/watch?v=mQ4hwLgSvUs)
+ - [x] [Toward Go 1.3, and beyond](https://www.youtube.com/watch?v=mQ4hwLgSvUs)
 
 #### 2015
 
