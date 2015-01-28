@@ -17,7 +17,7 @@
 
 #### 2010
 
- - [ ] [Another Go at Language Design](https://www.youtube.com/watch?v=7VcArS4Wpqk)
+ - [x] [Another Go at Language Design](https://www.youtube.com/watch?v=7VcArS4Wpqk)
  - [x] [Public Static Void](https://www.youtube.com/watch?v=5kj5ApnhPAE)
  - [ ] [Origins of Go Concurrency Style](https://www.youtube.com/watch?v=3DtUzH3zoFo)
 

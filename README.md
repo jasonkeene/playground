@@ -1,6 +1,6 @@
 A place for experiments, learning, and random pieces of code.
 
-[![golang-docs](http://img.shields.io/badge/golang--docs-25%25_(5/20)-orange.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/golang-docs/progress.md)  
+[![golang-docs](http://img.shields.io/badge/golang--docs-30%25_(6/20)-orange.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/golang-docs/progress.md)  
 [![golang-blog](http://img.shields.io/badge/golang--blog-0%25_(0/5)-red.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/golang-blog/progress.md)  
 [![golang-tour](http://img.shields.io/badge/golang--tour-100%25_(95/95)-brightgreen.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/golang-tour/progress.md)  
 [![digital-fundamentals](http://img.shields.io/badge/digital--fundamentals-3.6%25_(4/111)-red.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/digital-fundamentals/progress.md)  
