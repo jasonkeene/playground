@@ -1,4 +1,3 @@
-
 ## [Documentation](http://golang.org/doc/)
 
  - [x] [How to write Go code](http://golang.org/doc/code.html)
@@ -7,6 +6,17 @@
  - [ ] [Effective Go](http://golang.org/doc/effective_go.html)
  - [ ] [Command go](http://golang.org/cmd/go/)
  - [ ] [Package testing](http://golang.org/pkg/testing/)
+ - [ ] [Package json](http://golang.org/pkg/encoding/json/)
+
+
+## [The Go Blog](http://blog.golang.org/)
+
+ - [ ] [Go's Declaration Syntax](http://blog.golang.org/gos-declaration-syntax)
+ - [ ] [Defer, Panic, and Recover](http://blog.golang.org/defer-panic-and-recover)
+ - [ ] [Go Slices: usage and internals](http://blog.golang.org/go-slices-usage-and-internals)
+ - [ ] [Strings, bytes, runes and characters in Go](http://blog.golang.org/strings)
+ - [ ] [Concurrency is not parallelism](http://blog.golang.org/concurrency-is-not-parallelism)
+ - [x] [JSON and Go](http://blog.golang.org/json-and-go)
 
 
 ## [Talks](https://talks.golang.org/)
@@ -24,12 +34,15 @@
 #### 2011
 
  - [ ] [Another Go at Language Design](https://www.youtube.com/watch?v=aIgyp5nvdqc)
+ - [x] [Writing Web Apps in Go](https://www.youtube.com/watch?v=-i0hat7pdpk)
+ - [ ] [Practical Go Programming](https://www.youtube.com/watch?v=2-pPAvqyluI)
 
 #### 2012
 
  - [ ] [Go Concurrency Patterns](https://www.youtube.com/watch?v=f6kdp27TYZs) ([slides](http://talks.golang.org/2012/concurrency.slide))
  - [ ] [Go: a simple programming environment](http://vimeo.com/53221558) ([slides](http://talks.golang.org/2012/simple.slide))
  - [ ] [Concurrency Is Not Parallelism](http://vimeo.com/49718712)
+ - [x] [Going Go](https://www.youtube.com/watch?v=on5DeUyWDqI)
 
 #### 2013
 
