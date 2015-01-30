@@ -43,11 +43,13 @@
  - [ ] [Go: a simple programming environment](http://vimeo.com/53221558) ([slides](http://talks.golang.org/2012/simple.slide))
  - [ ] [Concurrency Is Not Parallelism](http://vimeo.com/49718712)
  - [x] [Going Go](https://www.youtube.com/watch?v=on5DeUyWDqI)
+ - [x] [The path to Go 1](https://www.youtube.com/watch?v=bj9T2c2Xk_s)
 
 #### 2013
 
  - [ ] [Advanced Go Concurrency Patterns](https://www.youtube.com/watch?v=QDDwwePbDtw) ([slides](http://talks.golang.org/2013/advconc.slide))
  - [ ] [Go at Google](http://www.infoq.com/presentations/Go-Google)
+ - [x] [Fireside Chat with the Go Team](https://www.youtube.com/watch?v=p9VUCp98ay4)
 
 #### 2014
 

@@ -1,10 +1,10 @@
 
 ## [Go by Example](https://gobyexample.com/)
 
- - [ ] Hello World
- - [ ] Values
- - [ ] Variables
- - [ ] Constants
+ - [x] Hello World
+ - [x] Values
+ - [x] Variables
+ - [x] Constants
  - [ ] For
  - [ ] If/Else
  - [ ] Switch
