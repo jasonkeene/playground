@@ -44,6 +44,7 @@
  - [ ] [Concurrency Is Not Parallelism](http://vimeo.com/49718712)
  - [x] [Going Go](https://www.youtube.com/watch?v=on5DeUyWDqI)
  - [x] [The path to Go 1](https://www.youtube.com/watch?v=bj9T2c2Xk_s)
+ - [x] [Meet the Go Team](https://www.youtube.com/watch?v=sln-gJaURzk)
 
 #### 2013
 
@@ -54,6 +55,7 @@
 #### 2014
 
  - [x] [Toward Go 1.3, and beyond](https://www.youtube.com/watch?v=mQ4hwLgSvUs)
+ - [x] [Opening Keynote by Rob Pike](https://www.youtube.com/watch?v=VoS7DsT1rdM)
 
 #### 2015
 

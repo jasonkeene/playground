@@ -5,10 +5,10 @@
  - [x] Values
  - [x] Variables
  - [x] Constants
- - [ ] For
- - [ ] If/Else
- - [ ] Switch
- - [ ] Arrays
+ - [x] For
+ - [x] If/Else
+ - [x] Switch
+ - [x] Arrays
  - [ ] Slices
  - [ ] Maps
  - [ ] Range
