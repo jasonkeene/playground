@@ -19,7 +19,15 @@
  - [x] [JSON and Go](http://blog.golang.org/json-and-go)
 
 
+## Wiki
+
+ - [ ] [Learn Concurrency](https://github.com/golang/go/wiki/LearnConcurrency)
+
 ## [Talks](https://talks.golang.org/)
+
+#### 2007
+
+ - [ ] [Advanced Topics in Programming Languages: Concurrency/message passing Newsqueak](https://www.youtube.com/watch?v=hB05UFqOtFA)
 
 #### 2009
 
@@ -33,6 +41,7 @@
 
 #### 2011
 
+ - [x] [Rob Pike on Google Go: Concurrency, Type System, Memory Management and GC](http://www.infoq.com/interviews/pike-google-go)
  - [ ] [Another Go at Language Design](https://www.youtube.com/watch?v=aIgyp5nvdqc)
  - [x] [Writing Web Apps in Go](https://www.youtube.com/watch?v=-i0hat7pdpk)
  - [ ] [Practical Go Programming](https://www.youtube.com/watch?v=2-pPAvqyluI)

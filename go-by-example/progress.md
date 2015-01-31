@@ -9,7 +9,7 @@
  - [x] If/Else
  - [x] Switch
  - [x] Arrays
- - [ ] Slices
+ - [x] Slices
  - [ ] Maps
  - [ ] Range
  - [ ] Functions
