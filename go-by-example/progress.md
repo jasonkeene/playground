@@ -10,10 +10,10 @@
  - [x] Switch
  - [x] Arrays
  - [x] Slices
- - [ ] Maps
- - [ ] Range
- - [ ] Functions
- - [ ] Multiple Return Values
+ - [x] Maps
+ - [x] Range
+ - [x] Functions
+ - [x] Multiple Return Values
  - [ ] Variadic Functions
  - [ ] Closures
  - [ ] Recursion

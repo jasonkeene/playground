@@ -42,6 +42,7 @@
 #### 2011
 
  - [x] [Rob Pike on Google Go: Concurrency, Type System, Memory Management and GC](http://www.infoq.com/interviews/pike-google-go)
+ - [ ] [Rob Pike on Parallelism and Concurrency in Programming Languages](http://www.infoq.com/interviews/pike-concurrency)
  - [ ] [Another Go at Language Design](https://www.youtube.com/watch?v=aIgyp5nvdqc)
  - [x] [Writing Web Apps in Go](https://www.youtube.com/watch?v=-i0hat7pdpk)
  - [ ] [Practical Go Programming](https://www.youtube.com/watch?v=2-pPAvqyluI)
@@ -65,6 +66,7 @@
 
  - [x] [Toward Go 1.3, and beyond](https://www.youtube.com/watch?v=mQ4hwLgSvUs)
  - [x] [Opening Keynote by Rob Pike](https://www.youtube.com/watch?v=VoS7DsT1rdM)
+ - [x] [Implementing a bignum calculator](https://www.youtube.com/watch?v=PXoG0WX0r_E)
 
 #### 2015
 
