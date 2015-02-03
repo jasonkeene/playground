@@ -1,0 +1,8 @@
+#!/bin/sh
+
+cd ~/projects/playground
+if [ "$(cat README.md | shasum | cut -d ' ' -f 1)" != "$(./build_readme.py | shasum | cut -d ' ' -f 1)" ]; then
+    echo "Readme did not match, building.."
+    ./build_readme.py > README.md
+    exit 1
+fi
