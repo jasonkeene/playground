@@ -14,10 +14,10 @@
  - [x] Range
  - [x] Functions
  - [x] Multiple Return Values
- - [ ] Variadic Functions
- - [ ] Closures
- - [ ] Recursion
- - [ ] Pointers
+ - [x] Variadic Functions
+ - [x] Closures
+ - [x] Recursion
+ - [x] Pointers
  - [ ] Structs
  - [ ] Methods
  - [ ] Interfaces
