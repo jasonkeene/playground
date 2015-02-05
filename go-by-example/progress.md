@@ -18,10 +18,10 @@
  - [x] Closures
  - [x] Recursion
  - [x] Pointers
- - [ ] Structs
- - [ ] Methods
- - [ ] Interfaces
- - [ ] Errors
+ - [x] Structs
+ - [x] Methods
+ - [x] Interfaces
+ - [x] Errors
  - [ ] Goroutines
  - [ ] Channels
  - [ ] Channel Buffering
