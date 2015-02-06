@@ -1,7 +1,7 @@
 A place for experiments, learning, and random pieces of code.
 
 [![go-by-example](http://img.shields.io/badge/go--by--example-32.3%25_(21/65)-orange.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/go-by-example/progress.md)  
-[![golang-docs](http://img.shields.io/badge/golang--docs-38.46%25_(15/39)-yellow.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/golang-docs/progress.md)  
+[![golang-docs](http://img.shields.io/badge/golang--docs-36.58%25_(15/41)-yellow.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/golang-docs/progress.md)  
 [![golang-tour](http://img.shields.io/badge/golang--tour-100%25_(95/95)-brightgreen.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/golang-tour/progress.md)  
 [![digital-fundamentals](http://img.shields.io/badge/digital--fundamentals-3.6%25_(4/111)-red.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/digital-fundamentals/progress.md)  
 [![cpp-how-to-program](http://img.shields.io/badge/cpp--how--to--program-0%25_(0/6)-red.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/cpp-how-to-program/progress.md)  

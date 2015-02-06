@@ -9,7 +9,9 @@
  - [ ] [Package json](http://golang.org/pkg/encoding/json/)
 
 
-## [The Go Blog](http://blog.golang.org/)
+## Blogs
+
+#### [The Go Blog](http://blog.golang.org/)
 
  - [ ] [Go's Declaration Syntax](http://blog.golang.org/gos-declaration-syntax)
  - [ ] [Defer, Panic, and Recover](http://blog.golang.org/defer-panic-and-recover)
@@ -17,11 +19,17 @@
  - [ ] [Strings, bytes, runes and characters in Go](http://blog.golang.org/strings)
  - [ ] [Concurrency is not parallelism](http://blog.golang.org/concurrency-is-not-parallelism)
  - [x] [JSON and Go](http://blog.golang.org/json-and-go)
+ - [ ] [Error handling and Go](http://blog.golang.org/error-handling-and-go)
+
+#### Others
+
+ - [ ] [How to use interfaces in Go](http://jordanorelli.com/post/32665860244/how-to-use-interfaces-in-go)
 
 
 ## Wiki
 
  - [ ] [Learn Concurrency](https://github.com/golang/go/wiki/LearnConcurrency)
+
 
 ## [Talks](https://talks.golang.org/)
 
@@ -67,10 +75,6 @@
  - [x] [Toward Go 1.3, and beyond](https://www.youtube.com/watch?v=mQ4hwLgSvUs)
  - [x] [Opening Keynote by Rob Pike](https://www.youtube.com/watch?v=VoS7DsT1rdM)
  - [x] [Implementing a bignum calculator](https://www.youtube.com/watch?v=PXoG0WX0r_E)
-
-#### 2015
-
-
 
 
 ## Screencasts
