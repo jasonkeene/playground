@@ -26,10 +26,10 @@
  - [x] Channels
  - [x] Channel Buffering
  - [x] Channel Synchronization
- - [ ] Channel Directions
- - [ ] Select
- - [ ] Timeouts
- - [ ] Non-Blocking Channel Operations
+ - [x] Channel Directions
+ - [x] Select
+ - [x] Timeouts
+ - [x] Non-Blocking Channel Operations
  - [ ] Closing Channels
  - [ ] Range over Channels
  - [ ] Timers
