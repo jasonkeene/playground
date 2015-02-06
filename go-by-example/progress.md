@@ -22,10 +22,10 @@
  - [x] Methods
  - [x] Interfaces
  - [x] Errors
- - [ ] Goroutines
- - [ ] Channels
- - [ ] Channel Buffering
- - [ ] Channel Synchronization
+ - [x] Goroutines
+ - [x] Channels
+ - [x] Channel Buffering
+ - [x] Channel Synchronization
  - [ ] Channel Directions
  - [ ] Select
  - [ ] Timeouts
