@@ -30,10 +30,10 @@
  - [x] Select
  - [x] Timeouts
  - [x] Non-Blocking Channel Operations
- - [ ] Closing Channels
- - [ ] Range over Channels
- - [ ] Timers
- - [ ] Tickers
+ - [x] Closing Channels
+ - [x] Range over Channels
+ - [x] Timers
+ - [x] Tickers
  - [ ] Worker Pools
  - [ ] Rate Limiting
  - [ ] Atomic Counters
