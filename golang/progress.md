@@ -20,6 +20,7 @@
  - [ ] [Concurrency is not parallelism](http://blog.golang.org/concurrency-is-not-parallelism)
  - [x] [JSON and Go](http://blog.golang.org/json-and-go)
  - [ ] [Error handling and Go](http://blog.golang.org/error-handling-and-go)
+ - [x] [Defer, Panic, and Recover](http://blog.golang.org/defer-panic-and-recover)
 
 #### Others
 
