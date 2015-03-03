@@ -1,5 +1,6 @@
 A place for experiments, learning, and random pieces of code.
 
+[![docker](http://img.shields.io/badge/docker-7.14%25_(1/14)-red.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/docker/progress.md)  
 [![golang](http://img.shields.io/badge/golang-38.09%25_(16/42)-yellow.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/golang/progress.md)  
 [![go-by-example](http://img.shields.io/badge/go--by--example-50.76%25_(33/65)-yellowgreen.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/go-by-example/progress.md)  
 [![golang-tour](http://img.shields.io/badge/golang--tour-100%25_(95/95)-brightgreen.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/golang-tour/progress.md)  
