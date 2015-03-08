@@ -13,13 +13,13 @@
      - [x] 8.2 Pointer Varible Declarations and Initialization
      - [x] 8.3 Pointer Operators
      - [x] 8.4 Pass-by-Reference with Pointers
-     - [ ] 8.5 Built-In Arrays
-     - [ ] 8.6 Using const with Pointers
-         - [ ] 8.6.1 Nonconstant Pointer to Nonconstant Data
-         - [ ] 8.6.2 Nonconstant Pointer to Constant Data
-         - [ ] 8.6.3 Constant Pointer to Nonconstant Data
-         - [ ] 8.6.4 Constant Pointer to Constant Data
-     - [ ] 8.7 sizeof Operator
+     - [x] 8.5 Built-In Arrays
+     - [x] 8.6 Using const with Pointers
+         - [x] 8.6.1 Nonconstant Pointer to Nonconstant Data
+         - [x] 8.6.2 Nonconstant Pointer to Constant Data
+         - [x] 8.6.3 Constant Pointer to Nonconstant Data
+         - [x] 8.6.4 Constant Pointer to Constant Data
+     - [x] 8.7 sizeof Operator
      - [ ] 8.8 Pointer Expressions and Pointer Arithmetic
      - [ ] 8.9 Relationship Between Pointers and Built-In Arrays
      - [ ] 8.10 Pointer-Based Strings
