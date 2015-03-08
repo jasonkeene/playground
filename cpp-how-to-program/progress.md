@@ -7,3 +7,36 @@
  - [ ] 4. Control Statements: Part 1; Assignment, ++ and -- Operators
  - [ ] 5. Control Statements: Part 2; Logical Operators
  - [ ] 6. Functions and an Introduction to Recursion
+ - [ ] 7. Class Templates array and vector; Catching Exceptions
+ - [ ] 8. Pointers
+     - [ ] 8.1 Introduction
+     - [ ] 8.2 Pointer Varible Declarations and Initialization
+     - [ ] 8.3 Pointer Operators
+     - [ ] 8.4 Pass-by-Reference with Pointers
+     - [ ] 8.5 Built-In Arrays
+     - [ ] 8.6 Using const with Pointers
+         - [ ] 8.6.1 Nonconstant Pointer to Nonconstant Data
+         - [ ] 8.6.2 Nonconstant Pointer to Constant Data
+         - [ ] 8.6.3 Constant Pointer to Nonconstant Data
+         - [ ] 8.6.4 Constant Pointer to Constant Data
+     - [ ] 8.7 sizeof Operator
+     - [ ] 8.8 Pointer Expressions and Pointer Arithmetic
+     - [ ] 8.9 Relationship Between Pointers and Built-In Arrays
+     - [ ] 8.10 Pointer-Based Strings
+     - [ ] 8.11 Wrap-Up
+ - [ ] 9. Classes: A Deeper Look; Throwing Exceptions
+     - [ ] 9.1 Introduction
+     - [ ] 9.2 Time Class Case Study
+     - [ ] 9.3 Class Scope and Accessing Class Members
+     - [ ] 9.4 Access Functions and Utility Functions
+     - [ ] 9.5 Time Class Case Study: Constructors with Default Arguments
+     - [ ] 9.6 Destructors
+     - [ ] 9.7 When Constructors and Destructors Are Called
+     - [ ] 9.8 Time Class Case Study: A subtle Trap-Returning a Reference or a Pointer to a private Data member
+     - [ ] 9.9 Default Memberwise Assignemnt
+     - [ ] 9.10 const Objects and const Member Functions
+     - [ ] 9.11 Composition: Objects as Members of Classes
+     - [ ] 9.12 friend Functions and friend Classes
+     - [ ] 9.13 Using the this Pointer
+     - [ ] 9.14 static Class Members
+     - [ ] 9.15 Wrap-Up
