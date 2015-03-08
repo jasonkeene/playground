@@ -9,10 +9,10 @@
  - [ ] 6. Functions and an Introduction to Recursion
  - [ ] 7. Class Templates array and vector; Catching Exceptions
  - [ ] 8. Pointers
-     - [ ] 8.1 Introduction
-     - [ ] 8.2 Pointer Varible Declarations and Initialization
-     - [ ] 8.3 Pointer Operators
-     - [ ] 8.4 Pass-by-Reference with Pointers
+     - [x] 8.1 Introduction
+     - [x] 8.2 Pointer Varible Declarations and Initialization
+     - [x] 8.3 Pointer Operators
+     - [x] 8.4 Pass-by-Reference with Pointers
      - [ ] 8.5 Built-In Arrays
      - [ ] 8.6 Using const with Pointers
          - [ ] 8.6.1 Nonconstant Pointer to Nonconstant Data
