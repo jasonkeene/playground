@@ -8,7 +8,7 @@
  - [ ] 5. Control Statements: Part 2; Logical Operators
  - [ ] 6. Functions and an Introduction to Recursion
  - [ ] 7. Class Templates array and vector; Catching Exceptions
- - [ ] 8. Pointers
+ - [x] 8. Pointers
      - [x] 8.1 Introduction
      - [x] 8.2 Pointer Varible Declarations and Initialization
      - [x] 8.3 Pointer Operators
@@ -20,10 +20,10 @@
          - [x] 8.6.3 Constant Pointer to Nonconstant Data
          - [x] 8.6.4 Constant Pointer to Constant Data
      - [x] 8.7 sizeof Operator
-     - [ ] 8.8 Pointer Expressions and Pointer Arithmetic
-     - [ ] 8.9 Relationship Between Pointers and Built-In Arrays
-     - [ ] 8.10 Pointer-Based Strings
-     - [ ] 8.11 Wrap-Up
+     - [x] 8.8 Pointer Expressions and Pointer Arithmetic
+     - [x] 8.9 Relationship Between Pointers and Built-In Arrays
+     - [x] 8.10 Pointer-Based Strings
+     - [x] 8.11 Wrap-Up
  - [ ] 9. Classes: A Deeper Look; Throwing Exceptions
      - [ ] 9.1 Introduction
      - [ ] 9.2 Time Class Case Study

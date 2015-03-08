@@ -23,3 +23,6 @@ bin/arrays: bin arrays.cpp
 
 bin/sizeof: bin sizeof.cpp
 	g++ -std=c++11 sizeof.cpp -o bin/sizeof
+
+bin/cstrings: bin cstrings.cpp
+	g++ -std=c++11 cstrings.cpp -o bin/cstrings

@@ -2,7 +2,7 @@
 
 void double_it(int * const arr, const size_t len)
 {
-    for (int i = 0; i < len; i++) {
+    for (size_t i = 0; i < len; i++) {
         arr[i] += arr[i];
     }
 }
@@ -10,7 +10,7 @@ void double_it(int * const arr, const size_t len)
 void print_it(const int * const arr, const size_t len)
 {
 
-    for (int i = 0; i < len; i++) {
+    for (size_t i = 0; i < len; i++) {
         std::cout << arr[i] <<  (i < len-1 ? " " : "");
     }
     std::cout << std::endl;
