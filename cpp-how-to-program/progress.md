@@ -25,7 +25,7 @@
      - [x] 8.10 Pointer-Based Strings
      - [x] 8.11 Wrap-Up
  - [ ] 9. Classes: A Deeper Look; Throwing Exceptions
-     - [ ] 9.1 Introduction
+     - [x] 9.1 Introduction
      - [ ] 9.2 Time Class Case Study
      - [ ] 9.3 Class Scope and Accessing Class Members
      - [ ] 9.4 Access Functions and Utility Functions
