@@ -24,7 +24,7 @@
      - [x] 8.9 Relationship Between Pointers and Built-In Arrays
      - [x] 8.10 Pointer-Based Strings
      - [x] 8.11 Wrap-Up
- - [ ] 9. Classes: A Deeper Look; Throwing Exceptions
+ - [x] 9. Classes: A Deeper Look; Throwing Exceptions
      - [x] 9.1 Introduction
      - [x] 9.2 Time Class Case Study
      - [x] 9.3 Class Scope and Accessing Class Members
@@ -33,10 +33,10 @@
      - [x] 9.6 Destructors
      - [x] 9.7 When Constructors and Destructors Are Called
      - [x] 9.8 Time Class Case Study: A subtle Trap-Returning a Reference or a Pointer to a private Data member
-     - [ ] 9.9 Default Memberwise Assignemnt
-     - [ ] 9.10 const Objects and const Member Functions
-     - [ ] 9.11 Composition: Objects as Members of Classes
-     - [ ] 9.12 friend Functions and friend Classes
-     - [ ] 9.13 Using the this Pointer
-     - [ ] 9.14 static Class Members
-     - [ ] 9.15 Wrap-Up
+     - [x] 9.9 Default Memberwise Assignemnt
+     - [x] 9.10 const Objects and const Member Functions
+     - [x] 9.11 Composition: Objects as Members of Classes
+     - [x] 9.12 friend Functions and friend Classes
+     - [x] 9.13 Using the this Pointer
+     - [x] 9.14 static Class Members
+     - [x] 9.15 Wrap-Up
