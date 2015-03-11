@@ -26,7 +26,7 @@
      - [x] 8.11 Wrap-Up
  - [ ] 9. Classes: A Deeper Look; Throwing Exceptions
      - [x] 9.1 Introduction
-     - [ ] 9.2 Time Class Case Study
+     - [x] 9.2 Time Class Case Study
      - [ ] 9.3 Class Scope and Accessing Class Members
      - [ ] 9.4 Access Functions and Utility Functions
      - [ ] 9.5 Time Class Case Study: Constructors with Default Arguments
