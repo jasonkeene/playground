@@ -1,6 +1,6 @@
 A place for experiments, learning, and random pieces of code.
 
-[![cpp-how-to-program](http://img.shields.io/badge/cpp--how--to--program-82.05%25_(32/39)-green.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/cpp-how-to-program/progress.md)  
+[![cpp-how-to-program](http://img.shields.io/badge/cpp--how--to--program-56.14%25_(32/57)-yellowgreen.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/cpp-how-to-program/progress.md)  
 [![docker](http://img.shields.io/badge/docker-7.14%25_(1/14)-red.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/docker/progress.md)  
 [![golang](http://img.shields.io/badge/golang-38.09%25_(16/42)-yellow.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/golang/progress.md)  
 [![go-by-example](http://img.shields.io/badge/go--by--example-50.76%25_(33/65)-yellowgreen.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/go-by-example/progress.md)  
