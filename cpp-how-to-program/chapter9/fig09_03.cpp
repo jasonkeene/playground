@@ -5,7 +5,7 @@
 
 int main(int argc, char *argv[])
 {
-    Time t;
+    Time &t = *(new Time());
 
     std::cout << "initial universal time: ";
     t.printUniversal();

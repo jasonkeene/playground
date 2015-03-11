@@ -27,12 +27,12 @@
  - [ ] 9. Classes: A Deeper Look; Throwing Exceptions
      - [x] 9.1 Introduction
      - [x] 9.2 Time Class Case Study
-     - [ ] 9.3 Class Scope and Accessing Class Members
-     - [ ] 9.4 Access Functions and Utility Functions
-     - [ ] 9.5 Time Class Case Study: Constructors with Default Arguments
-     - [ ] 9.6 Destructors
-     - [ ] 9.7 When Constructors and Destructors Are Called
-     - [ ] 9.8 Time Class Case Study: A subtle Trap-Returning a Reference or a Pointer to a private Data member
+     - [x] 9.3 Class Scope and Accessing Class Members
+     - [x] 9.4 Access Functions and Utility Functions
+     - [x] 9.5 Time Class Case Study: Constructors with Default Arguments
+     - [x] 9.6 Destructors
+     - [x] 9.7 When Constructors and Destructors Are Called
+     - [x] 9.8 Time Class Case Study: A subtle Trap-Returning a Reference or a Pointer to a private Data member
      - [ ] 9.9 Default Memberwise Assignemnt
      - [ ] 9.10 const Objects and const Member Functions
      - [ ] 9.11 Composition: Objects as Members of Classes

@@ -6,25 +6,63 @@
 
 using namespace std;
 
-Time::Time() : hour(0), minute(0), second(0) {}
+Time::Time(int hour, int minute, int second)
+{
+    setTime(hour, minute, second);
+}
+
+Time::~Time()
+{
+    std::cout << "destructor called" << std::endl;
+}
 
 void Time::setTime(int h, int m, int s)
 {
-    if (
-        h >= 0 &&
-        h < 24 &&
-        m >= 0 &&
-        m < 60 &&
-        s >= 0 &&
-        s < 60
-    ) {
+    setHour(h);
+    setMinute(m);
+    setSecond(s);
+}
+
+void Time::setHour(int h)
+{
+    if (h >= 0 && h < 24) {
         hour = h;
+    } else {
+        throw invalid_argument("hour was out of range");
+    }
+}
+
+unsigned int Time::getHour() const
+{
+    return hour;
+}
+
+void Time::setMinute(int m)
+{
+    if (m >= 0 && m < 60) {
         minute = m;
+    } else {
+        throw invalid_argument("minute was out of range");
+    }
+}
+
+unsigned int Time::getMinute() const
+{
+    return minute;
+}
+
+void Time::setSecond(int s)
+{
+    if (s >= 0 && s < 60) {
         second = s;
     } else {
-        throw invalid_argument(
-            "hour, minute, and/or second was out of range");
+        throw invalid_argument("second was out of range");
     }
+}
+
+unsigned int Time::getSecond() const
+{
+    return second;
 }
 
 void Time::printUniversal() const
