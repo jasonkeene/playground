@@ -10,12 +10,12 @@
      - [x] Custom Solutions
  - [x] Getting Started
      - [x] Install Terraform
-     - [ ] Build Infrastructure
-     - [ ] Change Infrastructure
-     - [ ] Destroy Infrastructure
-     - [ ] Resource Dependencies
-     - [ ] Provision
-     - [ ] Input Variables
+     - [x] Build Infrastructure
+     - [x] Change Infrastructure
+     - [x] Destroy Infrastructure
+     - [x] Resource Dependencies
+     - [x] Provision
+     - [x] Input Variables
      - [ ] Output Variables
      - [ ] Modules
      - [ ] Next Steps
