@@ -16,7 +16,7 @@
      - [x] Resource Dependencies
      - [x] Provision
      - [x] Input Variables
-     - [ ] Output Variables
+     - [x] Output Variables
      - [ ] Modules
      - [ ] Next Steps
  - [ ] Example Configurations
