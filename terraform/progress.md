@@ -17,8 +17,8 @@
      - [x] Provision
      - [x] Input Variables
      - [x] Output Variables
-     - [ ] Modules
-     - [ ] Next Steps
+     - [x] Modules
+     - [x] Next Steps
  - [ ] Example Configurations
      - [ ] Basic Two-Tier AWS Architecture
      - [ ] Cross Provider
