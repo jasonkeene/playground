@@ -116,7 +116,7 @@
             - [ ] 3.4.5.6. Testing the setup
             - [ ] 3.4.5.7. Performance Tuning
             - [ ] 3.4.5.8. How the signing and verification works
-        - [ ] 3.4.6. Preseed Minion with Accepted Key
+        - [x] 3.4.6. Preseed Minion with Accepted Key
         - [ ] 3.4.7. Salt Bootstrap
             - [ ] 3.4.7.1. Supported Operating Systems
             - [ ] 3.4.7.2. Installing via an Insecure One-Liner
