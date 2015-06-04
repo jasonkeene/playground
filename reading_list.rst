@@ -16,6 +16,7 @@ Unix
 Networking
 ----------
 
+- `Beej's Guide to Network Programming <http://beej.us/guide/bgnet/>`_
 - `UNIX Network Programming <http://www.amazon.com/dp/0139498761/>`_
 - `ZeroMQ - Messaging for Many Applications <http://shop.oreilly.com/product/0636920026136.do>`_
 - `Applied Network Security Monitoring: Collection, Detection, and Analysis <http://www.amazon.com/dp/0124172083/>`_

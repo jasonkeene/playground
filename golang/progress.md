@@ -77,6 +77,10 @@
  - [x] [Opening Keynote by Rob Pike](https://www.youtube.com/watch?v=VoS7DsT1rdM)
  - [x] [Implementing a bignum calculator](https://www.youtube.com/watch?v=PXoG0WX0r_E)
 
+#### 2015
+
+ - [x] [GopherFest 2015](https://www.youtube.com/watch?v=Fx304EfqtMo)
+
 
 ## Screencasts
 
