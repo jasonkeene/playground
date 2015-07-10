@@ -26,7 +26,7 @@
 
 ## [Blog](https://coreos.com/blog/)
 
- - [ ] [Clustering CoreOS with Vagrant](https://coreos.com/blog/coreos-clustering-with-vagrant/)
+ - [x] [Clustering CoreOS with Vagrant](https://coreos.com/blog/coreos-clustering-with-vagrant/)
 
 
 ## [Kubernetes on CoreOS](https://github.com/GoogleCloudPlatform/kubernetes/blob/master/docs/getting-started-guides/coreos.md)

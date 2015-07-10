@@ -1,0 +1,2 @@
+[Service]
+ExecStart=/usr/bin/bash -c "while true; do echo 'Hello Fleet'; sleep 1; done"
