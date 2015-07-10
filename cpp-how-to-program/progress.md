@@ -1,13 +1,6 @@
 
 ## [C++ How to Program](http://www.amazon.com/dp/0133378713)
 
- - [ ] 1. Introduction to Computers and C++
- - [ ] 2. Introduction to C++ Programming; Input/Output and Operators
- - [ ] 3. Introduction to Classes, Objects and Strings
- - [ ] 4. Control Statements: Part 1; Assignment, ++ and -- Operators
- - [ ] 5. Control Statements: Part 2; Logical Operators
- - [ ] 6. Functions and an Introduction to Recursion
- - [ ] 7. Class Templates array and vector; Catching Exceptions
  - [x] 8. Pointers
      - [x] 8.1 Introduction
      - [x] 8.2 Pointer Varible Declarations and Initialization
@@ -40,21 +33,3 @@
      - [x] 9.13 Using the this Pointer
      - [x] 9.14 static Class Members
      - [x] 9.15 Wrap-Up
- - [ ] 10. Operator Overloading; Class string
-     - [ ] 10.1 Introduction
-     - [ ] 10.2 Using the Overloaded Operators of Standard Library Class string
-     - [ ] 10.3 Fundamentals of Operator Overloading
-     - [ ] 10.4 Overloading Binary Operators
-     - [ ] 10.5 Overloading the Binary Stream Insertion and Stream Extraction Operators
-     - [ ] 10.6 Overloading Unary Operators
-     - [ ] 10.7 Overloading the Unary Prefix and Postfix ++ and -- Operators
-     - [ ] 10.8 Case Study: A Date Class
-     - [ ] 10.9 Dynamic Memory Management
-     - [ ] 10.10 Case Study: Array Class
-         - [ ] 10.10.1 Using the Array Class
-         - [ ] 10.10.2 Array Class Definition
-     - [ ] 10.11 Operators as Member vs. Non-Member Functions
-     - [ ] 10.12 Converting Between Types
-     - [ ] 10.13 explicit Constructors and Conversion Operators
-     - [ ] 10.14 Overloading the Function Call Operator ()
-     - [ ] 10.15 Wrap-Up
