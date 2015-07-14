@@ -1,8 +1,8 @@
 A place for experiments, learning, and random pieces of code.
 
-[![coreos](http://img.shields.io/badge/coreos-50%25_(5/10)-yellowgreen.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/coreos/progress.md)  
-[![cpp-how-to-program](http://img.shields.io/badge/cpp--how--to--program-100%25_(32/32)-brightgreen.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/cpp-how-to-program/progress.md)  
 [![golang](http://img.shields.io/badge/golang-38.63%25_(17/44)-yellow.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/golang/progress.md)  
+[![coreos](http://img.shields.io/badge/coreos-70.58%25_(12/17)-green.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/coreos/progress.md)  
+[![cpp-how-to-program](http://img.shields.io/badge/cpp--how--to--program-100%25_(32/32)-brightgreen.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/cpp-how-to-program/progress.md)  
 [![saltstack](http://img.shields.io/badge/saltstack-28.1%25_(52/185)-orange.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/saltstack/progress.md)  
 [![terraform](http://img.shields.io/badge/terraform-78.26%25_(18/23)-green.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/terraform/progress.md)  
 [![docker](http://img.shields.io/badge/docker-7.14%25_(1/14)-red.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/docker/progress.md)  
