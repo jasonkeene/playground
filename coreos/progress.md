@@ -10,8 +10,9 @@
 ### Launching Containers
 
  - [x] [Getting Started with Docker](https://coreos.com/docs/launching-containers/building/getting-started-with-docker/)
- - [ ] [Launching Containers with fleet](https://coreos.com/docs/launching-containers/launching/launching-containers-fleet/)
+ - [x] [Launching Containers with fleet](https://coreos.com/docs/launching-containers/launching/launching-containers-fleet/)
  - [ ] [Getting Started with systemd](https://coreos.com/docs/launching-containers/launching/getting-started-with-systemd/)
+ - [ ] [Fleet Unit Files](https://coreos.com/docs/launching-containers/launching/fleet-unit-files/)
 
 
 ### Distributed Configuration

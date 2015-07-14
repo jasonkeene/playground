@@ -80,6 +80,7 @@
 #### 2015
 
  - [x] [GopherFest 2015](https://www.youtube.com/watch?v=Fx304EfqtMo)
+ - [ ] [Go and the Modern Enterprise](https://www.youtube.com/watch?v=iFR_7AKkJFU)
 
 
 ## Screencasts
