@@ -17,9 +17,6 @@ func (set *Set) Cardinality() int {
 }
 
 func (set *Set) Add(value interface{}) {
-	if set.Contains(value) {
-		return
-	}
 	set.elements[value] = true
 }
 
