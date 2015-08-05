@@ -1,8 +1,7 @@
 package set
 
 type Set struct {
-	cardinality int
-	elements    map[interface{}]bool
+	elements map[interface{}]bool
 }
 
 func NewSet() *Set {
@@ -10,11 +9,11 @@ func NewSet() *Set {
 }
 
 func (set *Set) IsEmpty() bool {
-	return set.cardinality <= 0
+	return set.Cardinality() <= 0
 }
 
 func (set *Set) Cardinality() int {
-	return set.cardinality
+	return len(set.elements)
 }
 
 func (set *Set) Add(value interface{}) {
@@ -22,7 +21,6 @@ func (set *Set) Add(value interface{}) {
 		return
 	}
 	set.elements[value] = true
-	set.cardinality++
 }
 
 func (set *Set) Contains(value interface{}) bool {
@@ -32,12 +30,10 @@ func (set *Set) Contains(value interface{}) bool {
 
 func (set *Set) Delete(value interface{}) {
 	delete(set.elements, value)
-	set.cardinality--
 }
 
 func (set *Set) Clear() {
 	set.elements = make(map[interface{}]bool)
-	set.cardinality = 0
 }
 
 func (set *Set) Union(other *Set) *Set {
@@ -54,7 +50,7 @@ func (set *Set) Union(other *Set) *Set {
 func (set *Set) Intersection(other *Set) *Set {
 	result := NewSet()
 	var smaller, larger *Set
-	if set.cardinality < other.Cardinality() {
+	if set.Cardinality() < other.Cardinality() {
 		smaller = set
 		larger = other
 	} else {
