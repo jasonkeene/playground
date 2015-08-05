@@ -15,6 +15,10 @@ func TestSet(t *testing.T) {
 		Convey("it reports it's size as 0", func() {
 			So(empty.Cardinality(), ShouldEqual, 0)
 		})
+		Convey("it can be cleared", func() {
+			empty.Clear()
+			So(empty.Cardinality(), ShouldEqual, 0)
+		})
 	})
 	Convey("given an set with a single element", t, func() {
 		one := NewSet(1)
@@ -60,6 +64,10 @@ func TestSet(t *testing.T) {
 			many.Add("c")
 			So(many.Contains("c"), ShouldBeTrue)
 			So(many.Cardinality(), ShouldEqual, 3)
+		})
+		Convey("it can be cleared", func() {
+			many.Clear()
+			So(many.Cardinality(), ShouldEqual, 0)
 		})
 	})
 	Convey("given a set of negative capacity", t, func() {

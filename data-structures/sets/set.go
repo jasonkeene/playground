@@ -51,6 +51,11 @@ func (set *Set) Delete(value interface{}) {
 	set.cardinality--
 }
 
+func (set *Set) Clear() {
+	set.elements = make([]interface{}, 0, set.cardinality)
+	set.cardinality = 0
+}
+
 func (set *Set) Union(other *Set) *Set {
 	result := NewSet(0)
 	for _, v := range set.elements {
