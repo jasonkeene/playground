@@ -5,10 +5,8 @@ type Set struct {
 	elements    map[interface{}]bool
 }
 
-func NewSet(capacity int) *Set {
-	return &Set{
-		elements: make(map[interface{}]bool),
-	}
+func NewSet() *Set {
+	return &Set{elements: make(map[interface{}]bool)}
 }
 
 func (set *Set) IsEmpty() bool {
@@ -43,7 +41,7 @@ func (set *Set) Clear() {
 }
 
 func (set *Set) Union(other *Set) *Set {
-	result := NewSet(0)
+	result := NewSet()
 	for v, _ := range set.elements {
 		result.Add(v)
 	}
@@ -54,7 +52,7 @@ func (set *Set) Union(other *Set) *Set {
 }
 
 func (set *Set) Intersection(other *Set) *Set {
-	result := NewSet(0)
+	result := NewSet()
 	var smaller, larger *Set
 	if set.cardinality < other.Cardinality() {
 		smaller = set
@@ -72,7 +70,7 @@ func (set *Set) Intersection(other *Set) *Set {
 }
 
 func (set *Set) Difference(other *Set) *Set {
-	result := NewSet(0)
+	result := NewSet()
 	for v, _ := range set.elements {
 		if !other.Contains(v) {
 			result.Add(v)

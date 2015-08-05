@@ -8,7 +8,7 @@ import (
 
 func TestSet(t *testing.T) {
 	Convey("given an empty set", t, func() {
-		empty := NewSet(0)
+		empty := NewSet()
 		Convey("it reports as empty", func() {
 			So(empty.IsEmpty(), ShouldBeTrue)
 		})
@@ -21,7 +21,7 @@ func TestSet(t *testing.T) {
 		})
 	})
 	Convey("given an set with a single element", t, func() {
-		one := NewSet(1)
+		one := NewSet()
 		one.Add("a")
 		Convey("it reports as not empty", func() {
 			So(one.IsEmpty(), ShouldBeFalse)
@@ -34,7 +34,7 @@ func TestSet(t *testing.T) {
 		})
 	})
 	Convey("given a set with many elements", t, func() {
-		many := NewSet(2)
+		many := NewSet()
 		many.Add("a")
 		many.Add("b")
 		Convey("it reports as not empty", func() {
@@ -60,26 +60,13 @@ func TestSet(t *testing.T) {
 			So(many.Contains("b"), ShouldBeFalse)
 			So(many.Cardinality(), ShouldEqual, 0)
 		})
-		Convey("it can grow beyond it's original capacity", func() {
-			many.Add("c")
-			So(many.Contains("c"), ShouldBeTrue)
-			So(many.Cardinality(), ShouldEqual, 3)
-		})
 		Convey("it can be cleared", func() {
 			many.Clear()
 			So(many.Cardinality(), ShouldEqual, 0)
 		})
 	})
-	Convey("given a set of negative capacity", t, func() {
-		set := NewSet(-1)
-		Convey("it can add elements", func() {
-			set.Add("a")
-			So(set.Contains("a"), ShouldBeTrue)
-			So(set.Cardinality(), ShouldEqual, 1)
-		})
-	})
 	Convey("given two disjoint sets", t, func() {
-		set1, set2 := NewSet(2), NewSet(2)
+		set1, set2 := NewSet(), NewSet()
 		set1.Add("a")
 		set1.Add("b")
 		set2.Add("y")
@@ -138,7 +125,7 @@ func TestSet(t *testing.T) {
 		})
 	})
 	Convey("given two overlapping sets", t, func() {
-		set1, set2 := NewSet(2), NewSet(2)
+		set1, set2 := NewSet(), NewSet()
 		set1.Add("a")
 		set1.Add("b")
 		set2.Add("b")
@@ -195,7 +182,7 @@ func TestSet(t *testing.T) {
 		})
 	})
 	Convey("given a set that is a subset of another set", t, func() {
-		set1, set2 := NewSet(2), NewSet(3)
+		set1, set2 := NewSet(), NewSet()
 		set1.Add("a")
 		set1.Add("b")
 		set2.Add("a")
@@ -250,7 +237,7 @@ func TestSet(t *testing.T) {
 		})
 	})
 	Convey("given two identical sets", t, func() {
-		set1, set2 := NewSet(2), NewSet(2)
+		set1, set2 := NewSet(), NewSet()
 		set1.Add("a")
 		set1.Add("b")
 		set2.Add("a")
