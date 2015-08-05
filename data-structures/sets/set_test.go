@@ -283,4 +283,46 @@ func TestSet(t *testing.T) {
 			So(set2.IsSuperset(set1), ShouldBeTrue)
 		})
 	})
+	Convey("given very large sets", t, func() {
+		set1, set2 := NewSet(), NewSet()
+		// TODO: this number can be ramped up during CI
+		count := 100000
+		overlap := 10
+		for i := 0; i < count; i++ {
+			set1.Add(i)
+			set2.Add(i + count - overlap)
+		}
+		Convey("they can compute thier union", func() {
+			union := set1.Union(set2)
+			So(union.Cardinality(), ShouldEqual, count*2-overlap)
+			union = set2.Union(set1)
+			So(union.Cardinality(), ShouldEqual, count*2-overlap)
+		})
+		Convey("they can compute thier intersection", func() {
+			intersection := set1.Intersection(set2)
+			So(intersection.Cardinality(), ShouldEqual, overlap)
+			intersection = set2.Intersection(set1)
+			So(intersection.Cardinality(), ShouldEqual, overlap)
+		})
+		Convey("they can compute thier difference", func() {
+			difference := set1.Difference(set2)
+			So(difference.Cardinality(), ShouldEqual, count-overlap)
+			difference = set2.Difference(set1)
+			So(difference.Cardinality(), ShouldEqual, count-overlap)
+		})
+		Convey("they can compute thier symmetric difference", func() {
+			difference := set1.SymmetricDifference(set2)
+			So(difference.Cardinality(), ShouldEqual, count*2-overlap*2)
+			difference = set2.SymmetricDifference(set1)
+			So(difference.Cardinality(), ShouldEqual, count*2-overlap*2)
+		})
+		Convey("they report as being subsets of each other", func() {
+			So(set1.IsSubset(set2), ShouldBeFalse)
+			So(set2.IsSubset(set1), ShouldBeFalse)
+		})
+		Convey("they report as being supersets of each other", func() {
+			So(set1.IsSuperset(set2), ShouldBeFalse)
+			So(set2.IsSuperset(set1), ShouldBeFalse)
+		})
+	})
 }
