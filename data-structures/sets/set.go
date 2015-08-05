@@ -8,6 +8,12 @@ func NewSet() *Set {
 	return &Set{elements: make(map[interface{}]bool)}
 }
 
+func (set *Set) visit(visitor func(interface{})) {
+	for v, _ := range set.elements {
+		visitor(v)
+	}
+}
+
 func (set *Set) IsEmpty() bool {
 	return set.Cardinality() <= 0
 }
@@ -18,6 +24,16 @@ func (set *Set) Cardinality() int {
 
 func (set *Set) Add(value interface{}) {
 	set.elements[value] = true
+}
+
+func (set *Set) take(predicate func(interface{}) bool) *Set {
+	result := NewSet()
+	set.visit(func(v interface{}) {
+		if predicate(v) {
+			result.Add(v)
+		}
+	})
+	return result
 }
 
 func (set *Set) Contains(value interface{}) bool {
@@ -35,41 +51,21 @@ func (set *Set) Clear() {
 
 func (set *Set) Union(other *Set) *Set {
 	result := NewSet()
-	for v, _ := range set.elements {
-		result.Add(v)
-	}
-	for v, _ := range other.elements {
-		result.Add(v)
-	}
+	set.visit(func(v interface{}) { result.Add(v) })
+	other.visit(func(v interface{}) { result.Add(v) })
 	return result
 }
 
 func (set *Set) Intersection(other *Set) *Set {
-	result := NewSet()
-	var smaller, larger *Set
 	if set.Cardinality() < other.Cardinality() {
-		smaller = set
-		larger = other
+		return set.take(func(v interface{}) bool { return other.Contains(v) })
 	} else {
-		smaller = other
-		larger = set
+		return other.take(func(v interface{}) bool { return set.Contains(v) })
 	}
-	for v, _ := range smaller.elements {
-		if larger.Contains(v) {
-			result.Add(v)
-		}
-	}
-	return result
 }
 
 func (set *Set) Difference(other *Set) *Set {
-	result := NewSet()
-	for v, _ := range set.elements {
-		if !other.Contains(v) {
-			result.Add(v)
-		}
-	}
-	return result
+	return set.take(func(v interface{}) bool { return !other.Contains(v) })
 }
 
 func (set *Set) SymmetricDifference(other *Set) *Set {
