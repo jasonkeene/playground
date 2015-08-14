@@ -81,6 +81,8 @@
 
  - [x] [GopherFest 2015](https://www.youtube.com/watch?v=Fx304EfqtMo)
  - [ ] [Go and the Modern Enterprise](https://www.youtube.com/watch?v=iFR_7AKkJFU)
+ - [x] [Gophercon - Prometheus: Designing and Implementing a Modern Monitoring Solution in Go](https://www.youtube.com/watch?v=1V7eJ0jN8-E)
+ - [x] [GopherCon - Uptime: Building Resilient Services with Go](https://www.youtube.com/watch?v=PyBJQA4clfc)
 
 
 ## Screencasts
