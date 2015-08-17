@@ -21,3 +21,8 @@ func minIndex(data []int, startIndex int) int {
 	}
 	return min_index
 }
+
+// Θ(1)
+func Swap(data []int, i, j int) {
+	data[i], data[j] = data[j], data[i]
+}
