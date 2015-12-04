@@ -3,27 +3,31 @@
 
 ### Introduction
 
- - [ ] What is BOSH?
-	 - [ ] What problems does BOSH solve?
-		 - [ ] Stemcell
-		 - [ ] Release
-		 - [ ] Deployment
-	 - [ ] Comparison to other tools
- - [ ] Terminology
+ - [x] What is BOSH?
+	 - [x] What problems does BOSH solve?
+		 - [x] Stemcell
+		 - [x] Release
+		 - [x] Deployment
+	 - ~~Comparison to other tools~~
+ - [x] Terminology
 
 ### Install BOSH
 
 #### Install BOSH with bosh-init
 
- - [ ] BOSH components
- - [ ] Bootstrapping an environment
+ - [x] BOSH components
+ - [ ] Install bosh-init
+     - [ ] Using bosh-init
+         - [ ] Migrating to bosh-init from the micro CLI plugin
+ - [x] Install BOSH CLI
+ - [x] Bootstrapping an environment
 	 - [ ] On AWS
 	 - ~~On OpenStack~~
 	 - ~~On vSphere~~
 	 - ~~On vCloud~~
-	 - [ ] On Local machine using BOSH Lite
+	 - [x] On Local machine using BOSH Lite
+
  - [ ] Director SSL Certificate Configuration
- - [ ] Install bosh-init
  - [ ] Using bosh-init
  	 - [ ] Migrating to bosh-init from the micro CLI plugin
  - [ ] Install BOSH CLI
