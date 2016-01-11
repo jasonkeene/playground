@@ -16,7 +16,7 @@
 #### Install BOSH with bosh-init
 
  - [x] BOSH components
- - [ ] Install bosh-init
+ - [x] Install bosh-init
      - [ ] Using bosh-init
          - [ ] Migrating to bosh-init from the micro CLI plugin
  - [x] Install BOSH CLI
