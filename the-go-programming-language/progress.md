@@ -1,8 +1,16 @@
 
 ## [The Go Programming Language](http://www.gopl.io)
 
- - [ ] Preface
+ - [x] Preface
  - [ ] Tutorial
+     - [x] Hello, World
+     - [x] Command-Line Arguments
+     - [x] Finding Duplicate Lines
+     - [x] Animated GIFs
+     - [ ] Fetching a URL
+     - [ ] Fetching URLs Concurrently
+     - [ ] A Web Server
+     - [ ] Loose Ends
  - [ ] Program Structure
  - [ ] Basic Data Types
  - [ ] Composite Types
