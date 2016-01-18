@@ -11,14 +11,14 @@
      - [x] Fetching URLs Concurrently
      - [x] A Web Server
      - [x] Loose Ends
- - [ ] Program Structure
-     - [ ] Names
-     - [ ] Declarations
-     - [ ] Variables
-     - [ ] Assignments
-     - [ ] Type Declarations
-     - [ ] Packages and Files
-     - [ ] Scope
+ - [x] Program Structure
+     - [x] Names
+     - [x] Declarations
+     - [x] Variables
+     - [x] Assignments
+     - [x] Type Declarations
+     - [x] Packages and Files
+     - [x] Scope
  - [ ] Basic Data Types
      - [ ] Integers
      - [ ] Floating-Point Numbers
