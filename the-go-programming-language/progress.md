@@ -20,10 +20,10 @@
      - [x] Packages and Files
      - [x] Scope
  - [ ] Basic Data Types
-     - [ ] Integers
-     - [ ] Floating-Point Numbers
-     - [ ] Complex Numbers
-     - [ ] Booleans
+     - [x] Integers
+     - [x] Floating-Point Numbers
+     - [x] Complex Numbers
+     - [x] Booleans
      - [ ] Strings
      - [ ] Constants
  - [ ] Composite Types
