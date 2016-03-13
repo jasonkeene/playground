@@ -19,13 +19,13 @@
      - [x] Type Declarations
      - [x] Packages and Files
      - [x] Scope
- - [ ] Basic Data Types
+ - [x] Basic Data Types
      - [x] Integers
      - [x] Floating-Point Numbers
      - [x] Complex Numbers
      - [x] Booleans
-     - [ ] Strings
-     - [ ] Constants
+     - [x] Strings
+     - [x] Constants
  - [ ] Composite Types
      - [ ] Arrays
      - [ ] Slices
