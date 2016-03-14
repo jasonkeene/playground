@@ -27,8 +27,8 @@
      - [x] Strings
      - [x] Constants
  - [ ] Composite Types
-     - [ ] Arrays
-     - [ ] Slices
+     - [x] Arrays
+     - [x] Slices
      - [ ] Maps
      - [ ] Structs
      - [ ] JSON
