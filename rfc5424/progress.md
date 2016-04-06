@@ -1,13 +1,13 @@
 
 ## [RFC 5424 - The Syslog Protocol](https://tools.ietf.org/html/rfc5424)
 
- - [ ] 1. Introduction
- - [ ] 2. Conventions Used in This Document
- - [ ] 3. Definitions
- - [ ] 4. Basic Principles
- - [ ] 5. Transport Layer Protocol
+ - [x] 1. Introduction
+ - [x] 2. Conventions Used in This Document
+ - [x] 3. Definitions
+ - [x] 4. Basic Principles
+ - [x] 5. Transport Layer Protocol
  - [ ] 6. Syslog Message Format
-     - [ ] 6.1. Message Length
+     - [x] 6.1. Message Length
      - [ ] 6.2. HEADER
      - [ ] 6.3. STRUCTURED-DATA
  - [ ] 7. Structured Data IDs
