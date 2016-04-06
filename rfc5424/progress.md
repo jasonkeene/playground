@@ -1,0 +1,42 @@
+
+## [RFC 5424 - The Syslog Protocol](https://tools.ietf.org/html/rfc5424)
+
+ - [ ] 1. Introduction
+ - [ ] 2. Conventions Used in This Document
+ - [ ] 3. Definitions
+ - [ ] 4. Basic Principles
+ - [ ] 5. Transport Layer Protocol
+ - [ ] 6. Syslog Message Format
+     - [ ] 6.1. Message Length
+     - [ ] 6.2. HEADER
+     - [ ] 6.3. STRUCTURED-DATA
+ - [ ] 7. Structured Data IDs
+    - [ ] 7.1. timeQuality
+    - [ ] 7.2. origin
+    - [ ] 7.3. meta
+ - [ ] 8. Security Considerations
+     - [ ] 8.1. UNICODE
+     - [ ] 8.2. Control Characters
+     - [ ] 8.3. Message Truncation
+     - [ ] 8.4. Replay
+     - [ ] 8.5. Reliable Delivery
+     - [ ] 8.6. Congestion Control
+     - [ ] 8.7. Message Integrity
+     - [ ] 8.8. Message Observation
+     - [ ] 8.9. Inappropriate Configuration
+     - [ ] 8.10. Forwarding Loop
+     - [ ] 8.11. Load Considerations
+     - [ ] 8.12. Denial of Service
+ - [ ] 9. IANA Considerations
+ - [ ] 10. Working Group
+ - [ ] 11. Acknowledgments
+ - [ ] 12. References
+ - [ ] Appendix A.  Implementer Guidelines
+     - [ ] A.1.  Relationship with BSD Syslog
+     - [ ] A.2.  Message Length
+     - [ ] A.3.  Severity Values
+     - [ ] A.4.  TIME-SECFRAC Precision
+     - [ ] A.5.  Case Convention for Names
+     - [ ] A.6.  Syslog Applications Without Knowledge of Time
+     - [ ] A.7.  Notes on the timeQuality SD-ID
+     - [ ] A.8.  UTF-8 Encoding and the BOM
