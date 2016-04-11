@@ -6,37 +6,37 @@
  - [x] 3. Definitions
  - [x] 4. Basic Principles
  - [x] 5. Transport Layer Protocol
- - [ ] 6. Syslog Message Format
+ - [x] 6. Syslog Message Format
      - [x] 6.1. Message Length
-     - [ ] 6.2. HEADER
-     - [ ] 6.3. STRUCTURED-DATA
- - [ ] 7. Structured Data IDs
-    - [ ] 7.1. timeQuality
-    - [ ] 7.2. origin
-    - [ ] 7.3. meta
- - [ ] 8. Security Considerations
-     - [ ] 8.1. UNICODE
-     - [ ] 8.2. Control Characters
-     - [ ] 8.3. Message Truncation
-     - [ ] 8.4. Replay
-     - [ ] 8.5. Reliable Delivery
-     - [ ] 8.6. Congestion Control
-     - [ ] 8.7. Message Integrity
-     - [ ] 8.8. Message Observation
-     - [ ] 8.9. Inappropriate Configuration
-     - [ ] 8.10. Forwarding Loop
-     - [ ] 8.11. Load Considerations
-     - [ ] 8.12. Denial of Service
- - [ ] 9. IANA Considerations
- - [ ] 10. Working Group
- - [ ] 11. Acknowledgments
- - [ ] 12. References
- - [ ] Appendix A.  Implementer Guidelines
-     - [ ] A.1.  Relationship with BSD Syslog
-     - [ ] A.2.  Message Length
-     - [ ] A.3.  Severity Values
-     - [ ] A.4.  TIME-SECFRAC Precision
-     - [ ] A.5.  Case Convention for Names
-     - [ ] A.6.  Syslog Applications Without Knowledge of Time
-     - [ ] A.7.  Notes on the timeQuality SD-ID
-     - [ ] A.8.  UTF-8 Encoding and the BOM
+     - [x] 6.2. HEADER
+     - [x] 6.3. STRUCTURED-DATA
+ - [x] 7. Structured Data IDs
+    - [x] 7.1. timeQuality
+    - [x] 7.2. origin
+    - [x] 7.3. meta
+ - [x] 8. Security Considerations
+     - [x] 8.1. UNICODE
+     - [x] 8.2. Control Characters
+     - [x] 8.3. Message Truncation
+     - [x] 8.4. Replay
+     - [x] 8.5. Reliable Delivery
+     - [x] 8.6. Congestion Control
+     - [x] 8.7. Message Integrity
+     - [x] 8.8. Message Observation
+     - [x] 8.9. Inappropriate Configuration
+     - [x] 8.10. Forwarding Loop
+     - [x] 8.11. Load Considerations
+     - [x] 8.12. Denial of Service
+ - [x] 9. IANA Considerations
+ - [x] 10. Working Group
+ - [x] 11. Acknowledgments
+ - [x] 12. References
+ - [x] Appendix A.  Implementer Guidelines
+     - [x] A.1.  Relationship with BSD Syslog
+     - [x] A.2.  Message Length
+     - [x] A.3.  Severity Values
+     - [x] A.4.  TIME-SECFRAC Precision
+     - [x] A.5.  Case Convention for Names
+     - [x] A.6.  Syslog Applications Without Knowledge of Time
+     - [x] A.7.  Notes on the timeQuality SD-ID
+     - [x] A.8.  UTF-8 Encoding and the BOM
