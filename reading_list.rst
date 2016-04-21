@@ -58,6 +58,11 @@ Operating Systems
 - `Operating System Concepts <http://www.amazon.com/dp/1118063333/>`
 - `Operating Systems Design and Implementation <http://www.amazon.com/dp/0131429388/>`_
 
+Concurrency
+-----------
+
+- `The Multiprocessor Programming Revised <http://www.amazon.com/dp/0123973376>`
+
 Architecture/Patterns/Design
 ----------------------------
 
