@@ -46,7 +46,7 @@
  - [ ] [The Legacy of Go](http://dave.cheney.net/2015/11/15/the-legacy-of-go)
  - [ ] [Let’s talk about logging](http://dave.cheney.net/2015/11/05/lets-talk-about-logging)
  - [ ] [Bootstrapping Go 1.5 on non Intel platforms](http://dave.cheney.net/2015/10/16/bootstrapping-go-1-5-on-non-intel-platforms)
- - [ ] [Padding is hard](http://dave.cheney.net/2015/10/09/padding-is-hard)
+ - [x] [Padding is hard](http://dave.cheney.net/2015/10/09/padding-is-hard)
  - [ ] [Building Go 1.5 on the Raspberry Pi](http://dave.cheney.net/2015/09/04/building-go-1-5-on-the-raspberry-pi)
  - [x] [Cross compilation with Go 1.5](http://dave.cheney.net/2015/08/22/cross-compilation-with-go-1-5)
  - [x] [Using gb as my every day build tool](http://dave.cheney.net/2015/08/19/using-gb-as-my-every-day-build-tool)
