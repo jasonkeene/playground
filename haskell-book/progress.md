@@ -1,0 +1,49 @@
+
+[Haskell Programming from First Principles](http://haskellbook.com/progress.html)
+
+ - [x] Front matter
+ - [x] Lambda Calculus
+     - [x] All You Need is Lambda
+     - [x] What is functional programming?
+     - [x] What is a function?
+     - [x] The structure of lambda terms
+     - [x] Beta reduction
+     - [x] Multiple arguments
+     - [x] Evaluation is simplification
+     - [x] Combinators
+     - [x] Divergence
+     - [x] Summary
+     - [x] Chapter Exercises
+     - [x] Answers
+     - [x] Definitions
+     - [x] Follow-up resources
+ - [ ] Hello Haskell
+ - [ ] Strings
+ - [ ] Basic Datatypes
+ - [ ] Types
+ - [ ] Typeclasses
+ - [ ] Functions
+ - [ ] Recursion
+ - [ ] Lists
+ - [ ] Folds
+ - [ ] Algebraic datatypes
+ - [ ] Signaling Adversity
+ - [ ] Building projects in Haskell
+ - [ ] Testing
+ - [ ] Monoid, Semigroup
+ - [ ] Functors
+ - [ ] Applicative
+ - [ ] Monad (SPOOKY? No.)
+ - [ ] Abstract structure applied
+ - [ ] Foldable
+ - [ ] Traversable
+ - [ ] Reader
+ - [ ] State
+ - [ ] Parsers
+ - [ ] Composing Types
+ - [ ] Monad Transformers
+ - [ ] Non-strictness
+ - [ ] Commonly used data structures
+ - [ ] Demystifying IO
+ - [ ] Exceptions
+ - [ ] Final Project

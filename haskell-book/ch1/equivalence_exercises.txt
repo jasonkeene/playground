@@ -1,0 +1,24 @@
+1. λxy.xz
+
+    Not a since z and y need to be distinct
+    b since m can be replaced for x and n for y
+    Not c since the second argument should not be in the body
+
+    Answer: b
+
+2. λxy.xxy
+
+    Not a since p is not the same as m
+    Not b since the body requires three terms
+    c since we just replaced x with a and y with b
+
+    Answer: c, but I am a bit confused since the notation is missing a '.'
+            (dot) to indicate the body
+
+3. λxyz.zx
+
+    Not a since we are missing the x term in the body
+    b since we just replaced z with t and z with s
+    Not c since y doesn't exist in the body
+
+    Answer: b

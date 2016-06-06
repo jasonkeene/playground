@@ -1,0 +1,68 @@
+### Combinators
+
+1. yes
+2. no
+3. yes
+4. yes
+5. no
+
+### Normal Form / Divergent
+
+1. normal
+2. divergent
+3. normal
+
+### Beta Reduction
+
+1. (λabc.cba)zz(λwv.w)
+
+    (λa.λb.λc.cba)zz(λw.λv.w)
+    (λc.czz)(λw.λv.w)
+    (λw.λv.w)zz
+    z
+
+2. (λx.λy.xyy)(λa.a)b
+
+    (λx.λy.xyy)(λa.a)b
+    (λy.(λa.a)yy)b
+    (λa.a)bb
+    bb
+
+3. (λy.y)(λx.xx)(λz.zq)
+
+    (λy.y)(λx.xx)(λz.zq)
+    (λx.xx)(λz.zq)
+    (λz.zq)(λz.zq)
+    (λz.zq)q
+    qq
+
+4. (λz.z)(λz.zz)(λz.zy)
+
+    (λz.z)(λz.zz)(λz.zy)
+    (λz.zz)(λz.zy)
+    (λz.zy)(λz.zy)
+    (λz.zy)y
+    yy
+
+5. (λx.λy.xyy)(λy.y)y
+
+    (λx.λy.xyy)(λy.y)y
+    (λy.(λq.q)yy)y
+    (λq.q)yy
+    yy
+
+6. (λa.aa)(λb.ba)c
+
+    (λa.aa)(λb.ba)c
+    (λb.ba)(λb.ba)c
+    (λb.ba)ac
+    aac
+
+7. (λxyz.xz(yz))(λx.z)(λx.a)
+
+    (λx.λy.λz.xz(yz))(λx.z)(λx.a)
+    (λy.λz.(λx.z)z(yz))(λx.a)
+    λz.(λx.z)z((λx.a)z)
+    λz.(λx.z)z((λx.a)z)
+    λz.z(λx.a)z
+    λz.za
