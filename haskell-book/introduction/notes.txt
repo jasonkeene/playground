@@ -1,3 +1,6 @@
-- The human mind lacks short term memory and keeping concepts in your head can be difficult.
-- Haskell's strong typing allows the computer to check metadata so you don't have to keep it in your own limited memory.
-- It is proposed that conceptually starting from a blank slate is a better way to learning Haskell since it is quite different than imperitive languages.
+- The human mind lacks short term memory and keeping concepts in your head can
+    be difficult.
+- Haskell's strong typing allows the computer to check metadata so you don't
+    have to keep it in your own limited memory.
+- It is proposed that conceptually starting from a blank slate is a better way
+    to learning Haskell since it is quite different than imperitive languages.

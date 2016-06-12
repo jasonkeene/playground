@@ -1,5 +1,6 @@
 - Referential transparency is what I previously knew as "purity" of a function
-- Purity is overloaded in this space to also mean that programs written in the language are a structure of lambda expressions.
+- Purity is overloaded in this space to also mean that programs written in the
+    language are a structure of lambda expressions.
 - Pseudo BNF:
  Expression := Expression
              | Variable
@@ -8,8 +9,9 @@
  Abstraction := Head Body
  Head := 𝜆 Variable
  Body := Expression
- - Beta Reduction is kinda like evaluation in other languages
- - Free variables are locals in other languages
- - Alpha equivalency does not apply to free variables
- - Multiple args are accomplished via currying
- - Combinators have no free variables
+- Beta Reduction is kinda like evaluation in other languages
+- Free variables are locals in other languages
+- Alpha equivalency does not apply to free variables
+- Multiple args are accomplished via currying
+- Combinators have no free variables
+- Other methods of evaulation vs left to right, top to bottom
