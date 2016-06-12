@@ -1,0 +1,5 @@
+
+1. f = x * 3 + y where x = 3; y = 1000
+2. f = x * 5 where y = 10; x = 10 * 5 + y
+3. f = z / x + y where x = 7; y = negate x; z = y * 10
+

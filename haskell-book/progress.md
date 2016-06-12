@@ -17,8 +17,31 @@
      - [x] Answers
      - [x] Definitions
      - [x] Follow-up resources
- - [ ] Hello Haskell
+ - [x] Hello Haskell
+     - [x] Hello, Haskel
+     - [x] Interacting with Haskell code
+     - [x] Understanding expressions
+     - [x] Functions
+     - [x] Infix operators
+     - [x] Declaring values
+     - [x] Arithmetic functions in Haskell
+     - [x] Negative numbers
+     - [x] Parenthesizing infix functions
+     - [x] Laws for quotients and remainders
+     - [x] Evaluation
+     - [x] Let and where
+     - [x] Chapter Exercises
+     - [x] Definitions
+     - [x] Follow-up resources
  - [ ] Strings
+     - [x] Printing strings
+     - [x] A first look at types
+     - [x] Printing simple strings
+     - [ ] Types of concatenation functions
+     - [ ] Concatenation and scoping
+     - [ ] More list functions
+     - [ ] Chapter Exercises
+     - [ ] Definitions
  - [ ] Basic Datatypes
  - [ ] Types
  - [ ] Typeclasses

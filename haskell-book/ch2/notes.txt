@@ -1,0 +1,5 @@
+redexes are expressions that can still be reduced
+normal form is where and expression can no longer be reduced
+
+why do you not need let when defining variables in ghci?
+

@@ -1,6 +1,6 @@
 A place for experiments, learning, and random pieces of code.
 
-[![haskell-book](http://img.shields.io/badge/haskell--book-34.78%25_(16/46)-yellow.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/haskell-book/progress.md)  
+[![haskell-book](http://img.shields.io/badge/haskell--book-50.72%25_(35/69)-yellowgreen.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/haskell-book/progress.md)  
 [![golang](http://img.shields.io/badge/golang-16.95%25_(29/171)-orange.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/golang/progress.md)  
 [![rfc5424](http://img.shields.io/badge/rfc5424-100%25_(39/39)-brightgreen.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/rfc5424/progress.md)  
 [![the-go-programming-language](http://img.shields.io/badge/the--go--programming--language-23.27%25_(27/116)-orange.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/the-go-programming-language/progress.md)  
