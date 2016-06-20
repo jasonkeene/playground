@@ -1,0 +1,8 @@
+
+ - Type constructor is the name of the datatype
+ - Data constructors are the valid values of a datatype?
+ - Type classes are kind of like interfaces in golang
+ - Term level is similar to run time and Type level is similar to compile time
+ - Why does this not work? `(6 :: Int) / (2 :: Int)`
+ - Is there a precedence table for Haskell?
+

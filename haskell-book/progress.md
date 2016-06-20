@@ -33,17 +33,36 @@
      - [x] Chapter Exercises
      - [x] Definitions
      - [x] Follow-up resources
- - [ ] Strings
+ - [x] Strings
      - [x] Printing strings
      - [x] A first look at types
      - [x] Printing simple strings
-     - [ ] Types of concatenation functions
-     - [ ] Concatenation and scoping
-     - [ ] More list functions
+     - [x] Types of concatenation functions
+     - [x] Concatenation and scoping
+     - [x] More list functions
+     - [x] Chapter Exercises
+     - [x] Definitions
+ - [x] Basic Datatypes
+     - [x] Basic Datatypes
+     - [x] Anatomy of a data declaration
+     - [x] Numeric types
+     - [x] Comparing values
+     - [x] Tuples
+     - [x] Lists
+     - [x] Chapter Exercises
+     - [x] Definitions
+ - [ ] Types
+     - [ ] Types
+     - [ ] What are types?
+     - [ ] Querying and Reading Types
+     - [ ] Typeclass constrained type variables
+     - [ ] Currying
+     - [ ] Polymorphism
+     - [ ] Type inference
+     - [ ] Asserting types foir declarations
      - [ ] Chapter Exercises
      - [ ] Definitions
- - [ ] Basic Datatypes
- - [ ] Types
+     - [ ] Follow-up resources
  - [ ] Typeclasses
  - [ ] Functions
  - [ ] Recursion
