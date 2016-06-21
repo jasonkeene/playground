@@ -52,8 +52,8 @@
      - [x] Chapter Exercises
      - [x] Definitions
  - [ ] Types
-     - [ ] Types
-     - [ ] What are types?
+     - [x] Types
+     - [x] What are types?
      - [ ] Querying and Reading Types
      - [ ] Typeclass constrained type variables
      - [ ] Currying
