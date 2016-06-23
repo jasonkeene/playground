@@ -1,0 +1,22 @@
+
+## Type Matching
+
+1/2. a) c
+     b) d
+     c) b
+     d) a
+     e) e
+
+## Type Arguments
+
+1. a
+2. d
+3. d
+4. c
+5. a
+6. e
+7. e // WTF! it was actually d
+8. f // WTF! again!
+9. c
+
+

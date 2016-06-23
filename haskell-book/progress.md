@@ -54,17 +54,47 @@
  - [ ] Types
      - [x] Types
      - [x] What are types?
-     - [ ] Querying and Reading Types
-     - [ ] Typeclass constrained type variables
-     - [ ] Currying
-     - [ ] Polymorphism
+     - [x] Querying and Reading Types
+     - [x] Typeclass constrained type variables
+     - [x] Currying
+     - [ ] Polymorphism (left off on page 165)
      - [ ] Type inference
-     - [ ] Asserting types foir declarations
+     - [ ] Asserting types for declarations
      - [ ] Chapter Exercises
      - [ ] Definitions
      - [ ] Follow-up resources
  - [ ] Typeclasses
+     - [ ] Typeclasses
+     - [ ] What are typeclasses?
+     - [ ] Back to Bool
+     - [ ] Eq
+     - [ ] num
+     - [ ] Type-defaulting typeclasses
+     - [ ] Ord
+     - [ ] Enum
+     - [ ] Show
+     - [ ] Read
+     - [ ] Instances are dispatched by type
+     - [ ] Writing typeclass instances
+     - [ ] Gimme more operations
+     - [ ] Chapter Exercises
+     - [ ] Chapter Definitions
+     - [ ] Typeclass inheritance, partial
+     - [ ] Follow-up resources
  - [ ] Functions
+     - [ ] Make it func-y
+     - [ ] Arguments and parameters
+     - [ ] Anonymous functions
+     - [ ] Pattern matching
+     - [ ] Case expressions
+     - [ ] Higher-order functions
+     - [ ] Guards
+     - [ ] Function composition
+     - [ ] Pointfree style
+     - [ ] Demonstrating composition
+     - [ ] Chapter Exercises
+     - [ ] Chapter Definitions
+     - [ ] Follow-up Resources
  - [ ] Recursion
  - [ ] Lists
  - [ ] Folds

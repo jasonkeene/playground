@@ -1,0 +1,11 @@
+
+ - If haskell can not determine types at compile time does it just defer that
+   to runtime? If there is not sufficient type information at compile time to
+   infer all types does the program fail to compile?
+ - (Ord a, Num a) => a -> Ordering
+    In the text this says a must have a type that compiles with the
+    intersection of Ord an Num but I suspect it is the union of those two
+    typeclasses. (p. 153)
+ - Ask someone about question 7 (p. 163)
+
+ - There are two forms of polymorphism (parametric and constrained)
