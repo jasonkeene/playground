@@ -57,10 +57,10 @@
      - [x] Querying and Reading Types
      - [x] Typeclass constrained type variables
      - [x] Currying
-     - [ ] Polymorphism (left off on page 165)
-     - [ ] Type inference
-     - [ ] Asserting types for declarations
-     - [ ] Chapter Exercises
+     - [x] Polymorphism
+     - [x] Type inference
+     - [x] Asserting types for declarations
+     - [ ] Chapter Exercises (left off on page 180)
      - [ ] Definitions
      - [ ] Follow-up resources
  - [ ] Typeclasses

@@ -19,4 +19,87 @@
 8. f // WTF! again!
 9. c
 
+## Parametricity
+
+1. Nope, a -> a must return the value it was given.
+2. `f x y = x` or `f x y = y`
+3. `f x y = y` is the only implementation. If you change the type of the
+   arguments to be the same you can have two valid implementations.
+
+## Apply Yourself
+
+1. `myConcat :: [Char] -> [Char]`, because the second argument is a concrete
+    type `[Char]`.
+2. `myMult :: Fractional a => a -> a`, because the division operation forces a
+    type of Fractional.
+3. `myTake :: Int -> [Char]`, because Int is already a concrete type and [a]
+    is constrained to be a [Char].
+4. `myCom :: Int -> Bool`, because lenght forces the argument to be `Int`.
+5. `myAlph :: Char -> Bool`, because the `Char` literal forces the arguemnt to
+    be `Char`.
+
+## Chapter Exercises
+
+### Multiple Choice
+
+1. c
+2. a
+3. b
+4. c
+
+### Determine the type
+
+1. a) `Num a => a`
+   b) `Num a => (a, [Char])`
+   c) `(Integer, [Char])`
+   d) `Bool`
+   e) `Int`
+   f) `Bool`
+2. `w :: Num a => a`
+3. `z :: Num a => a -> a`
+4. `f :: Fractiona a => a`
+5. `f :: [Char]`
+
+### Does it compile?
+
+1. No, `bigNum` is a value, not a functgion that can be applied.
+2. Yeah, why not. I don't see how this wouldn't compile, unless assigning
+    `IO ()` is not allowed.
+3. Nope, you can not apply `10` to the value of `5`.
+4. No, because `c` is undefined and if you are using the REPL the ordering is
+    wrong.
+
+### Type variable or specific type constructor?
+
+1. a is constrained polymorphic, b is fully polymorphic, and the last two
+    types are concrete.
+2. zed is fully polymorphic, Zed and Blah are concrete types.
+3. a is fully polymorphic, b is constrained polymorphic, and C is concrete.
+4. f and g are fully polymorphic and C is concrete.
+
+### Write a typoe signature
+
+1. `functionH :: [a] -> a`
+2. `functionC :: a -> b -> Bool`, wrong it was
+    `(Ord a) => a -> a -> Bool` because the `>` comparison forced the
+    args to be Ord.
+3. `functionS :: (a, b) -> b`
+
+### Given a type, write the function
+
+1. `i x = x`
+2. `c x y = x`
+3. Yes, these type definitions are the same thing.
+4. `c' x y = y`
+5. `r x = []`
+6. `co x y = (\ z -> x (y z))`
+7. `a x y = y`
+8. `a' x y = x y`
+
+### Fix it
+
+
+
+### Type-Kwon-Do
+
 
