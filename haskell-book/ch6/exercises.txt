@@ -1,0 +1,8 @@
+
+## Tuple Experiment
+
+`quotRem` gives you the quotient and remainder using regular division.
+`divMod` gives you how many times the second argument goes into the first and
+the modulus using mod arithmetic.
+
+

@@ -64,13 +64,13 @@
      - [x] Definitions
      - [x] Follow-up resources
  - [ ] Typeclasses
-     - [ ] Typeclasses
-     - [ ] What are typeclasses?
-     - [ ] Back to Bool
-     - [ ] Eq
-     - [ ] num
-     - [ ] Type-defaulting typeclasses
-     - [ ] Ord
+     - [x] Typeclasses
+     - [x] What are typeclasses?
+     - [x] Back to Bool
+     - [x] Eq
+     - [x] num
+     - [x] Type-defaulting typeclasses
+     - [ ] Ord (left off on page 200)
      - [ ] Enum
      - [ ] Show
      - [ ] Read
