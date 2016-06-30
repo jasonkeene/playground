@@ -1,8 +1,17 @@
 
 [Haskell Programming from First Principles](http://haskellbook.com/progress.html)
 
- - [x] Front matter
- - [x] Lambda Calculus
+ - [x] Contents
+     - [x] License
+     - [x] Authors' preface
+     - [x] Acknowledgements
+     - [x] Introduction
+     - [x] Why This Book
+     - [x] A few words to new programmers
+     - [x] Haskevangelism
+     - [x] What's in this book?
+     - [x] Best practices for examples and exercises
+ - [x] All You Need is Lambda
      - [x] All You Need is Lambda
      - [x] What is functional programming?
      - [x] What is a function?
@@ -17,8 +26,8 @@
      - [x] Answers
      - [x] Definitions
      - [x] Follow-up resources
- - [x] Hello Haskell
-     - [x] Hello, Haskel
+ - [x] Hello, Haskell!
+     - [x] Hello, Haskell
      - [x] Interacting with Haskell code
      - [x] Understanding expressions
      - [x] Functions
@@ -42,7 +51,7 @@
      - [x] More list functions
      - [x] Chapter Exercises
      - [x] Definitions
- - [x] Basic Datatypes
+ - [x] Basic datatypes
      - [x] Basic Datatypes
      - [x] Anatomy of a data declaration
      - [x] Numeric types
@@ -68,7 +77,7 @@
      - [x] What are typeclasses?
      - [x] Back to Bool
      - [x] Eq
-     - [x] num
+     - [x] Num
      - [x] Type-defaulting typeclasses
      - [ ] Ord (left off on page 200)
      - [ ] Enum
@@ -94,28 +103,299 @@
      - [ ] Demonstrating composition
      - [ ] Chapter Exercises
      - [ ] Chapter Definitions
-     - [ ] Follow-up Resources
+     - [ ] Follow-up resources
  - [ ] Recursion
+     - [ ] Recursion
+     - [ ] Factorial
+     - [ ] Bottom
+     - [ ] Fibonacci numbers
+     - [ ] Integral division from scratch
+     - [ ] Chapter Exercises
+     - [ ] Definitions
  - [ ] Lists
- - [ ] Folds
+     - [ ] Lists
+     - [ ] The list datatype
+     - [ ] Pattern matching on lists
+     - [ ] List's syntactic sugar
+     - [ ] Using ranges to construct lists
+     - [ ] Extracting portions of lists
+     - [ ] List comprehensions
+     - [ ] Spines and non-strict evaluation
+     - [ ] Transforming lists of values
+     - [ ] Filtering lists of values
+     - [ ] Zipping lists
+     - [ ] Chapter Exercises
+     - [ ] Definitions
+     - [ ] Follow-up resources
+ - [ ] Folding lists
+     - [ ] Folds
+     - [ ] Bringing you into the fold
+     - [ ] Recursive patterns
+     - [ ] Fold right
+     - [ ] Fold left
+     - [ ] How to write fold functions
+     - [ ] Folding and evaluation
+     - [ ] Summary
+     - [ ] Scans
+     - [ ] Chapter Exercises
+     - [ ] Definitions
+     - [ ] Follow-up resources
  - [ ] Algebraic datatypes
- - [ ] Signaling Adversity
- - [ ] Building projects in Haskell
+     - [ ] Algebraic datatypes
+     - [ ] Data declarations review
+     - [ ] Data and type constructors
+     - [ ] Data constructors and values
+     - [ ] What's a type and what's data?
+     - [ ] Data constructor arities
+     - [ ] What makes these datatypes algebraic?
+     - [ ] Sum types
+     - [ ] Product types
+     - [ ] Normal form
+     - [ ] Constructing and deconstructing values
+     - [ ] Function type is exponential
+     - [ ] Higher-kinded datatypes
+     - [ ] Lists are polymorphic
+     - [ ] Binary Tree
+     - [ ] Chapter Exercises
+     - [ ] Definitions
+ - [ ] Signaling adversity
+     - [ ] Signaling adversity
+     - [ ] How I learned to stop worrying and love Nothing
+     - [ ] Bleating either
+     - [ ] Kinds, a thousand stars in your types
+     - [ ] Chapter Exercises
+     - [ ] Definitions
+ - [ ] Building projects
+     - [ ] Modules
+     - [ ] Making packages with Stack
+     - [ ] Working with a basic project
+     - [ ] Making our project a library
+     - [ ] Module exports
+     - [ ] More on importing modules
+     - [ ] Making our program interactive
+     - [ ] do syntax and IO
+     - [ ] Hangman game
+     - [ ] Step One: Importing modules
+     - [ ] Step Two: Generating a word list
+     - [ ] Step Three: Making a puzzle
+     - [ ] Adding a newtype
+     - [ ] Chapter exercises
+     - [ ] Follow-up resources
  - [ ] Testing
+     - [ ] Testing
+     - [ ] A quick tour of testing for the uninitiated
+     - [ ] Conventional testing
+     - [ ] Enter QuickCheck
+     - [ ] Morse code
+     - [ ] Kicking around QuickCheck
+     - [ ] Chapter Exercises
+     - [ ] Definitions
+     - [ ] Follow-up resources
  - [ ] Monoid, Semigroup
- - [ ] Functors
+     - [ ] Monoids and semigroups
+     - [ ] What we talk about when we talk about algebras
+     - [ ] Monoid
+     - [ ] How Monoid is defined in Haskell
+     - [ ] Examples of using Monoid
+     - [ ] Why Integer doesn't have a Monoid
+     - [ ] Why bother?
+     - [ ] Laws
+     - [ ] Different instance, same representation
+     - [ ] Reusing algebras by asking for algebras
+     - [ ] Madness
+     - [ ] Better living through QuickCheck
+     - [ ] Semigroup
+     - [ ] Chapter exercises
+     - [ ] Definitions
+     - [ ] Follow-up resources
+ - [ ] Functor
+     - [ ] Functor
+     - [ ] What's a functor?
+     - [ ] There's a whole lot of fmap going round
+     - [ ] Let's talk about f, baby
+     - [ ] Functor Laws
+     - [ ] The Good, the Bad, and the Ugly
+     - [ ] Commonly used functors
+     - [ ] Transforming the unapplied type argument
+     - [ ] QuickChecking Functor instances
+     - [ ] Exercises: Instances of Func
+     - [ ] Ignoring possibilities
+     - [ ] A somewhat surprising functor
+     - [ ] More structure, more functors
+     - [ ] IO Functor
+     - [ ] What if we want to do something different?
+     - [ ] Functors are unique to a datatype
+     - [ ] Chapter exercises
+     - [ ] Definitions
+     - [ ] Follow-up resources
  - [ ] Applicative
- - [ ] Monad (SPOOKY? No.)
- - [ ] Abstract structure applied
+     - [ ] Applicative
+     - [ ] Defining Applicative
+     - [ ] Functor vs. Applicative
+     - [ ] Applicative functors are monoidal functors
+     - [ ] Applicative in use
+     - [ ] Applicative laws
+     - [ ] You knew this was coming
+     - [ ] ZipList Monoid
+     - [ ] Chapter Exercises
+     - [ ] Definitions
+     - [ ] Follow-up resources
+ - [ ] Monad
+     - [ ] Monad
+     - [ ] Sorry — Monad is not a burrito
+     - [ ] Do syntax and monads
+     - [ ] Examples of Monad use
+     - [ ] Monad laws
+     - [ ] Application and composition
+     - [ ] Chapter Exercises
+     - [ ] Definition
+     - [ ] Follow-up resources
+ - [ ] Applying structure
+     - [ ] Applied structure
+     - [ ] Monoid
+     - [ ] Functor
+     - [ ] Applicative
+     - [ ] Monad
+     - [ ] An end-to-end example: URL shortener
+     - [ ] That's a wrap!
+     - [ ] Follow-up resources
  - [ ] Foldable
+     - [ ] Foldable
+     - [ ] The Foldable class
+     - [ ] Revenge of the monoids
+     - [ ] Demonstrating Foldable instances
+     - [ ] Some basic derived operations
+     - [ ] Chapter Exercises
+     - [ ] Follow-up resources
  - [ ] Traversable
+     - [ ] Traversable
+     - [ ] The Traversable typeclass definition
+     - [ ] sequenceA
+     - [ ] traverse
+     - [ ] So, what's traversable for?
+     - [ ] Morse code revisited
+     - [ ] Axing tedious code
+     - [ ] Do all the things
+     - [ ] Traversable instances
+     - [ ] Traversable Laws
+     - [ ] Quality Control
+     - [ ] Chapter Exercises
+     - [ ] Follow-up resources
  - [ ] Reader
+     - [ ] Reader
+     - [ ] A new beginning
+     - [ ] This is Reader
+     - [ ] Breaking down the Functor of functions
+     - [ ] But uh, Reader?
+     - [ ] Functions have an Applicative too
+     - [ ] The Monad of functions
+     - [ ] Reader Monad by itself is kinda boring
+     - [ ] You can change what comes below, but not above
+     - [ ] You tend to see ReaderT, not Reader
+     - [ ] Chapter Exercises
+     - [ ] Follow-up resources
  - [ ] State
- - [ ] Parsers
- - [ ] Composing Types
- - [ ] Monad Transformers
+     - [ ] State
+     - [ ] What is state?
+     - [ ] Random numbers
+     - [ ] The State newtype
+     - [ ] Throw down
+     - [ ] Write State for yourself
+     - [ ] Get a coding job with one weird trick
+     - [ ] Chapter exercises
+     - [ ] Follow-up resources
+ - [ ] Parser combinators
+     - [ ] Parser combinators
+     - [ ] A few more words of introduction
+     - [ ] Understanding the parsing process
+     - [ ] Parsing fractions
+     - [ ] Haskell's parsing ecosystem
+     - [ ] Alternative
+     - [ ] Parsing configuration files
+     - [ ] Character and token parsers
+     - [ ] Polymorphic parsers
+     - [ ] Marshalling from an AST to a datatype
+     - [ ] Chapter Exercises
+     - [ ] Definitions
+     - [ ] Follow-up resources
+ - [ ] Composing types
+     - [ ] Composing types
+     - [ ] Common functions as types
+     - [ ] Two little functors sittin' in a tree, L-I-F-T-I-N-G
+     - [ ] Twinplicative
+     - [ ] Twonad?
+     - [ ] Exercises: Compose Instances
+     - [ ] Monad transformers
+     - [ ] IdentityT
+     - [ ] Finding a pattern
+ - [ ] Monad transformers
+     - [ ] Monad transformers
+     - [ ] MaybeT
+     - [ ] EitherT
+     - [ ] ReaderT
+     - [ ] StateT
+     - [ ] Types you probably don't want to use
+     - [ ] Recovering an ordinary type from a transformer
+     - [ ] Lexically inner is structurally outer
+     - [ ] MonadTrans
+     - [ ] MonadIO aka zoom-zoom
+     - [ ] Monad transformers in use
+     - [ ] Monads do not commute
+     - [ ] Transform if you want to
+     - [ ] Chapter Exercises
+     - [ ] Follow-up resources
  - [ ] Non-strictness
- - [ ] Commonly used data structures
- - [ ] Demystifying IO
- - [ ] Exceptions
- - [ ] Final Project
+     - [ ] Laziness
+     - [ ] Observational Bottom Theory
+     - [ ] Outside in, inside out
+     - [ ] What does the other way look like?
+     - [ ] Call by name, call by need
+     - [ ] Non-strict evaluation changes what we can do
+     - [ ] Thunk Life
+     - [ ] Sharing is caring
+     - [ ] Refutable and irrefutable patterns
+     - [ ] Bang-patterns
+     - [ ] Strict and StrictData
+     - [ ] Adding strictness
+     - [ ] Chapter Exercises
+     - [ ] Follow-up resources
+ - [ ] Basic libraries
+     - [ ] Basic libraries and data structures
+     - [ ] Benchmarking with Criterion
+     - [ ] Profiling your programs
+     - [ ] Constant applicative forms
+     - [ ] Map
+     - [ ] Set
+     - [ ] Sequence
+     - [ ] Vector
+     - [ ] String types
+     - [ ] Chapter Exercises
+     - [ ] Follow-up resources
+ - [ ] IO
+     - [ ] IO
+     - [ ] Where IO explanations go astray
+     - [ ] The reason we need this type
+     - [ ] Sharing
+     - [ ] IO doesn't disable sharing for everything
+     - [ ] Purity is losing meaning
+     - [ ] IO's Functor, Applicative, and Monad
+     - [ ] Well, then, how do we MVar?
+     - [ ] Chapter Exercises
+     - [ ] Follow-up resources
+ - [ ] When things go wrong
+     - [ ] Exceptions
+     - [ ] The Exception class and methods
+     - [ ] This machine kills programs
+     - [ ] Want either? Try!
+     - [ ] The unbearable imprecision of trying
+     - [ ] Why throwIO?
+     - [ ] Making our own exception types
+     - [ ] Surprising interaction with bottom
+     - [ ] Asynchronous Exceptions
+     - [ ] Follow-up Reading
+ - [ ] Final project
+     - [ ] Final project
+     - [ ] fingerd
+     - [ ] Exploring finger
+     - [ ] Slightly modernized fingerd
+     - [ ] Chapter Exercises
