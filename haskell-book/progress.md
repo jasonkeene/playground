@@ -51,7 +51,7 @@
      - [x] Lists
      - [x] Chapter Exercises
      - [x] Definitions
- - [ ] Types
+ - [x] Types
      - [x] Types
      - [x] What are types?
      - [x] Querying and Reading Types
@@ -60,9 +60,9 @@
      - [x] Polymorphism
      - [x] Type inference
      - [x] Asserting types for declarations
-     - [ ] Chapter Exercises (left off on page 180)
-     - [ ] Definitions
-     - [ ] Follow-up resources
+     - [x] Chapter Exercises
+     - [x] Definitions
+     - [x] Follow-up resources
  - [ ] Typeclasses
      - [ ] Typeclasses
      - [ ] What are typeclasses?
@@ -81,7 +81,7 @@
      - [ ] Chapter Definitions
      - [ ] Typeclass inheritance, partial
      - [ ] Follow-up resources
- - [ ] Functions
+ - [ ] More functional patterns
      - [ ] Make it func-y
      - [ ] Arguments and parameters
      - [ ] Anonymous functions
