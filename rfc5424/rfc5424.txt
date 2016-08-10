@@ -396,6 +396,18 @@ Gerhards                    Standards Track                     [Page 7]
 RFC 5424                  The Syslog Protocol                 March 2009
 
 
+// Note: Overview of message structure:
+// Header
+//     Priority
+//     Versoin
+//     Timestamp
+//     Hostanme
+//     App Name
+//     Process ID
+//     Message ID
+// Structured Data
+// Optional Messages
+
 6.  Syslog Message Format
 
    The syslog message has the following ABNF [RFC5234] definition:
@@ -488,6 +500,7 @@ RFC 5424                  The Syslog Protocol                 March 2009
 
    The character set used in the HEADER MUST be seven-bit ASCII in an
    eight-bit field as described in [RFC5234].  These are the ASCII codes
+
    as defined in "USA Standard Code for Information Interchange"
    [ANSI.X3-4.1968].
 
@@ -587,6 +600,9 @@ RFC 5424                  The Syslog Protocol                 March 2009
    values would be placed between the angle brackets as <0> and <165>
    respectively.  The only time a value of "0" follows the "<" is for
    the Priority value of "0".  Otherwise, leading "0"s MUST NOT be used.
+
+// Note: PRIVAL is facility * 8 * severity where a lower PRIVAL the higher the
+// priority.
 
 6.2.2.  VERSION
 
