@@ -14,3 +14,21 @@ func TestLinearSearchCorrectness(t *testing.T) {
 		})
 	})
 }
+
+func BenchmarkLinearBestCase(b *testing.B) {
+	for n := 0; n < b.N; n++ {
+		LinearSearch(benchmarkData, 8191711)
+	}
+}
+
+func BenchmarkLinearAverageCase(b *testing.B) {
+	for n := 0; n < b.N; n++ {
+		LinearSearch(benchmarkData, 8348554)
+	}
+}
+
+func BenchmarkLinearWorstCase(b *testing.B) {
+	for n := 0; n < b.N; n++ {
+		LinearSearch(benchmarkData, 6309519)
+	}
+}
