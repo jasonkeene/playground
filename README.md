@@ -1,5 +1,6 @@
 A place for experiments, learning, and random pieces of code.
 
+[![java-concurrency-in-practice](http://img.shields.io/badge/java--concurrency--in--practice-100%25_(17/17)-brightgreen.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/java-concurrency-in-practice/progress.md)  
 [![css-grid](http://img.shields.io/badge/css--grid-33.33%25_(1/3)-yellow.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/css-grid/progress.md)  
 [![haskell-book](http://img.shields.io/badge/haskell--book-19.34%25_(77/398)-orange.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/haskell-book/progress.md)  
 [![golang](http://img.shields.io/badge/golang-16.95%25_(29/171)-orange.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/golang/progress.md)  
