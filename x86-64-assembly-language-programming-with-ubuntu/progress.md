@@ -1,10 +1,11 @@
 
 ## [x86-64 Assembly Language Programming with Ubuntu](http://www.egr.unlv.edu/~ed/x86.html)
 
+ - [x] Chapter 1 - Introduction
+ - [x] Chapter 2 - Architecture Overview
+
 ### Need to do Exercises
 
- - [ ] Chapter 1 - Introduction
- - [ ] Chapter 2 - Architecture Overview
  - [ ] Chapter 3 - Data Representation
  - [ ] Chapter 4 - Program Format
  - [ ] Chapter 5 - Tool Chain
