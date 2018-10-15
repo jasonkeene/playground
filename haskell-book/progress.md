@@ -79,7 +79,7 @@
      - [x] Eq
      - [x] Num
      - [x] Type-defaulting typeclasses
-     - [ ] Ord (left off on page 200)
+     - [ ] Ord (left off on page 203, exercises)
      - [ ] Enum
      - [ ] Show
      - [ ] Read
