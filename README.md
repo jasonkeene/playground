@@ -1,8 +1,9 @@
 A place for experiments, learning, and random pieces of code.
 
+[![x86-64-assembly-language-programming-with-ubuntu](http://img.shields.io/badge/x86--64--assembly--language--programming--with--ubuntu-10%25_(2/20)-red.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/x86-64-assembly-language-programming-with-ubuntu/progress.md)  
+[![haskell-book](http://img.shields.io/badge/haskell--book-19.34%25_(77/398)-orange.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/haskell-book/progress.md)  
 [![java-concurrency-in-practice](http://img.shields.io/badge/java--concurrency--in--practice-100%25_(17/17)-brightgreen.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/java-concurrency-in-practice/progress.md)  
 [![css-grid](http://img.shields.io/badge/css--grid-33.33%25_(1/3)-yellow.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/css-grid/progress.md)  
-[![haskell-book](http://img.shields.io/badge/haskell--book-19.34%25_(77/398)-orange.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/haskell-book/progress.md)  
 [![golang](http://img.shields.io/badge/golang-16.95%25_(29/171)-orange.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/golang/progress.md)  
 [![rfc5424](http://img.shields.io/badge/rfc5424-100%25_(39/39)-brightgreen.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/rfc5424/progress.md)  
 [![the-go-programming-language](http://img.shields.io/badge/the--go--programming--language-23.27%25_(27/116)-orange.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/the-go-programming-language/progress.md)  
