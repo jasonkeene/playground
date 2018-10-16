@@ -3,12 +3,12 @@
 
  - [x] Chapter 1 - Introduction
  - [x] Chapter 2 - Architecture Overview
+ - [x] Chapter 3 - Data Representation
+ - [x] Chapter 4 - Program Format
+ - [x] Chapter 5 - Tool Chain
 
 ### Need to do Exercises
 
- - [ ] Chapter 3 - Data Representation
- - [ ] Chapter 4 - Program Format
- - [ ] Chapter 5 - Tool Chain
  - [ ] Chapter 6 - DDD Debugger
  - [ ] Chapter 7 - Instruction Set Overview
  - [ ] Chapter 8 - Addressing Modes
