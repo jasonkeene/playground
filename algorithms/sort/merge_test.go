@@ -1,28 +1,11 @@
-package sort
+package sort_test
 
-import "testing"
-import . "github.com/smartystreets/goconvey/convey"
+import (
+	"testing"
 
-func TestMergeSort(t *testing.T) {
-	Convey("given an unordered slice of ints", t, func() {
-		data := []int{7, 82, 3, 5, 1, 111}
-		Convey("it properly sorts the list", func() {
-			data := MergeSort(data)
-			So(data, ShouldResemble, []int{1, 3, 5, 7, 82, 111})
-		})
-	})
-	Convey("given an empty slice of ints", t, func() {
-		data := []int{}
-		Convey("it does nothing", func() {
-			data := MergeSort(data)
-			So(data, ShouldBeEmpty)
-		})
-	})
-	Convey("given a single element slice of ints", t, func() {
-		data := []int{55}
-		Convey("it does nothing", func() {
-			data := MergeSort(data)
-			So(data, ShouldResemble, []int{55})
-		})
-	})
+	sort "github.com/jasonkeene/playground/algorithms/sort"
+)
+
+func TestMergeCorrectness(t *testing.T) {
+	testCorrectness(t, sort.Merge)
 }

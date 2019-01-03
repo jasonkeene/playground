@@ -1,10 +1,10 @@
 
 ## [Algorithms Unlocked](https://mitpress.mit.edu/books/algorithms-unlocked)
 
-- [ ] What Are Algorithms and Why Should You Care?
-- [ ] How to Describe and Evaluate Computer Algorithms
-- [ ] Algorithms for Sorting and Searching
-- [ ] A Lower Bound for Sorting and How to Beat It
+- [x] What Are Algorithms and Why Should You Care?
+- [x] How to Describe and Evaluate Computer Algorithms
+- [x] Algorithms for Sorting and Searching
+- [x] A Lower Bound for Sorting and How to Beat It
 - [ ] Directed Acyclic Graphs
 - [ ] Shortest Paths
 - [ ] Algorithms on Strings

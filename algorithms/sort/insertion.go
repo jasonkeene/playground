@@ -1,18 +1,14 @@
 package sort
 
-// Θ(n^2)
-func InsertionSort(data []int) {
-	for i := 1; i < len(data); i++ {
-		insert(data, i-1, data[i])
+func Insertion(a []int) {
+	for i := 1; i < len(a); i++ {
+		key := a[i]
+		for j := i - 1; j >= 0; j-- {
+			if a[j] <= key {
+				a[j+1] = key
+				break
+			}
+			a[j+1] = a[j]
+		}
 	}
-}
-
-// Θ(n)
-func insert(data []int, sorted, key int) {
-	var i int
-	for i = sorted; i >= 0 && data[i] > key; i-- {
-		// move over
-		data[i+1] = data[i]
-	}
-	data[i+1] = key
 }

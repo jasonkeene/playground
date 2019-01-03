@@ -1,7 +1,10 @@
 package search
 
-import "testing"
-import . "github.com/smartystreets/goconvey/convey"
+import (
+	"testing"
+
+	. "github.com/smartystreets/goconvey/convey"
+)
 
 func TestBinarySearchCorrectness(t *testing.T) {
 	Convey("Given an ordered slice of integers", t, func() {
@@ -19,6 +22,17 @@ func TestBinarySearchCorrectness(t *testing.T) {
 			So(BinarySearch(data, 99999), ShouldEqual, -1)
 		})
 	})
+
+	Convey("Given an ordered two element slice", t, func() {
+		data := []int{55, 90}
+		Convey("it should find members", func() {
+			So(BinarySearch(data, 90), ShouldEqual, 1)
+		})
+		Convey("it should return -1 if not found", func() {
+			So(BinarySearch(data, 999), ShouldEqual, -1)
+		})
+	})
+
 	Convey("Given a single element slice", t, func() {
 		data := []int{90}
 		Convey("it should find members", func() {
@@ -28,13 +42,18 @@ func TestBinarySearchCorrectness(t *testing.T) {
 			So(BinarySearch(data, 999), ShouldEqual, -1)
 		})
 	})
-	Convey("Given an ordered two element slice", t, func() {
-		data := []int{55, 90}
-		Convey("it should find members", func() {
-			So(BinarySearch(data, 90), ShouldEqual, 1)
+
+	Convey("Given an empty slice", t, func() {
+		data := []int{}
+		Convey("it should return -1", func() {
+			So(BinarySearch(data, 90), ShouldEqual, -1)
 		})
-		Convey("it should return -1 if not found", func() {
-			So(BinarySearch(data, 999), ShouldEqual, -1)
+	})
+
+	Convey("Given nil", t, func() {
+		data := []int{}
+		Convey("it should return -1", func() {
+			So(BinarySearch(data, 90), ShouldEqual, -1)
 		})
 	})
 }
