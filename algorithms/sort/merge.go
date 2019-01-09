@@ -1,15 +1,13 @@
 package sort
 
-import (
-	"math"
-)
+import "math"
 
 func Merge(a []int) {
 	m(a, 0, len(a))
 }
 
 func m(a []int, q, r int) {
-	if len(a[q:r]) <= 1 {
+	if q >= r-1 {
 		return
 	}
 	mid := (q + r) / 2

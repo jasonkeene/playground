@@ -5,7 +5,7 @@ func Quick(a []int) {
 }
 
 func quick(a []int, q, r int) {
-	if len(a[q:r]) <= 1 {
+	if q >= r-1 {
 		return
 	}
 	pivot := partition(a, q, r)

@@ -8,9 +8,7 @@ import (
 	"testing"
 )
 
-type sortingFunc func([]int)
-
-func testCorrectness(t *testing.T, f sortingFunc) {
+func testCorrectness(t *testing.T, f func([]int)) {
 	cases := map[string][]int{
 		"empty":              []int{},
 		"single item":        []int{5},
@@ -54,9 +52,9 @@ func testCorrectness(t *testing.T, f sortingFunc) {
 }
 
 func random(n, s int) []int {
-	a := make([]int, 0, s)
+	a := make([]int, s)
 	for i := 0; i < s; i++ {
-		a = append(a, rand.Intn(n))
+		a[i] = rand.Intn(n)
 	}
 	return a
 }
