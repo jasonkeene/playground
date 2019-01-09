@@ -57,3 +57,41 @@ func randomString(s int) []string {
 	}
 	return a
 }
+
+func BenchmarkRadix64(b *testing.B)     { benchRadix(b, 64) }
+func BenchmarkRadix1024(b *testing.B)   { benchRadix(b, 1024) }
+func BenchmarkRadix16384(b *testing.B)  { benchRadix(b, 16384) }
+func BenchmarkRadix262144(b *testing.B) { benchRadix(b, 262144) }
+
+func benchRadix(b *testing.B, size int) {
+	b.StopTimer()
+
+	fixtures := make([][]string, b.N)
+	for i := 0; i < b.N; i++ {
+		fixtures[i] = randomString(size)
+	}
+
+	b.StartTimer()
+	for i := 0; i < b.N; i++ {
+		sort.Radix(fixtures[i], 6)
+	}
+}
+
+func BenchmarkStdlib64(b *testing.B)     { benchStdlib(b, 64) }
+func BenchmarkStdlib1024(b *testing.B)   { benchStdlib(b, 1024) }
+func BenchmarkStdlib16384(b *testing.B)  { benchStdlib(b, 16384) }
+func BenchmarkStdlib262144(b *testing.B) { benchStdlib(b, 262144) }
+
+func benchStdlib(b *testing.B, size int) {
+	b.StopTimer()
+
+	fixtures := make([][]string, b.N)
+	for i := 0; i < b.N; i++ {
+		fixtures[i] = randomString(size)
+	}
+
+	b.StartTimer()
+	for i := 0; i < b.N; i++ {
+		gosort.Strings(fixtures[i])
+	}
+}
