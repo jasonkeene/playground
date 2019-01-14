@@ -160,4 +160,31 @@ digits in the keys that are being sorted, however this is typically constant.
 One method for getting a linear ordering from a DAG is to start with an
 node that has nothing pointing to it, remove it from the graph and place it
 in the list. Continue this process until there is no nodes remaining. Placing
-nodes in order like this is called topological sorting.
+nodes in order like this is called topological sorting. There can be multiple
+different sortings of a DAG that are correct.
+
+There are a few representations for the edges in a graph:
+
+1. adjacency matrix: A two dimensional array where each row and column
+   represents a vertex id. If there is a 1 at matrix[u][v] that represents an
+   edge is present. This takes O(n**2) memory.
+2. unorderd list: This is just an unordered list of (u, v) doubles.
+3. adjacenty list: This is a hybrid of the other two representations. It is an
+   array of lists.
+
+Lists used here can either be array backed or a linked list.
+
+Topological sort takes O(n + m) time where n is the amount of vertices and m
+is the amount of edges.
+
+A PERT chart is a project management tool that can be represented as a DAG.
+The critical path of a PERT chart is the path that taked the most time to
+complete. This represents the minimum time to complete the project as a whole.
+If we negate the time it takes to complete each task then we can use a sortest
+path algorithm to solve for the critical path.
+
+One way to compute the shortest path is to compute the smallest weight between
+a starting vertex and all other vertices. If you also record the previous
+vertex that for each vertex along the shortest path you can then construct a
+single shortest path from u to v. To do this, first topological sort the DAG,
+then relax each edge leaving each vertex in the toplological order.
