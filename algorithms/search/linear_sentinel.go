@@ -1,7 +1,7 @@
 package search
 
 // Θ(n)
-func LinearSentinelSearch(data []int, number int) int {
+func LinearSentinel(data []int, number int) int {
 	lastIndex := len(data) - 1
 	last := data[lastIndex]
 	data[lastIndex] = number

@@ -1,6 +1,7 @@
-package tower
+package hanoi
 
 import (
+	"errors"
 	"fmt"
 	"log"
 )
@@ -9,14 +10,17 @@ type Peg struct {
 	Values []int
 }
 
-func NewPeg(values []int) *Peg {
-	peg := &Peg{}
-	peg.Values = values
-	return peg
+func NewPeg(d []int) *Peg {
+	return &Peg{
+		Values: d,
+	}
 }
 
 func (peg *Peg) Pop() int {
 	length := len(peg.Values)
+	if length == 0 {
+		panic("popping from empty peg")
+	}
 	value := peg.Values[length-1]
 	peg.Values = peg.Values[0 : length-1]
 	return value
@@ -26,7 +30,7 @@ func (peg *Peg) Push(value int) {
 	peg.Values = append(peg.Values, value)
 }
 
-func (peg *Peg) Check() {
+func (peg Peg) Check() {
 	if len(peg.Values) == 0 {
 		return
 	}
@@ -45,13 +49,13 @@ type Tower struct {
 }
 
 func NewTower(size int) *Tower {
-	tower := &Tower{}
-	tower.Pegs = map[string]*Peg{
-		"A": NewPeg([]int{}),
-		"B": NewPeg([]int{}),
-		"C": NewPeg([]int{}),
+	tower := &Tower{
+		Pegs: map[string]*Peg{
+			"A": NewPeg(make([]int, 0, size)),
+			"B": NewPeg(make([]int, 0, size)),
+			"C": NewPeg(make([]int, 0, size)),
+		},
 	}
-	tower.Check = false
 	for i := size; i > 0; i-- {
 		tower.Pegs["A"].Push(i)
 	}
@@ -102,10 +106,10 @@ func lookupOther(from, to string) (string, error) {
 	delete(peg_names, from)
 	delete(peg_names, to)
 	if len(peg_names) != 1 {
-		return "", fmt.Errorf("Bad length for peg_names: %d", peg_names)
+		return "", fmt.Errorf("bad length for peg_names: %d", len(peg_names))
 	}
 	for k := range peg_names {
 		return k, nil
 	}
-	return "", fmt.Errorf("No peg_name available")
+	return "", errors.New("no peg_name available")
 }

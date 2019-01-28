@@ -1,4 +1,4 @@
-package search
+package search_test
 
 var benchmarkData = []int{
 	8191711,
