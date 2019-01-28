@@ -1,9 +1,5 @@
 package sort
 
-import (
-	"log"
-)
-
 func Radix(a []string, size int) {
 	for i := size - 1; i >= 0; i-- {
 		counting(a, i)
@@ -12,9 +8,9 @@ func Radix(a []string, size int) {
 
 func counting(a []string, p int) {
 	// equal
-	bucket := make([]int, 36)
+	var bucket [36]int
 	for _, v := range a {
-		bucket[toIndex(v[p])]++
+		bucket[bv[v[p]]]++
 	}
 
 	// less
@@ -27,9 +23,9 @@ func counting(a []string, p int) {
 	// sort
 	sorted := make([]string, len(a))
 	for _, v := range a {
-		i := bucket[toIndex(v[p])]
-		sorted[i] = v
-		bucket[toIndex(v[p])]++
+		i := bv[v[p]]
+		sorted[bucket[i]] = v
+		bucket[i]++
 	}
 
 	// replace
@@ -38,15 +34,20 @@ func counting(a []string, p int) {
 	}
 }
 
-func toIndex(r byte) int {
-	// digit
-	if r >= 48 && r < 58 {
-		return int(r) - 48
+var bv = func() [256]int {
+	var bv [256]int
+
+	for r := 0; r < 256; r++ {
+		// digit
+		if r >= 48 && r < 58 {
+			bv[r] = r - 48
+			continue
+		}
+		// capital letter
+		if r >= 65 && r < 91 {
+			bv[r] = r - 55
+			continue
+		}
 	}
-	// capital letter
-	if r >= 65 && r < 91 {
-		return int(r) - 55
-	}
-	log.Panicf("bad byte: %d", r)
-	return -1
-}
+	return bv
+}()

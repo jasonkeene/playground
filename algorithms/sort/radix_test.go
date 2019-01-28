@@ -58,10 +58,12 @@ func randomString(s int) []string {
 	return a
 }
 
-func BenchmarkRadix64(b *testing.B)     { benchRadix(b, 64) }
-func BenchmarkRadix1024(b *testing.B)   { benchRadix(b, 1024) }
-func BenchmarkRadix16384(b *testing.B)  { benchRadix(b, 16384) }
-func BenchmarkRadix262144(b *testing.B) { benchRadix(b, 262144) }
+func BenchmarkRadix_64(b *testing.B)       { benchRadix(b, 64) }
+func BenchmarkRadix_1024(b *testing.B)     { benchRadix(b, 1024) }
+func BenchmarkRadix_16384(b *testing.B)    { benchRadix(b, 16384) }
+func BenchmarkRadix_262144(b *testing.B)   { benchRadix(b, 262144) }
+func BenchmarkRadix_1048576(b *testing.B)  { benchRadix(b, 1048576) }
+func BenchmarkRadix_16777216(b *testing.B) { benchRadix(b, 16777216) }
 
 func benchRadix(b *testing.B, size int) {
 	b.StopTimer()
@@ -77,10 +79,12 @@ func benchRadix(b *testing.B, size int) {
 	}
 }
 
-func BenchmarkStdlib64(b *testing.B)     { benchStdlib(b, 64) }
-func BenchmarkStdlib1024(b *testing.B)   { benchStdlib(b, 1024) }
-func BenchmarkStdlib16384(b *testing.B)  { benchStdlib(b, 16384) }
-func BenchmarkStdlib262144(b *testing.B) { benchStdlib(b, 262144) }
+func BenchmarkStdlib_64(b *testing.B)       { benchStdlib(b, 64) }
+func BenchmarkStdlib_1024(b *testing.B)     { benchStdlib(b, 1024) }
+func BenchmarkStdlib_16384(b *testing.B)    { benchStdlib(b, 16384) }
+func BenchmarkStdlib_262144(b *testing.B)   { benchStdlib(b, 262144) }
+func BenchmarkStdlib_1048576(b *testing.B)  { benchStdlib(b, 1048576) }
+func BenchmarkStdlib_16777216(b *testing.B) { benchStdlib(b, 16777216) }
 
 func benchStdlib(b *testing.B, size int) {
 	b.StopTimer()
