@@ -188,3 +188,36 @@ a starting vertex and all other vertices. If you also record the previous
 vertex that for each vertex along the shortest path you can then construct a
 single shortest path from u to v. To do this, first topological sort the DAG,
 then relax each edge leaving each vertex in the toplological order.
+
+## Chapter 6
+
+DAGs can rely on topological sorting to find the single-source shortest path.
+This is not possible with graphs that have cycles. Finding the shortest path
+between two vertices in a graph is called the single-pair shortest path.
+
+The Erdos/Bacon number is the sum of your Erdos and Bacon numbers which are
+your shortest paths to Paul Erdos and Kevin Bacon.
+
+One problem with cyclic weighted graphs is if you are trying to find the
+shortest path and the weights are allowed to be negative and a cycle has an
+edge negative weight you can get stuck in a forever decreasing cycle. Real
+world problems such as satnav directions avoid negative weights (what would it
+mean to have negative travel time, this would break physics some how I am
+sure). There are real world problems that involve graphs with cycles with
+negative weights. One mentioned is determining if an arbitrage opportunity
+exists in currency trading.
+
+Dijkstra's algorithm does not work on graphs that can have edges with negative
+weights but the graph can have cycles.
+
+Runtime analysis of Dijkstra's algorithm depends on the datastructure used to
+store and retrieve vertices that have not been processed. In particular the
+operations are:
+
+- Insert(Q, v): inserts a vertex into the set, called n times
+- Extract-Min(Q): removes the vertex with minimum shortest value, called
+  n times
+- Decrease-Key(Q, v): performs whatever bookkeeping is necessary to reorder
+  vertices when the shortest path for v is decreased, called m times
+
+These operations describe a priority queue.

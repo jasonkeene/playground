@@ -6,7 +6,7 @@
 - [x] Algorithms for Sorting and Searching
 - [x] A Lower Bound for Sorting and How to Beat It
 - [x] Directed Acyclic Graphs
-- [ ] Shortest Paths
+- [x] Shortest Paths
 - [ ] Algorithms on Strings
 - [ ] Foundations of Cryptography
 - [ ] Data Compression

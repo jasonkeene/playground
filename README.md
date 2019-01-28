@@ -1,6 +1,6 @@
 A place for experiments, learning, and random pieces of code.
 
-[![algorithms-unlocked](http://img.shields.io/badge/algorithms--unlocked-50%25_(5/10)-yellowgreen.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/algorithms-unlocked/progress.md)  
+[![algorithms-unlocked](http://img.shields.io/badge/algorithms--unlocked-60%25_(6/10)-yellowgreen.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/algorithms-unlocked/progress.md)  
 [![x86-64-assembly-language-programming-with-ubuntu](http://img.shields.io/badge/x86--64--assembly--language--programming--with--ubuntu-25%25_(5/20)-orange.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/x86-64-assembly-language-programming-with-ubuntu/progress.md)  
 [![haskell-book](http://img.shields.io/badge/haskell--book-19.34%25_(77/398)-orange.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/haskell-book/progress.md)  
 [![java-concurrency-in-practice](http://img.shields.io/badge/java--concurrency--in--practice-100%25_(17/17)-brightgreen.svg?style=flat)](https://github.com/jasonkeene/playground/blob/master/java-concurrency-in-practice/progress.md)  
