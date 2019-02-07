@@ -7,7 +7,7 @@ import (
 	"github.com/jasonkeene/playground/algorithms/graph"
 )
 
-func TestShortestPath(t *testing.T) {
+func TestSingleSourceShortestPath(t *testing.T) {
 	testCases := map[string]struct {
 		Graph            graph.Graph
 		Start            int
@@ -108,6 +108,13 @@ func TestShortestPath(t *testing.T) {
 		},
 	}
 
+	algoFuncs := map[string](func(int, graph.Graph, graph.PriorityQueue) ([]float64, []int)){
+		"dijkstra": graph.Dijkstra,
+		"bellman-ford": func(s int, g graph.Graph, q graph.PriorityQueue) ([]float64, []int) {
+			return graph.BellmanFord(s, g)
+		},
+	}
+
 	queueFuncs := map[string](func() graph.PriorityQueue){
 		"heap": func() graph.PriorityQueue {
 			return graph.NewHeapQueue()
@@ -117,21 +124,25 @@ func TestShortestPath(t *testing.T) {
 		},
 	}
 
-	for qk, qf := range queueFuncs {
-		t.Run(qk, func(t *testing.T) {
-			for k, tc := range testCases {
-				t.Run(k, func(t *testing.T) {
-					shortest, prev := graph.Dijkstra(
-						tc.Start,
-						tc.Graph,
-						qf(),
-					)
+	for ak, af := range algoFuncs {
+		t.Run(ak, func(t *testing.T) {
+			for qk, qf := range queueFuncs {
+				t.Run(qk, func(t *testing.T) {
+					for k, tc := range testCases {
+						t.Run(k, func(t *testing.T) {
+							shortest, prev := af(
+								tc.Start,
+								tc.Graph,
+								qf(),
+							)
 
-					if !cmp.Equal(shortest, tc.ExpectedShortest) {
-						t.Error(cmp.Diff(shortest, tc.ExpectedShortest))
-					}
-					if !cmp.Equal(prev, tc.ExpectedPrev) {
-						t.Error(cmp.Diff(prev, tc.ExpectedPrev))
+							if !cmp.Equal(shortest, tc.ExpectedShortest) {
+								t.Error(cmp.Diff(shortest, tc.ExpectedShortest))
+							}
+							if !cmp.Equal(prev, tc.ExpectedPrev) {
+								t.Error(cmp.Diff(prev, tc.ExpectedPrev))
+							}
+						})
 					}
 				})
 			}
