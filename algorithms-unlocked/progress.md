@@ -7,7 +7,7 @@
 - [x] A Lower Bound for Sorting and How to Beat It
 - [x] Directed Acyclic Graphs
 - [x] Shortest Paths
-- [ ] Algorithms on Strings
-- [ ] Foundations of Cryptography
-- [ ] Data Compression
-- [ ] Hard? Problems
+- [x] Algorithms on Strings
+- [x] Foundations of Cryptography
+- [x] Data Compression
+- [x] Hard? Problems
