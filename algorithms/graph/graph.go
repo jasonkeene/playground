@@ -12,4 +12,15 @@ type Node struct {
 type Edge struct {
 	Target int
 	Weight float64
+	Type   EdgeType
 }
+
+type EdgeType int
+
+const (
+	None EdgeType = iota
+	TreeEdge
+	ForwardEdge
+	BackwardEdge
+	CrossEdge
+)
