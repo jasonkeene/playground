@@ -1,6 +1,8 @@
 package compression
 
-import "github.com/jasonkeene/playground/algorithms/graph"
+import (
+	"github.com/jasonkeene/playground/data-structures/queue"
+)
 
 type Node struct {
 	Char  byte
@@ -10,10 +12,10 @@ type Node struct {
 }
 
 func HuffmanTree(chars []byte, freqs []int) *Node {
-	q := graph.NewHeapQueue()
+	q := queue.NewHeap()
 
 	for i := range chars {
-		q.Insert(graph.QueueElement{
+		q.Insert(queue.Element{
 			Key: float64(freqs[i]),
 			Value: &Node{
 				Char:  chars[i],
@@ -37,7 +39,7 @@ func HuffmanTree(chars []byte, freqs []int) *Node {
 			Right: node2,
 		}
 
-		q.Insert(graph.QueueElement{
+		q.Insert(queue.Element{
 			Key:   float64(node.Value),
 			Value: node,
 		})

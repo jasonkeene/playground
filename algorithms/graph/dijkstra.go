@@ -1,14 +1,18 @@
 package graph
 
-import "math"
+import (
+	"math"
 
-func Dijkstra(s int, g Graph, q PriorityQueue) ([]float64, []int) {
+	"github.com/jasonkeene/playground/data-structures/queue"
+)
+
+func Dijkstra(s int, g Graph, q queue.Priority) ([]float64, []int) {
 	for i := range g.Nodes {
 		key := math.Inf(1)
 		if i == s {
 			key = 0
 		}
-		q.Insert(QueueElement{
+		q.Insert(queue.Element{
 			Key:   key,
 			Value: i,
 		})
@@ -32,7 +36,7 @@ func Dijkstra(s int, g Graph, q PriorityQueue) ([]float64, []int) {
 			tmpShortest := shortest[e.Target]
 			relax(i, e.Target, e.Weight, shortest, prev)
 			if shortest[e.Target] < tmpShortest {
-				q.Decrease(QueueElement{
+				q.Decrease(queue.Element{
 					Key:   shortest[e.Target],
 					Value: e.Target,
 				})

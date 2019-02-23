@@ -5,6 +5,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/jasonkeene/playground/algorithms/graph"
+	"github.com/jasonkeene/playground/data-structures/queue"
 )
 
 func TestSingleSourceShortestPath(t *testing.T) {
@@ -108,19 +109,19 @@ func TestSingleSourceShortestPath(t *testing.T) {
 		},
 	}
 
-	algoFuncs := map[string](func(int, graph.Graph, graph.PriorityQueue) ([]float64, []int)){
+	algoFuncs := map[string](func(int, graph.Graph, queue.Priority) ([]float64, []int)){
 		"dijkstra": graph.Dijkstra,
-		"bellman-ford": func(s int, g graph.Graph, q graph.PriorityQueue) ([]float64, []int) {
+		"bellman-ford": func(s int, g graph.Graph, q queue.Priority) ([]float64, []int) {
 			return graph.BellmanFord(s, g)
 		},
 	}
 
-	queueFuncs := map[string](func() graph.PriorityQueue){
-		"heap": func() graph.PriorityQueue {
-			return graph.NewHeapQueue()
+	queueFuncs := map[string](func() queue.Priority){
+		"heap": func() queue.Priority {
+			return queue.NewHeap()
 		},
-		"array": func() graph.PriorityQueue {
-			return graph.NewArrayQueue()
+		"array": func() queue.Priority {
+			return queue.NewArray()
 		},
 	}
 
