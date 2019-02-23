@@ -5,7 +5,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/jasonkeene/playground/algorithms/hanoi"
+	"github.com/jasonkeene/playground/algorithms/other/hanoi"
 )
 
 func TestTower(t *testing.T) {
